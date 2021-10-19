@@ -898,7 +898,7 @@ the_foreign_aid_act = {
 		full_idea_group = influence_ideas
 	}	
 	
-	vassal_forcelimit_bonus = 1
+	vassal_forcelimit_bonus = 0.5
 	yearly_absolutism = 1
 	
 	ai_will_do = {
@@ -1169,7 +1169,7 @@ vassal_obligations_act = {
 	}	
 	
 	vassal_income = 0.25
-	vassal_forcelimit_bonus = 1
+	vassal_forcelimit_bonus = 0.5
 	
 	ai_will_do = {
 		factor = 1

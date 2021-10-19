@@ -196,12 +196,14 @@ quantity_ideas = {
 	category = MIL
 
 	bonus = {
-		land_forcelimit_modifier  = 0.40
+		land_forcelimit = 20
+		land_forcelimit_modifier  = 0.20
 		naval_forcelimit_modifier = 0.20
 	}
 	
 	mass_army = {
-		global_manpower_modifier = 0.30
+		global_manpower = 10
+		global_manpower_modifier = 0.20
 	}
 	the_young_can_serve = {
 		manpower_recovery_speed = 0.20
@@ -1074,7 +1076,7 @@ influence_ideas = {
 		can_fabricate_for_vassals = yes
 	}
 	marcher_lords = {
-		vassal_forcelimit_bonus = 1
+		vassal_forcelimit_bonus = 0.5
 	}
 
 	ai_will_do = {
