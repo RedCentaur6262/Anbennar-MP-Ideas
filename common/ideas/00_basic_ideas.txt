@@ -1093,3 +1093,45 @@ influence_ideas = {
 		}
 	}
 }
+
+education_ideas = {
+	category = DIP
+	
+	trigger = {
+		
+	}
+	
+	bonus = { 
+		possible_policy = 1
+	}
+	
+	education_1 = {
+		advisor_pool = 2
+	}
+	education_2 = {
+		leader_land_manuever = 1
+		leader_naval_manuever = 1
+	}
+	education_3 = {
+		leader_land_fire = 1
+		leader_naval_fire = 1
+	}
+	education_4 = {
+		leader_land_shock = 1
+		leader_naval_shock = 1
+	}
+	education_5 = {
+		leader_siege = 1
+	}
+	education_6 = {
+		advisor_cost = -0.1
+	}
+	education_7 = {
+		leader_cost = -0.20
+		free_leader_pool = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

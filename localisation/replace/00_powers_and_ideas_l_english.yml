@@ -1,6 +1,32 @@
 ﻿l_english:
 
 
+ ########## Leader Education ##########
+ agressive_merchants:0 "REPLACE_ME"
+ agressive_merchants_desc:0 "REPLACE_ME"
+ ex_reach:0 "REPLACE_ME"
+ ex_reach_desc:0 "REPLACE_ME"
+ education_ideas:0 "REPLACE_ME"
+ education_ideas_bonus:0 "REPLACE_ME"
+ education_1:0 "REPLACE_ME"
+ education_1_desc:0 "REPLACE_ME"
+ education_2:0 "REPLACE_ME"
+ education_2_desc:0 "REPLACE_ME"
+ education_3:0 "REPLACE_ME"
+ education_3_desc:0 "REPLACE_ME"
+ education_4:0 "REPLACE_ME"
+ education_4_desc:0 "REPLACE_ME"
+ education_5:0 "REPLACE_ME"
+ education_5_desc:0 "REPLACE_ME"
+ education_6:0 "REPLACE_ME"
+ education_6_desc:0 "REPLACE_ME"
+ education_7:0 "REPLACE_ME"
+ education_7_desc:0 "REPLACE_ME"
+ ideas_events.1:0 "REPLACE_ME"
+ ideas_events.1.desc:0 "REPLACE_ME"
+ ideas_events.1.a:0 "REPLACE_ME"
+
+
  ########## Humanist into Industrial ##########
  
  advanced_tools:0 "Advanced Tools"
