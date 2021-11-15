@@ -8,4 +8,4 @@ dependencies={
 }
 name="Mordred Community MP Anbennar Ideas"
 supported_version="1.32.*"
-remote_file_id="2622531243"
+path="mod/anbennar mp ideas"

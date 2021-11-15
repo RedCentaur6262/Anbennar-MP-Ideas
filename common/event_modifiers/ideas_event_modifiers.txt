@@ -1,0 +1,4 @@
+
+spy_steal_institution = {
+	institution_growth = 12
+}

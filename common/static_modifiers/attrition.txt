@@ -1,0 +1,8 @@
+sea_zone = {
+	max_attrition = 10						#Maximum Attrition is 10
+}
+
+land_province = {
+	max_attrition = 10						#Maximum Attrition is 10
+	local_manpower_modifier = 0.25			#25% of manpower.
+}

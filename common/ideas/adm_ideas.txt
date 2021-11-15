@@ -1,0 +1,395 @@
+
+innovativeness_ideas = {
+	category = ADM
+
+	bonus = {
+		technology_cost = -0.1
+		artificers_loyalty_modifier = 0.1	#Anbennar
+	}
+	
+	patron_of_art  = {
+		prestige_decay = -0.01
+	}
+	empiricism = {
+		innovativeness_gain = 0.5
+	}
+	scientific_revolution = {
+		all_power_cost = -0.05
+	}
+	dynamic_court = {
+		advisor_pool = 2
+		advisor_cost = -0.15
+	}
+	print_culture = {
+		embracement_cost = -0.15
+		global_institution_spread = 1
+	}
+	optimism = {
+		war_exhaustion = -0.05
+	}
+	formalized_officer_corps = {
+		free_leader_pool = 1
+		leader_cost = -0.05
+	}
+
+	ai_will_do = {
+		factor = 0.3
+		modifier = {
+			factor = 2
+			has_reform = steppe_horde
+		}
+		modifier = {
+			factor = 2
+			num_of_cities = 20
+		}
+		modifier = {
+			factor = 2
+			num_of_cities = 50
+		}
+	}
+}
+
+religious_ideas = {
+	category = ADM
+
+	bonus = {
+		land_forcelimit_modifier = 0.10
+		brahmins_hindu_loyalty_modifier = 0.1
+		church_loyalty_modifier = 0.1
+	}
+
+	missionary_schools = {
+		missionaries = 2
+	}
+	church_attendance_duty = {
+		stability_cost_modifier = -0.25
+		culture_conversion_cost = -0.25
+	}
+	divine_supremacy = {
+		global_missionary_strength = 0.03
+		missionary_maintenance_cost = -0.5
+	}
+	devoutness = {
+		tolerance_own = 2
+		papal_influence = 2
+		devotion = 1
+		monthly_fervor_increase = 0.25
+		church_power_modifier = 0.1
+	}
+	religious_tradition = {
+		prestige = 1
+	}
+	inquisition = {
+		land_morale = 0.1
+		naval_morale = 0.1
+	}
+	deus_vult = {
+		cb_on_religious_enemies = yes
+	}
+
+	ai_will_do = {
+		factor = 0.9
+		modifier = {
+			factor = 0
+			has_idea_group = humanist_ideas
+		}
+	}
+}
+
+# Needs More Work
+economic_ideas = {
+	category = ADM
+
+	bonus = {
+		development_cost = -0.1
+	}
+
+	bureaucracy = {
+		global_tax_modifier = 0.20
+	}
+	organised_construction = {
+		build_cost = -0.1
+		build_time = -0.1
+	}
+	national_bank = {
+		inflation_reduction = 0.1
+	}
+	debt_and_loans = {
+		interest = -1
+	}
+	centralization = {
+		global_autonomy = -0.05
+	}
+	nationalistic_enthusiasm = {
+		land_maintenance_modifier = -0.05
+	}
+	smithian_economics = {
+		global_tax_income = 52
+ 	}
+
+	ai_will_do = {
+		factor = 0.85
+		modifier = {
+			factor = 1.5
+			inflation = 5
+		}
+		modifier = {
+			factor = 1.5
+			inflation = 10
+		}
+		modifier = {
+			factor = 2
+			has_reform = steppe_horde
+		}
+		modifier = {
+			factor = 1.3
+			num_of_cities = 20
+		}
+		modifier = {
+			factor = 1.3
+			num_of_cities = 50
+		}
+	}
+}
+
+expansion_ideas = {
+	category = ADM
+	important = yes
+	
+	trigger = {
+		not = {
+			has_idea_group = exploration_ideas
+		}
+	}
+	
+	bonus = {
+ 		global_colonial_growth = 40
+	}
+	
+	additional_colonists = {
+		colonists = 1
+		native_uprising_chance = -0.5
+	}
+	additional_merchants = { # Needs Rename
+		center_of_trade_upgrade_cost = -0.25
+	}
+	faster_colonists = { # Needs Rename
+		colonists = 1
+		colonist_placement_chance = 0.1
+	}
+	factories = {
+		global_trade_goods_size_modifier = 0.2
+	}
+	additional_diplomats = { # Needs Rename
+		production_efficiency = 0.20
+	}
+	general_colonization_law  = {
+		colonists = 1
+		ae_impact = -0.20
+	}
+	competetive_merchants  = {
+		global_trade_power = 0.2
+	}
+	
+	ai_will_do = {
+		factor = 0.48
+		modifier = {
+			factor = 10
+			OR = {
+				has_idea_group = exploration_ideas
+				is_colonial_nation = yes
+			}
+		}
+		modifier = {
+			factor = 10	#Boys who wanna settle the Dreadmire and in the future, the Serpentspine
+			OR = {
+				any_owned_province = {
+					OR = {
+						region = ourdia_region
+						region = dostanor_region
+						region = the_borders_region
+					}
+					has_empty_adjacent_province = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0	#Serpentspine starts alread get colonists
+			capital_scope = {
+				continent = serpentspine
+			}
+			OR = {
+				has_reform = adventurer_reform
+				has_reform = dwarovar_warband
+				has_reform = dwarovar_squatter
+			}
+		}
+		modifier = {
+			factor = 10	#Serpentspine starts alread get colonists
+			capital_scope = {
+				continent = serpentspine
+			}
+			NOT = { is_year = 1500 }
+			OR = {
+				has_reform = dwarven_clan_reform
+			}
+		}
+		modifier = {
+			factor = 0	#Escanni bois dont take this
+			OR = {
+				has_reform = adventurer_reform
+				has_reform = greentide_horde
+			}
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				tag = A11 #Pearlsedge
+				tag = A02 #Deranne
+				tag = A21 #Venail
+				tag = A47 #Eborthil
+				tag = A05 #Reveria
+				tag = U08 #Ekha
+				tag = A19 #Portnamm
+				tag = A06 #Nimscodd
+				tag = H66 #Jaherian
+				tag = H67 #Rezankand
+				tag = A79 #Gnomish Hierarchy
+			}
+		}
+		
+		modifier = {
+			factor = 5
+			
+			has_country_modifier = lake_federation_member
+		}
+		modifier = {
+			factor = 100
+			OR = {
+				tag = Z18
+				tag = Z50
+			}
+			adm_tech = 7
+			any_owned_province = {
+				has_empty_adjacent_province = yes
+			}
+		}
+		modifier = {
+			factor = 100
+			NOT = { has_dlc = "Third Rome" } # Has siberian frontier instead
+			OR = {
+				technology_group = tech_orcish
+				technology_group = tech_goblin
+			}
+			any_owned_province = {
+				has_empty_adjacent_province = yes
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { has_idea_group = exploration_ideas }
+			NOT = { is_colonial_nation = yes }
+			NOT = {
+				any_owned_province = {
+					has_empty_adjacent_province = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			NOT = {
+				technology_group = tech_cannorian
+				technology_group = tech_gerudian
+				technology_group = tech_gnomish
+				technology_group = tech_salahadesi
+				technology_group = tech_elven
+				technology_group = tech_bulwari
+				technology_group = tech_islanders
+			}
+		}
+	}
+}
+
+administrative_ideas = {
+	category = ADM
+
+	bonus = {
+		core_creation = -0.25
+	}
+
+	organised_mercenary_payment = {
+		state_maintenance_modifier = -0.25
+		state_governing_cost = -0.25
+	}
+	adaptability = {
+		expand_administration_cost = -0.50
+	}
+	benefits_for_mercenaries = {
+		global_autonomy = -0.15
+	}
+	bookkeeping = {
+		adm_tech_cost_modifier = -0.1
+	}
+	organised_mercenary_recruitment = {
+		dip_advisor_cost = -0.10
+	}
+	administrative_efficiency_idea = {
+		administrative_efficiency = 0.10
+	}
+	civil_servants = {
+		governing_capacity_modifier = 0.25
+	}
+
+	ai_will_do = {
+		factor = 0.96
+		modifier = {
+			factor = 2
+			has_reform = steppe_horde
+		}
+	}
+}
+
+humanist_ideas = {
+	category = ADM
+
+	bonus = {
+		idea_cost = -0.1
+		yearly_harmony = 0.25  # Used if religion uses harmony (confucianism)
+		brahmins_muslim_loyalty_modifier = 0.1
+		dhimmi_loyalty_modifier = 0.1
+	}
+
+	tolerance_idea = {
+		religious_unity = 0.25
+	}
+	local_traditions = {
+		global_unrest = -2
+	}
+	ecumenism = {
+		tolerance_heretic = 2
+	}
+	indirect_rule = {
+		years_of_nationalism = -10
+	}
+	cultural_ties = {
+		num_accepted_cultures = 2
+	}
+	benevolence = {
+		improve_relation_modifier = 0.3
+	}
+	humanist_tolerance = {
+		tolerance_heathen = 2
+	}
+
+	ai_will_do = {
+		factor = 0.9
+		modifier = {
+			factor = 0
+			has_idea_group = religious_ideas
+		}
+		modifier = {
+			factor = 3
+			religion_group = faithless
+		}
+	}
+}

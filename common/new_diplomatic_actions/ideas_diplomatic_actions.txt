@@ -1,0 +1,48 @@
+
+spy_steal_institution = {
+	category = covert
+	
+	require_acceptance = no
+	
+	is_visible = {
+		ROOT = {
+			full_idea_group = spy_ideas
+			is_lacking_institutions = yes
+		}
+		FROM = {
+			institution_difference = {
+				who = ROOT
+				value = 1
+			}
+		}
+	}
+	
+	is_allowed = {
+		ROOT = {
+			has_spy_network_in = {
+				who = FROM
+				value = 60
+			}
+			is_lacking_institutions = yes
+		}
+		FROM = {
+			institution_difference = {
+				who = ROOT
+				value = 1
+			}
+		}
+	}
+	
+	on_accept = {
+		capital_scope = {
+			area = {
+				add_province_modifier = { 
+					name = spy_steal_institution
+					duration = 365
+					hidden = no
+				}
+			}
+		}
+		add_spy_network_in = { who = FROM value = -60 }
+	}
+}
