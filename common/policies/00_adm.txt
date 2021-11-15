@@ -136,8 +136,8 @@ agricultural_cultivations = {
 		full_idea_group = quantity_ideas
 	}		
 	
-	development_cost = -0.1
-	land_forcelimit_modifier = 0.1
+	land_maintenance_modifier = -0.10
+	global_tax_modifier = 0.10
 
 	ai_will_do = {
 		factor = 1
@@ -699,7 +699,7 @@ exchange_of_ideas = {
 	}	
 	
 	idea_cost = -0.1
-	global_institution_spread = 0.2
+	global_institution_spread = 0.4
 	
 	ai_will_do = {
 		factor = 0.8
@@ -720,7 +720,7 @@ vassal_obligations_act = {
 	}	
 	
 	vassal_income = 0.25
-	vassal_forcelimit_bonus = 1
+	vassal_forcelimit_bonus = 0.5
 	
 	ai_will_do = {
 		factor = 1
@@ -823,7 +823,7 @@ overseas_dominions = {
 	}	
 	
 	vassal_income = 0.25
-	global_tariffs = 0.1
+	global_tariffs = 0.2
 	
 	ai_will_do = {
 		factor = 1

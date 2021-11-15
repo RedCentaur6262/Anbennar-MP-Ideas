@@ -34,7 +34,6 @@ aristocracy_ideas = {
 	}
 	local_nobility = {
 		global_autonomy = -0.05
-		yearly_absolutism = 1
 	}
 	serfdom = {
 		global_manpower_modifier = 0.20
@@ -49,7 +48,8 @@ aristocracy_ideas = {
 		free_leader_pool = 1
 	}
 	noble_resilience = {
-		mercenary_manpower = 0.20
+		yearly_absolutism = 1
+		max_absolutism = 10
 	}
 	
 
@@ -492,7 +492,7 @@ noble_academia_ideas = {
 	
 	bonus = {
 		free_leader_pool = 2
-		leader_cost = -0.1
+		monarch_military_power = 1
 	}
 	
 	noble_academia_1 = {

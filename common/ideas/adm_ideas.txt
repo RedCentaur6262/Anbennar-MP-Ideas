@@ -1,10 +1,10 @@
 
 innovativeness_ideas = {
 	category = ADM
-
+	
 	bonus = {
-		technology_cost = -0.1
-		artificers_loyalty_modifier = 0.1	#Anbennar
+		monarch_admin_power = 1
+		artificers_loyalty_modifier = 0.1
 	}
 	
 	patron_of_art  = {
@@ -14,7 +14,8 @@ innovativeness_ideas = {
 		innovativeness_gain = 0.5
 	}
 	scientific_revolution = {
-		all_power_cost = -0.05
+		technology_cost = -0.1
+		idea_cost = -0.05
 	}
 	dynamic_court = {
 		advisor_pool = 2
@@ -175,22 +176,22 @@ expansion_ideas = {
 		colonists = 1
 		native_uprising_chance = -0.5
 	}
-	additional_merchants = { # Needs Rename
-		center_of_trade_upgrade_cost = -0.25
+	additional_merchants = {
+		merchants = 1
+		placed_merchant_power = 20
 	}
-	faster_colonists = { # Needs Rename
+	faster_colonists = {
 		colonists = 1
 		colonist_placement_chance = 0.1
 	}
 	factories = {
 		global_trade_goods_size_modifier = 0.2
 	}
-	additional_diplomats = { # Needs Rename
-		production_efficiency = 0.20
+	additional_diplomats = {
+		production_efficiency = 0.10
 	}
 	general_colonization_law  = {
-		colonists = 1
-		ae_impact = -0.20
+		center_of_trade_upgrade_cost = -0.25
 	}
 	competetive_merchants  = {
 		global_trade_power = 0.2
@@ -360,8 +361,7 @@ humanist_ideas = {
 	bonus = {
 		idea_cost = -0.1
 		yearly_harmony = 0.25  # Used if religion uses harmony (confucianism)
-		brahmins_muslim_loyalty_modifier = 0.1
-		dhimmi_loyalty_modifier = 0.1
+		all_estate_loyalty_equilibrium = 0.10
 	}
 
 	tolerance_idea = {
@@ -372,18 +372,21 @@ humanist_ideas = {
 	}
 	ecumenism = {
 		tolerance_heretic = 2
+		tolerance_of_heretics_capacity = 2
 	}
 	indirect_rule = {
 		years_of_nationalism = -10
 	}
 	cultural_ties = {
-		num_accepted_cultures = 2
+		num_accepted_cultures = 3
+		culture_conversion_cost = 0.50
 	}
 	benevolence = {
-		improve_relation_modifier = 0.3
+		promote_culture_cost = -0.50
 	}
 	humanist_tolerance = {
 		tolerance_heathen = 2
+		tolerance_of_heathens_capacity = 2
 	}
 
 	ai_will_do = {

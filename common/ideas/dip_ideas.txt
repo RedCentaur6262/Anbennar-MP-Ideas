@@ -148,8 +148,7 @@ exploration_ideas = {
 		treasure_fleet_income = 0.5
 	}
 	vice_roys  = {
-		colonists = 1
-		global_colonial_growth = 20
+		global_colonial_growth = 25
  	}
 	free_colonies = {
 		global_tariffs = 0.25
