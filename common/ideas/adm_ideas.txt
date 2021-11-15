@@ -81,8 +81,7 @@ religious_ideas = {
 		prestige = 1
 	}
 	inquisition = {
-		land_morale = 0.1
-		naval_morale = 0.1
+		global_heretic_missionary_strength = 0.03
 	}
 	deus_vult = {
 		cb_on_religious_enemies = yes
@@ -363,7 +362,7 @@ humanist_ideas = {
 		yearly_harmony = 0.25  # Used if religion uses harmony (confucianism)
 		all_estate_loyalty_equilibrium = 0.10
 	}
-
+	
 	tolerance_idea = {
 		religious_unity = 0.25
 	}
@@ -373,6 +372,7 @@ humanist_ideas = {
 	ecumenism = {
 		tolerance_heretic = 2
 		tolerance_of_heretics_capacity = 2
+		land_morale = 0.10
 	}
 	indirect_rule = {
 		years_of_nationalism = -10
@@ -387,6 +387,7 @@ humanist_ideas = {
 	humanist_tolerance = {
 		tolerance_heathen = 2
 		tolerance_of_heathens_capacity = 2
+		global_manpower_modifier = 0.20
 	}
 
 	ai_will_do = {
