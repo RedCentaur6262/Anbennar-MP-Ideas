@@ -1,0 +1,43 @@
+
+production_1_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = innovativeness_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = innovativeness_ideas
+	}
+	
+	dip_tech_cost_modifier = -0.1
+	innovativeness_gain = 0.5
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+production_2_policy = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = religious_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = religious_ideas
+	}
+	
+	tolerance_own = 1
+	global_tax_modifier = 0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+

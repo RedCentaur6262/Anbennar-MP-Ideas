@@ -250,7 +250,7 @@ naval_ideas = {
 	}
 	
 	bonus = {
-		ship_durability = 0.1
+		ship_durability = 0.15
 		allowed_marine_fraction = 0.10
 	}
 	
@@ -258,7 +258,7 @@ naval_ideas = {
 		leader_naval_shock = 1
 	}
 	improved_rams = {
-		galley_power = 0.25
+		naval_attrition = -0.10
 	}
 	naval_cadets = {
 		leader_naval_fire = 1
@@ -271,11 +271,14 @@ naval_ideas = {
 		sailors_recovery_speed = 0.25
 	}
 	oak_forests_for_ships = {
+		galley_power = 0.25
 		heavy_ship_power = 0.20
+		light_ship_power = 0.15
 	}
 	superior_seamanship = {
-		naval_morale = 0.1
-		global_naval_engagement_modifier = 0.1
+		leader_naval_manuever = 1
+		naval_morale = 0.20
+		global_naval_engagement_modifier = 0.20
 	}
 	
 	ai_will_do = {
