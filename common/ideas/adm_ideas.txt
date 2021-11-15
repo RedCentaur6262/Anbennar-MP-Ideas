@@ -96,12 +96,17 @@ religious_ideas = {
 	}
 }
 
-# Needs More Work
 economic_ideas = {
 	category = ADM
-
+	
+	trigger = {
+		not = {
+			has_idea_group = production_ideas
+		}
+	}
+	
 	bonus = {
-		development_cost = -0.1
+		development_cost = -0.15
 	}
 
 	bureaucracy = {
@@ -112,7 +117,7 @@ economic_ideas = {
 		build_time = -0.1
 	}
 	national_bank = {
-		inflation_reduction = 0.1
+		inflation_reduction = 0.15
 	}
 	debt_and_loans = {
 		interest = -1

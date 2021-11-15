@@ -1,2 +1,17 @@
 ﻿l_english:
+ # Exclusive markers
+ offensive_ideas:0 "Offensive Ideas (§R*§!)"
+ defensive_ideas:0 "Defensive Ideas (§R*§!)"
+
+ quantity_ideas:0 "Quality Ideas (§G*§!)"
+ quality_ideas:0 "Quantity Ideas (§G*§!)"
  
+ exploration_ideas:0 "Exploration Ideas (§T*§!)"
+ expansion_ideas:0 "Expansion Ideas (§T*§!)"
+ 
+ production_ideas:0 "Production Ideas (§Y*§!)"
+ economic_ideas:0 "Economic Ideas (§Y*§!)"
+
+ trade_fleet_ideas:0 "Trade Fleet Ideas (§O*§!)"
+ high_sea_fleet_ideas:0 "High Sea Fleet Ideas (§O*§!)"
+ costal_fleet_ideas:0 "Costal Fleet Ideas (§O*§!)"

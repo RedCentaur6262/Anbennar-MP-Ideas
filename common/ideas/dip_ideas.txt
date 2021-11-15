@@ -94,7 +94,7 @@ production_ideas = {
 	}
 	
 	production_1 = {
-		production_efficiency = 0.2
+		production_efficiency = 0.10
 	}
 	production_2 = {
 		governing_cost = -0.2
@@ -106,14 +106,13 @@ production_ideas = {
 		global_autonomy = -0.1
 	}
 	production_5 = {
-		build_cost = -0.3
-		build_time = 0.2
+		build_cost = -0.2
 	}
 	production_6 = {
 		inflation_action_cost = -0.5
 	}
 	production_7 = {
-		trade_goods_size_modifier = 0.15
+		trade_goods_size_modifier = 0.10
 	}
 	
 	ai_will_do = {
@@ -562,5 +561,144 @@ maritime_ideas = {
 				has_reform = black_market_consortium_government
 			}
 		}
+	}
+}
+
+
+trade_fleet_ideas = {
+	category = DIP
+	
+	trigger = {
+		NOT = {
+			has_idea_group = high_sea_fleet_ideas
+			has_idea_group = costal_fleet_ideas
+		}
+	}
+	
+	bonus = {
+		light_ship_power = 0.15
+		allowed_marine_fraction = 0.3
+	}
+	
+	trade_fleet_1 = {
+		light_ship_power = 0.15
+		light_ship_cost = 0.25
+	}
+	trade_fleet_2 = {
+		sunk_ship_morale_hit_recieved = -0.1
+	}
+	trade_fleet_3 = {
+		naval_morale = 0.2
+	}
+	trade_fleet_4 = {
+		ship_durability = 1
+		heavy_ship_power = -0.5
+		heavy_ship_cost = 0.5
+		galley_power = -0.5
+		galley_cost = 0.5
+	}
+	trade_fleet_5 = {
+		naval_tradition_from_battle = 1
+		naval_tradition_from_trade = 1
+	}
+	trade_fleet_6 = {
+		global_sailors_modifier = 0.5
+		sailors_recovery_speed = 0.2
+	}
+	trade_fleet_7 = {
+		leader_naval_manuever = 1
+		naval_forcelimit_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+high_sea_fleet_ideas = {
+	category = DIP
+	
+	trigger = {
+		NOT = {
+			has_idea_group = trade_fleet_ideas
+			has_idea_group = costal_fleet_ideas
+		}
+	}
+	
+	bonus = {
+		sailor_maintenance_modifer = -0.3
+		naval_forcelimit_modifier = 0.1
+	}
+	
+	high_sea_fleet_1 = {
+		navy_tradition = 1
+	}
+	high_sea_fleet_2 = {
+		ship_durability = 0.2
+	}
+	high_sea_fleet_3 = {
+		naval_morale = 0.2
+		recover_navy_morale_speed = 0.1
+	}
+	high_sea_fleet_4 = {
+		heavy_ship_power = 0.2
+	}
+	high_sea_fleet_5 = {
+		global_ship_repair = 1
+	}
+	high_sea_fleet_6 = {
+		leader_naval_fire = 1
+	}
+	high_sea_fleet_7 = {
+		flagship_cost = -0.2
+		heavy_ship_cost = -0.2
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+costal_fleet_ideas = {
+	category = DIP
+	
+	trigger = {
+		NOT = {
+			has_idea_group = trade_fleet_ideas
+			has_idea_group = high_sea_fleet_ideas
+		}
+	}
+	
+	bonus = {
+		sunk_ship_morale_hit_recieved = -0.33
+	}
+	
+	costal_fleet_1 = {
+		prestige_from_naval = 1
+	}
+	costal_fleet_2 = {
+		global_naval_engagement_modifier = 0.2
+	}
+	costal_fleet_3 = {
+		leader_naval_shock = 1
+		naval_morale = 0.2
+	}
+	costal_fleet_4 = {
+		sailors_recovery_speed = 0.33
+	}
+	costal_fleet_5 = {
+		global_sailors_modifier = 0.2
+	}
+	costal_fleet_6 = {
+		galley_power = 0.25
+		galley_cost = -0.5
+	}
+	costal_fleet_7 = {
+		naval_forcelimit = 50
+		global_sailors = 5000
+	}
+	
+	ai_will_do = {
+		factor = 1
 	}
 }
