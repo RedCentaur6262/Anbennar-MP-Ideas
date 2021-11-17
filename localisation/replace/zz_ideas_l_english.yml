@@ -12,6 +12,8 @@
  production_ideas:0 "Production Ideas (§Y*§!)"
  economic_ideas:0 "Economic Ideas (§Y*§!)"
  
+ trade_ideas:0 "Trade Fleets Ideas (§B*§!)"
+ trade_caravans_ideas:0 "Trade Caravans Ideas (§B*§!)"
  
  noble_academia_ideas:0 "Noble Academia Ideas"
  strategic_ideas:0 "Strategic Ideas"

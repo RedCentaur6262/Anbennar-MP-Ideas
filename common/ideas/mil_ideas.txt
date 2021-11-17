@@ -7,21 +7,21 @@ aristocracy_ideas = {
 		nobles_loyalty_modifier = 0.1
 	}
 
-	# trigger = {
-	# 	OR = {
-	# 		has_government_attribute = enables_aristocratic_idea_group
-	# 		government = tribal
-	# 	}
-	# 	NOT = { government = theocracy }
-	# 	NOT = { 
-	# 		OR = {
-	# 			has_reform = steppe_horde
-	# 			has_reform = centaur_horde
-	# 			has_reform = centaur_settled
-	# 			has_reform = great_centaur_horde
-	# 		}
-	# 	}
-	# }
+	trigger = {
+		OR = {
+			has_government_attribute = enables_aristocratic_idea_group
+			government = tribal
+		}
+		NOT = { government = theocracy }
+		NOT = { 
+			OR = {
+				has_reform = steppe_horde
+				has_reform = centaur_horde
+				has_reform = centaur_settled
+				has_reform = great_centaur_horde
+			}
+		}
+	}
 	
 	noble_knights = {
 		cavalry_power = 0.10
@@ -75,9 +75,9 @@ plutocracy_ideas = {
 		castonath_patricians_loyalty_modifier = 0.1
 	}
 
-	# trigger = {
-	# 	has_government_attribute = enables_plutocratic_idea_group
-	# }
+	trigger = {
+		has_government_attribute = enables_plutocratic_idea_group
+	}
 
 	tradition_of_payment = {
 		mercenary_manpower = 0.10
@@ -114,14 +114,14 @@ horde_gov_ideas = {
 		cavalry_power = 0.25
 	}
 	
-	# trigger = {
-	# 	OR = {
-	# 		has_reform = steppe_horde
-	# 		has_reform = centaur_horde
-	# 		has_reform = centaur_settled
-	# 		has_reform = great_centaur_horde
-	# 	}
-	# }
+	trigger = {
+		OR = {
+			has_reform = steppe_horde
+			has_reform = centaur_horde
+			has_reform = centaur_settled
+			has_reform = great_centaur_horde
+		}
+	}
 	
 	horse_lords = {
 		cavalry_cost = -0.33
@@ -160,17 +160,16 @@ theocracy_gov_ideas = {
 		brahmins_muslim_loyalty_modifier = 0.1
 	}
 	
-	# trigger = {
-	# 	government = theocracy
-
-	# 	NOT = {
-	# 		OR = {
-	# 			has_adventurer_reform = yes
-	# 			has_reform = secular_order_reform
-	# 			has_reform = magocracy_reform
-	# 		}
-	# 	}
-	# }
+	trigger = {
+		government = theocracy
+		NOT = {
+			OR = {
+				has_adventurer_reform = yes
+				has_reform = secular_order_reform
+				has_reform = magocracy_reform
+			}
+		}
+	}
 	
 	servants_of_god = {
 		devotion = 1
@@ -210,9 +209,9 @@ indigenous_ideas = {
 		global_institution_spread = 0.25
 	}
 
-	# trigger = {
-	# 	has_government_attribute = enables_natives_idea_group
-	# }
+	trigger = {
+		has_government_attribute = enables_natives_idea_group
+	}
 
 	indigenous_bountiful_land = {
 		tribal_development_growth = 0.015
@@ -525,7 +524,7 @@ noble_academia_ideas = {
 	}
 	
 	ai_will_do = {
-		factor = 1 #TODO
+		factor = 0.1 #TODO
 	}
 }
 
@@ -602,6 +601,6 @@ mercenary_ideas = {
 	}
 	
 	ai_will_do = {
-		factor = 1
+		factor = 0.1
 	}
 }

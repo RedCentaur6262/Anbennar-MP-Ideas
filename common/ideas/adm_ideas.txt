@@ -127,6 +127,7 @@ economic_ideas = {
 	}
 	nationalistic_enthusiasm = {
 		land_maintenance_modifier = -0.05
+		naval_maintenance_modifier = -0.05
 	}
 	smithian_economics = {
 		global_tax_income = 52
@@ -333,13 +334,13 @@ administrative_ideas = {
 		global_autonomy = -0.15
 	}
 	bookkeeping = {
-		adm_tech_cost_modifier = -0.1
+		adm_tech_cost_modifier = -0.10
 	}
 	organised_mercenary_recruitment = {
 		dip_advisor_cost = -0.10
 	}
 	administrative_efficiency_idea = {
-		administrative_efficiency = 0.10
+		administrative_efficiency = 0.05
 	}
 	civil_servants = {
 		governing_capacity_modifier = 0.25

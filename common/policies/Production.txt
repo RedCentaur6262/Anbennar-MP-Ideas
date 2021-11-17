@@ -41,3 +41,148 @@ production_2_policy = {
 	}
 }
 
+production_3_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = expansion_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = expansion_ideas
+	}
+	
+	global_colonial_growth = 20
+	production_efficiency = 0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+production_4_policy = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = administrative_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = administrative_ideas
+	}
+	
+	state_maintenance_modifier = -0.1
+	trade_goods_size_modifier = 0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+production_5_policy = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = humanist_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = humanist_ideas
+	}
+	
+	tolerance_heathen = 1
+	tolerance_heretic = 1
+	global_manpower_modifier = 0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+production_6_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = aristocracy_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = aristocracy_ideas
+	}
+	
+	cavalry_power = 0.1
+	cavalry_cost = -0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+production_7_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = plutocracy_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = plutocracy_ideas
+	}
+	
+	trade_efficiency = 0.1
+	global_trade_power = 0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+production_8_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = horde_gov_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = horde_gov_ideas
+	}
+	
+	shock_damage = 0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+production_9_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = theocracy_gov_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = theocracy_gov_ideas
+	}
+	
+	manpower_in_true_faith_provinces = 0.2
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

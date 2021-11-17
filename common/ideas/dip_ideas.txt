@@ -3,32 +3,35 @@ spy_ideas = {
 	category = DIP
 	
 	bonus = {
-		rebel_support_efficiency = 0.50
+		fabricate_claims_cost = -0.25
+		can_fabricate_for_vassals = yes
+		
+		# vampires_loyalty_modifier = 0.10
 	}
 	
 	efficient_spies = {
-		spy_offence = 0.5
+		spy_offence = 0.50
 		advisor_cost = -0.10
 	}
 	agent_training = {
-		diplomats = 1		
+		diplomats = 1
 	}
 	vetting = {
 		global_spy_defence = 0.33
 	}
 	state_propaganda = {
-		ae_impact = -0.2
+		ae_impact = -0.10
 	}
 	claim_fabrication = {
-		fabricate_claims_cost = -0.25
-		can_fabricate_for_vassals = yes
+		siege_ability = 0.10
+		blockade_efficiency = 0.10
 	}
 	privateers = {
 		embargo_efficiency = 0.25
 		privateer_efficiency = 0.33
 	}
 	audit_checks = {
-		yearly_corruption = -0.1
+		yearly_corruption = -0.10
 	}
 	
 	ai_will_do = {
@@ -38,7 +41,11 @@ spy_ideas = {
 
 trade_ideas = {
 	category = DIP
-
+	
+	trigger = {
+		not = { has_idea_group = trade_caravans_ideas }
+	}
+	
 	bonus = {
 		merchants = 1
 	}
@@ -48,21 +55,27 @@ trade_ideas = {
   	}
   	free_trade = {
   		merchants = 1
+		trade_efficiency = 0.1
   	}
 	merchant_adventures = {
-		trade_range_modifier = 0.25
+		ship_durability = 0.1
 	}
 	national_trade_policy = {
-		trade_efficiency = 0.1
+		blockade_efficiency = 0.2
+		embargo_efficiency = 0.25
 	}
 	overseas_merchants = {
 		merchants = 1
-	}
-	trade_manipulation = {
+		trade_range_modifier = 0.25
 		trade_steering = 0.25
 	}
+	trade_manipulation = {
+		global_ship_trade_power = 0.2
+		naval_tradition_from_trade = 1
+	}
 	fast_negotiations = {
-		caravan_power = 0.25
+		leader_naval_manuever = 1
+		naval_attrition = -0.1
 	}
 
 	ai_will_do = {
@@ -76,6 +89,49 @@ trade_ideas = {
 			factor = 3
 			has_government_attribute = is_merchant_republic
 		}
+	}
+}
+
+trade_caravans_ideas = {
+	category = DIP
+	
+	trigger = {
+		not = { has_idea_group = trade_ideas }
+	}
+	
+	bonus = {
+		caravan_power = 0.5
+	}
+	
+	trade_caravans_1 = {
+		merchants = 1
+		trade_steering = 0.25
+	}
+	trade_caravans_2 = {
+		trade_efficiency = 0.1
+	}
+	trade_caravans_3 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	trade_caravans_4 = {
+		merchants = 1
+		mercantilism_cost = -0.20
+	}
+	trade_caravans_5 = {
+		center_of_trade_upgrade_cost = -0.20
+		trade_company_investment_cost = -0.20
+	}
+	trade_caravans_6 = {
+		global_prov_trade_power_modifier = 0.2
+		global_own_trade_power = 0.2
+	}
+	trade_caravans_7 = {
+		merchants = 1
+		placed_merchant_power = 50
+	}
+	
+	ai_will_do = {
+		factor = 0.1
 	}
 }
 
@@ -116,7 +172,7 @@ production_ideas = {
 	}
 	
 	ai_will_do = {
-		factor = 1
+		factor = 0.1
 	}
 }
 
@@ -146,6 +202,7 @@ exploration_ideas = {
 	}
 	land_of_opportunity = {
 		treasure_fleet_income = 0.5
+		heavy_ship_power = 0.1
 	}
 	vice_roys  = {
 		global_colonial_growth = 25
