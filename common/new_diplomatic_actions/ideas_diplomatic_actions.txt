@@ -21,7 +21,7 @@ spy_steal_institution = {
 		ROOT = {
 			has_spy_network_in = {
 				who = FROM
-				value = 60
+				value = 80
 			}
 			is_lacking_institutions = yes
 		}
@@ -36,13 +36,17 @@ spy_steal_institution = {
 	on_accept = {
 		capital_scope = {
 			area = {
-				add_province_modifier = { 
-					name = spy_steal_institution
-					duration = 365
-					hidden = no
+				if = {
+					limit = {
+						has_province_modifier = spy_steal_institution
+					}
+					extend_province_modifier = { name = spy_steal_institution duration = 365 }
+				}
+				else = {
+					add_province_modifier = { name = spy_steal_institution duration = 365 hidden = no }
 				}
 			}
 		}
-		add_spy_network_in = { who = FROM value = -60 }
+		add_spy_network_in = { who = FROM value = -80 }
 	}
 }

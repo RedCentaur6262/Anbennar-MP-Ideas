@@ -560,22 +560,22 @@ maritime_ideas = {
 	}
 
 	merchant_traditions = {
-		naval_tradition_from_trade = 1.0
+		naval_tradition_from_trade = 0.50
 		navy_tradition_decay = -0.01
 	}
 	merchant_marine = {
-		global_sailors_modifier = 0.5
-		naval_forcelimit_modifier = 0.5
+		global_sailors_modifier = 0.50
+		naval_forcelimit_modifier = 0.50
 	}
 	sheltered_ports = {
 		global_ship_repair = 0.20
-		sailor_maintenance_modifer = -0.1
+		sailor_maintenance_modifer = -0.20
 	}
 	grand_navy = {
 		sailors_recovery_speed = 0.33
 	}
 	ships_penny = {
-		global_ship_cost = -0.20
+		global_ship_cost = -0.25
 	}
 	sea_hawks = {
 		free_leader_pool = 1

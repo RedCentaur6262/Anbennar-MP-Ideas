@@ -255,13 +255,14 @@ naval_ideas = {
 	
 	boarding_parties = {
 		leader_naval_shock = 1
+		galley_power = 0.20
 	}
 	improved_rams = {
 		naval_attrition = -0.10
 	}
 	naval_cadets = {
 		leader_naval_fire = 1
-		sunk_ship_morale_hit_recieved = -0.33
+		sunk_ship_morale_hit_recieved = -0.20
 	}
 	naval_glory = {
 		navy_tradition = 1
@@ -270,8 +271,7 @@ naval_ideas = {
 		sailors_recovery_speed = 0.25
 	}
 	oak_forests_for_ships = {
-		galley_power = 0.25
-		heavy_ship_power = 0.20
+		heavy_ship_power = 0.10
 		light_ship_power = 0.15
 	}
 	superior_seamanship = {
@@ -338,10 +338,12 @@ offensive_ideas = {
 	}
 	superior_firepower = {
 		land_attrition = -0.2
+		naval_attrition = -0.2
 	}
 	glorious_arms = {
 		reinforce_cost_modifier = -0.05
-		reinforce_speed = 0.1
+		reinforce_speed = 0.10
+		sailor_maintenance_modifer = -0.10
 	}
 	engineer_corps = {
 		fire_damage = 0.05
@@ -349,10 +351,10 @@ offensive_ideas = {
 	}
 	grand_army = {
 		leader_land_manuever = 1
+		leader_naval_manuever = 1
 	}
 	napoleonic_warfare = {
-		siege_ability = 0.2
-		artillery_bonus_vs_fort = 1
+		siege_ability = 0.40
 	}
 	
 	ai_will_do = {
@@ -379,6 +381,7 @@ defensive_ideas = {
 	}
 	military_drill = {
 		land_morale = 0.2
+		naval_morale = 0.2
 	}
 	improved_manuever = {
 		garrison_size = 0.33
@@ -389,13 +392,16 @@ defensive_ideas = {
 	}
 	defensive_mentality = {
 		global_regiment_cost = -0.2
+		global_ship_cost = -0.1
 	}
 	supply_trains = {
 		reserves_organisation = 0.2
+		sunk_ship_morale_hit_recieved = -0.05
 	}
 	improved_foraging = {
 		fire_damage_received = -0.1
 		shock_damage_received = -0.1
+		ship_durability = 0.10
 	}
 
 	ai_will_do = {
@@ -418,6 +424,7 @@ quality_ideas = {
 	
 	private_to_marshal = {
 		infantry_power = 0.1
+		galley_power = 0.15
 	}
 	quality_education = {
 		cavalry_power = 0.15
@@ -427,20 +434,23 @@ quality_ideas = {
 	finest_of_horses = {
 		artillery_power = 0.1
 		backrow_artillery_damage = 0.05
+		heavy_ship_power = 0.05
 	}
 	escort_ships = {
 		land_morale = 0.1
+		naval_morale = 0.1
 	}
 	naval_drill = {
-		shock_damage_received = -0.05
-		fire_damage_received = -0.05
+		light_ship_power = 0.1
+		naval_attrition = -0.1
 	}
 	copper_bottoms = {
-		drill_decay_modifier = -0.2
-		drill_gain_modifier = 0.4
+		drill_decay_modifier = -0.3
+		drill_gain_modifier = 0.5
 	}
 	massed_battery = {
 		yearly_army_professionalism = 0.005
+		navy_tradition_decay = -0.005
 	}
 	
 	ai_will_do = {
@@ -460,19 +470,24 @@ quantity_ideas = {
 	bonus = {
 		land_forcelimit = 20
 		land_forcelimit_modifier  = 0.20
+		naval_forcelimit_modifier = 0.20
 	}
 	mass_army = {
 		global_manpower = 10
 		global_manpower_modifier = 0.20
+		global_sailors_modifier = 0.20
 	}
 	the_young_can_serve = {
 		manpower_recovery_speed = 0.20
+		sailors_recovery_speed = 0.10
 	}
 	enforced_service = {
 		global_regiment_cost = -0.1
+		global_ship_cost = -0.1
 	}
 	the_old_and_infirm = {
 		land_maintenance_modifier = -0.05
+		naval_maintenance_modifier = -0.05
 	}
 	camp_followers = {
 		global_supply_limit_modifier = 1
@@ -537,16 +552,20 @@ strategic_ideas = {
 	
 	strategic_1 = {
 		infantry_power = 0.10
+		galley_power = 0.20
 	}
 	strategic_2 = {
 		army_tradition = 1
+		navy_tradition = 0.5
 	}
 	strategic_3 = {
 		artillery_power = 0.10
 		backrow_artillery_damage = 0.10
+		heavy_ship_power = 0.10
 	}
 	strategic_4 = {
 		global_manpower_modifier = 0.10
+		global_sailors_modifier = 0.10
 	}
 	strategic_5 = {
 		artillery_bonus_vs_fort = 1
@@ -598,6 +617,7 @@ mercenary_ideas = {
 	}
 	mercenary_7 = {
 		trade_range_modifier = 0.5
+		transport_cost = -0.5
 	}
 	
 	ai_will_do = {

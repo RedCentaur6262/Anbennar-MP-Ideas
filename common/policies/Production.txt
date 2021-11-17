@@ -186,3 +186,193 @@ production_9_policy = {
 		factor = 1
 	}
 }
+
+production_10_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = indigenous_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = indigenous_ideas
+	}
+	
+	tribal_development_growth = 0.005
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+production_11_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = naval_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = naval_ideas
+	}
+	
+	global_ship_trade_power = 0.10
+	light_ship_cost = -0.20
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+production_12_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = offensive_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = offensive_ideas
+	}
+	
+	global_supply_limit_modifier = 0.50
+	land_attrition = -0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+production_13_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = defensive_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = defensive_ideas
+	}
+	
+	fort_maintenance_modifier = -0.20
+	defensiveness = 0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+production_14_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = quality_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = quality_ideas
+	}
+	
+	global_manpower_modifier = 0.1
+	land_forcelimit_modifier = 0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+production_15_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = quantity_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = quantity_ideas
+	}
+	
+	trade_goods_size_modifier = 0.10
+	production_efficiency = 0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+production_16_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = noble_academia_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = noble_academia_ideas
+	}
+	
+	global_manpower_modifier = 0.2
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+
+production_17_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = strategic_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = strategic_ideas
+	}
+	
+	siege_ability = 0.1
+	leader_siege = 1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+production_18_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = production_ideas
+		has_idea_group = mercenary_ideas
+	}
+	
+	allow = {
+		full_idea_group = production_ideas
+		full_idea_group = mercenary_ideas
+	}
+	
+	mercenary_cost = -0.10
+	merc_maintenance_modifier = -0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+
