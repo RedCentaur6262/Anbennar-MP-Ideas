@@ -21,6 +21,7 @@ spy_ideas = {
 	}
 	state_propaganda = {
 		ae_impact = -0.10
+		province_warscore_cost = -0.10
 	}
 	claim_fabrication = {
 		siege_ability = 0.10
@@ -153,7 +154,7 @@ production_ideas = {
 		production_efficiency = 0.10
 	}
 	production_2 = {
-		governing_cost = -0.2
+		governing_cost = -0.1
 	}
 	production_3 = {
 		stability_cost_modifier = -0.3
@@ -165,7 +166,7 @@ production_ideas = {
 		build_cost = -0.2
 	}
 	production_6 = {
-		inflation_action_cost = -0.5
+		inflation_action_cost = -0.3
 	}
 	production_7 = {
 		trade_goods_size_modifier = 0.10

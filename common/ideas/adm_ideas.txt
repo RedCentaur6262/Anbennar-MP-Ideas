@@ -113,8 +113,8 @@ economic_ideas = {
 		global_tax_modifier = 0.20
 	}
 	organised_construction = {
-		build_cost = -0.1
-		build_time = -0.1
+		build_cost = -0.15
+		build_time = -0.15
 	}
 	national_bank = {
 		inflation_reduction = 0.15
@@ -174,7 +174,7 @@ expansion_ideas = {
 	
 	additional_colonists = {
 		colonists = 1
-		native_uprising_chance = -0.5
+		colonist_placement_chance = 0.1
 	}
 	additional_merchants = {
 		merchants = 1
@@ -182,7 +182,7 @@ expansion_ideas = {
 	}
 	faster_colonists = {
 		colonists = 1
-		colonist_placement_chance = 0.1
+		native_uprising_chance = -0.5
 	}
 	factories = {
 		global_trade_goods_size_modifier = 0.2
@@ -320,18 +320,18 @@ administrative_ideas = {
 	category = ADM
 
 	bonus = {
-		core_creation = -0.25
+		core_creation = -0.20
 	}
 
 	organised_mercenary_payment = {
 		state_maintenance_modifier = -0.25
-		state_governing_cost = -0.25
+		governing_cost = -0.20
 	}
 	adaptability = {
 		expand_administration_cost = -0.50
 	}
 	benefits_for_mercenaries = {
-		global_autonomy = -0.15
+		global_autonomy = -0.05
 	}
 	bookkeeping = {
 		adm_tech_cost_modifier = -0.10
@@ -343,7 +343,7 @@ administrative_ideas = {
 		administrative_efficiency = 0.05
 	}
 	civil_servants = {
-		governing_capacity_modifier = 0.25
+		governing_capacity_modifier = 0.20
 	}
 
 	ai_will_do = {
