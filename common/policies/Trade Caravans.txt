@@ -1,0 +1,400 @@
+
+
+trade_caravans_1_policy = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = innovativeness_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = innovativeness_ideas
+	}
+	
+	trade_efficiency = 0.1
+	innovativeness_gain = 0.5
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_2_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = religious_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = religious_ideas
+	}
+	
+	tolerance_heathen = 1
+	tolerance_heretic = 1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_3_policy = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = economic_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = economic_ideas
+	}
+	
+	development_cost = -0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_4_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = expansion_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = expansion_ideas
+	}
+	
+	colonist_placement_chance = 0.1
+	global_colonial_growth = 20
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_5_policy = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = administrative_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = administrative_ideas
+	}
+	
+	global_trade_goods_size_modifier = 0.10
+	adm_advisor_cost = -0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_6_policy = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = humanist_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = humanist_ideas
+	}
+	
+	idea_cost = -0.10
+	global_foreign_trade_power = 0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_7_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = aristocracy_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = aristocracy_ideas
+	}
+	
+	cavalry_cost = -0.10
+	caravan_power = 0.20
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_8_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = plutocracy_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = plutocracy_ideas
+	}
+	
+	trade_goods_size_modifier = 0.10
+	trade_efficiency = 0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_9_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = horde_gov_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = horde_gov_ideas
+	}
+	
+	cavalry_cost = -0.10
+	cavalry_power = 0.20
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_10_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = theocracy_gov_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = theocracy_gov_ideas
+	}
+	
+	land_morale = 0.10
+	manpower_in_true_faith_provinces = 0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_11_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = indigenous_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = indigenous_ideas
+	}
+	
+	tribal_development_growth = 0.005
+	development_cost = -0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_12_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = naval_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = naval_ideas
+	}
+	
+	global_ship_trade_power = 0.20
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_13_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = offensive_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = offensive_ideas
+	}
+	
+	global_supply_limit_modifier = 0.50
+	reinforce_cost_modifier = -0.20
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_14_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = defensive_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = defensive_ideas
+	}
+	
+	fort_maintenance_modifier = -0.20
+	defensiveness = 0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_15_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = quality_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = quality_ideas
+	}
+	
+	army_tradition_decay = -0.005
+	army_tradition = 0.50
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_16_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = quantity_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = quantity_ideas
+	}
+	
+	land_forcelimit_modifier = 0.10
+	global_manpower_modifier = 0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_17_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = noble_academia_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = noble_academia_ideas
+	}
+	
+	leader_land_manuever = 1
+	movement_speed = 0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_18_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = strategic_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = strategic_ideas
+	}
+	
+	leader_siege = 1
+	siege_ability = 0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_caravans_19_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = trade_caravans_ideas
+		has_idea_group = mercenary_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_caravans_ideas
+		full_idea_group = mercenary_ideas
+	}
+	
+	production_efficiency = 0.10
+	land_morale = 0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+
