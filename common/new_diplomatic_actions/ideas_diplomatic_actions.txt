@@ -6,8 +6,8 @@ spy_steal_institution = {
 	
 	is_visible = {
 		ROOT = {
-			full_idea_group = spy_ideas
 			is_lacking_institutions = yes
+			full_idea_group = spy_ideas
 		}
 		FROM = {
 			institution_difference = {
@@ -19,11 +19,11 @@ spy_steal_institution = {
 	
 	is_allowed = {
 		ROOT = {
+			is_lacking_institutions = yes
 			has_spy_network_in = {
 				who = FROM
 				value = 80
 			}
-			is_lacking_institutions = yes
 		}
 		FROM = {
 			institution_difference = {
@@ -36,15 +36,16 @@ spy_steal_institution = {
 	on_accept = {
 		capital_scope = {
 			area = {
-				if = {
-					limit = {
-						has_province_modifier = spy_steal_institution
-					}
-					extend_province_modifier = { name = spy_steal_institution duration = 365 }
-				}
-				else = {
-					add_province_modifier = { name = spy_steal_institution duration = 365 hidden = no }
-				}
+				add_next_institution_embracement = 25
+				# if = {
+				# 	limit = {
+				# 		has_province_modifier = spy_steal_institution
+				# 	}
+				# 	extend_province_modifier = { name = spy_steal_institution duration = 365 }
+				# }
+				# else = {
+				# 	add_province_modifier = { name = spy_steal_institution duration = 365 hidden = no }
+				# }
 			}
 		}
 		add_spy_network_in = { who = FROM value = -80 }

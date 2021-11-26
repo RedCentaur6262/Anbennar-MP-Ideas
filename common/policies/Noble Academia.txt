@@ -1,0 +1,62 @@
+
+noble_academia_1_policy = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = noble_academia_ideas
+		has_idea_group = innovativeness_ideas
+	}
+	
+	allow = {
+		full_idea_group = noble_academia_ideas
+		full_idea_group = innovativeness_ideas
+	}
+	
+	advisor_cost = -0.10
+	leader_land_manuever = 1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+noble_academia_2_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = noble_academia_ideas
+		has_idea_group = religious_ideas
+	}
+	
+	allow = {
+		full_idea_group = noble_academia_ideas
+		full_idea_group = religious_ideas
+	}
+	
+	land_morale = 0.10
+	manpower_in_true_faith_provinces = 0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+noble_academia_3_policy = { # High quality horses
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = noble_academia_ideas
+		has_idea_group = economic_ideas
+	}
+	
+	allow = {
+		full_idea_group = noble_academia_ideas
+		full_idea_group = economic_ideas
+	}
+	
+	cavalry_power = 0.20
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
