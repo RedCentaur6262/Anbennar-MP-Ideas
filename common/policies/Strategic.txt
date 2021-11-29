@@ -1,0 +1,291 @@
+
+strategic_1_policy = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = strategic_ideas
+		has_idea_group = innovativeness_ideas
+	}
+	
+	allow = {
+		full_idea_group = strategic_ideas
+		full_idea_group = innovativeness_ideas
+	}
+	
+	leader_cost = -0.10
+	prestige = 0.50
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+strategic_2_policy = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = strategic_ideas
+		has_idea_group = religious_ideas
+	}
+	
+	allow = {
+		full_idea_group = strategic_ideas
+		full_idea_group = religious_ideas
+	}
+	
+	culture_conversion_cost = -0.50
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+strategic_3_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = strategic_ideas
+		has_idea_group = economic_ideas
+	}
+	
+	allow = {
+		full_idea_group = strategic_ideas
+		full_idea_group = economic_ideas
+	}
+	
+	infantry_power = 0.10
+	infantry_cost = -0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+strategic_4_policy = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = strategic_ideas
+		has_idea_group = expansion_ideas
+	}
+	
+	allow = {
+		full_idea_group = strategic_ideas
+		full_idea_group = expansion_ideas
+	}
+	
+	ae_impact = -0.10
+	core_creation = -0.05
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+strategic_5_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = strategic_ideas
+		has_idea_group = administrative_ideas
+	}
+	
+	allow = {
+		full_idea_group = strategic_ideas
+		full_idea_group = administrative_ideas
+	}
+	
+	leader_land_fire = 1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+strategic_6_policy = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = strategic_ideas
+		has_idea_group = humanist_ideas
+	}
+	
+	allow = {
+		full_idea_group = strategic_ideas
+		full_idea_group = humanist_ideas
+	}
+	
+	global_unrest = -2
+	tolerance_heathen = 1
+	tolerance_heretic = 1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+strategic_7_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = strategic_ideas
+		has_idea_group = spy_ideas
+	}
+	
+	allow = {
+		full_idea_group = strategic_ideas
+		full_idea_group = spy_ideas
+	}
+	
+	global_manpower_modifier = 0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+strategic_8_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = strategic_ideas
+		has_idea_group = trade_ideas
+	}
+	
+	allow = {
+		full_idea_group = strategic_ideas
+		full_idea_group = trade_ideas
+	}
+	
+	merchants = 1
+	global_own_trade_power = 0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+strategic_9_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = strategic_ideas
+		has_idea_group = trade_caravans_ideas
+	}
+	
+	allow = {
+		full_idea_group = strategic_ideas
+		full_idea_group = trade_caravans_ideas
+	}
+	
+	merchants = 1
+	trade_steering = 0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+strategic_10_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = strategic_ideas
+		has_idea_group = production_ideas
+	}
+	
+	allow = {
+		full_idea_group = strategic_ideas
+		full_idea_group = production_ideas
+	}
+	
+	backrow_artillery_damage = 0.10
+	artillery_cost = -0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+strategic_11_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = strategic_ideas
+		has_idea_group = exploration_ideas
+	}
+	
+	allow = {
+		full_idea_group = strategic_ideas
+		full_idea_group = exploration_ideas
+	}
+	
+	land_forcelimit_modifier = 0.10
+	naval_forcelimit_modifier = 0.50
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+strategic_12_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = strategic_ideas
+		has_idea_group = diplomatic_ideas
+	}
+	
+	allow = {
+		full_idea_group = strategic_ideas
+		full_idea_group = diplomatic_ideas
+	}
+	
+	diplomats = 1
+	improve_relation_modifier = 0.33
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+strategic_13_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = strategic_ideas
+		has_idea_group = influence_ideas
+	}
+	
+	allow = {
+		full_idea_group = strategic_ideas
+		full_idea_group = influence_ideas
+	}
+	
+	vassal_forcelimit_bonus = 0.50
+	vassal_income = 0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+strategic_14_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = strategic_ideas
+		has_idea_group = maritime_ideas
+	}
+	
+	allow = {
+		full_idea_group = strategic_ideas
+		full_idea_group = maritime_ideas
+	}
+	
+	sunk_ship_morale_hit_recieved = -0.20
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

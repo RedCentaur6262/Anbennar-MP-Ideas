@@ -20,7 +20,7 @@ spy_ideas = {
 		global_spy_defence = 0.33
 	}
 	state_propaganda = {
-		ae_impact = -0.10
+		ae_impact = -0.20
 		province_warscore_cost = -0.10
 	}
 	claim_fabrication = {
@@ -169,7 +169,7 @@ production_ideas = {
 		inflation_action_cost = -0.3
 	}
 	production_7 = {
-		trade_goods_size_modifier = 0.10
+		global_trade_goods_size_modifier = 0.10
 	}
 	
 	ai_will_do = {

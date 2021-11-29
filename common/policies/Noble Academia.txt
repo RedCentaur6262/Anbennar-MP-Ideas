@@ -60,3 +60,233 @@ noble_academia_3_policy = { # High quality horses
 		factor = 1
 	}
 }
+
+noble_academia_4_policy = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = noble_academia_ideas
+		has_idea_group = expansion_ideas
+	}
+	
+	allow = {
+		full_idea_group = noble_academia_ideas
+		full_idea_group = expansion_ideas
+	}
+	
+	global_colonial_growth = 20
+	native_assimilation = 0.50
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+noble_academia_5_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = noble_academia_ideas
+		has_idea_group = administrative_ideas
+	}
+	
+	allow = {
+		full_idea_group = noble_academia_ideas
+		full_idea_group = administrative_ideas
+	}
+	
+	administrative_efficiency = 0.05
+	infantry_power = 0.05
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+noble_academia_6_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = noble_academia_ideas
+		has_idea_group = humanist_ideas
+	}
+	
+	allow = {
+		full_idea_group = noble_academia_ideas
+		full_idea_group = humanist_ideas
+	}
+	
+	land_forcelimit_modifier = 0.20
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+noble_academia_7_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = noble_academia_ideas
+		has_idea_group = spy_ideas
+	}
+	
+	allow = {
+		full_idea_group = noble_academia_ideas
+		full_idea_group = spy_ideas
+	}
+	
+	diplomats = 1
+	global_spy_defence = 0.20
+	spy_offence = 0.20
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+noble_academia_8_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = noble_academia_ideas
+		has_idea_group = trade_ideas
+	}
+	
+	allow = {
+		full_idea_group = noble_academia_ideas
+		full_idea_group = trade_ideas
+	}
+	
+	merchants = 1
+	trade_efficiency = 0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+noble_academia_9_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = noble_academia_ideas
+		has_idea_group = trade_caravans_ideas
+	}
+	
+	allow = {
+		full_idea_group = noble_academia_ideas
+		full_idea_group = trade_caravans_ideas
+	}
+	
+	global_foreign_trade_power = 0.20
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+noble_academia_10_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = noble_academia_ideas
+		has_idea_group = production_ideas
+	}
+	
+	allow = {
+		full_idea_group = noble_academia_ideas
+		full_idea_group = production_ideas
+	}
+	
+	cavalry_cost = -0.25
+	cavalry_power = 0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+noble_academia_11_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = noble_academia_ideas
+		has_idea_group = exploration_ideas
+	}
+	
+	allow = {
+		full_idea_group = noble_academia_ideas
+		full_idea_group = exploration_ideas
+	}
+	
+	native_assimilation = 0.50
+	global_tarriffs = 0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+noble_academia_12_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = noble_academia_ideas
+		has_idea_group = diplomatic_ideas
+	}
+	
+	allow = {
+		full_idea_group = noble_academia_ideas
+		full_idea_group = diplomatic_ideas
+	}
+	
+	diplomatic_upkeep = 1
+	diplomatic_reputation = 1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+noble_academia_13_policy = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = noble_academia_ideas
+		has_idea_group = influence_ideas
+	}
+	
+	allow = {
+		full_idea_group = noble_academia_ideas
+		full_idea_group = influence_ideas
+	}
+	
+	diplomatic_annexation_cost = 0.15
+	reduced_liberty_desire = 10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+noble_academia_14_policy = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = noble_academia_ideas
+		has_idea_group = maritime_ideas
+	}
+	
+	allow = {
+		full_idea_group = noble_academia_ideas
+		full_idea_group = maritime_ideas
+	}
+	
+	leader_naval_shock = 1
+	leader_naval_fire = 1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

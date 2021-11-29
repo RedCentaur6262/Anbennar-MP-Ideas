@@ -337,7 +337,7 @@ administrative_ideas = {
 		adm_tech_cost_modifier = -0.10
 	}
 	organised_mercenary_recruitment = {
-		dip_advisor_cost = -0.10
+		adm_advisor_cost = -0.10
 	}
 	administrative_efficiency_idea = {
 		administrative_efficiency = 0.05

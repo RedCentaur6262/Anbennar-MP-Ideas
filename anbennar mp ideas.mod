@@ -8,4 +8,5 @@ dependencies={
 }
 name="Mordred Community MP Anbennar Ideas"
 supported_version="1.32.*"
-path="mod/Anbennar-MP-Ideas"
+path="C:/Users/Oskar/Documents/Paradox Interactive/Europa Universalis IV/mod/Anbennar-MP-Ideas"
+remote_file_id="2622531243"
