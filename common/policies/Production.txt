@@ -317,27 +317,6 @@ production_16_policy = {
 	
 	potential = {
 		has_idea_group = production_ideas
-		has_idea_group = noble_academia_ideas
-	}
-	
-	allow = {
-		full_idea_group = production_ideas
-		full_idea_group = noble_academia_ideas
-	}
-	
-	global_manpower_modifier = 0.2
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-
-production_17_policy = {
-	monarch_power = MIL
-	
-	potential = {
-		has_idea_group = production_ideas
 		has_idea_group = strategic_ideas
 	}
 	
@@ -354,7 +333,7 @@ production_17_policy = {
 	}
 }
 
-production_18_policy = {
+production_17_policy = {
 	monarch_power = MIL
 	
 	potential = {

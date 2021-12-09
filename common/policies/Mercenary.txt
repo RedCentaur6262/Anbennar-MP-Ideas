@@ -1,142 +1,140 @@
 
-noble_academia_1_policy = {
+mercenary_1_policy = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = noble_academia_ideas
+		has_idea_group = mercenary_ideas
 		has_idea_group = innovativeness_ideas
 	}
 	
 	allow = {
-		full_idea_group = noble_academia_ideas
+		full_idea_group = mercenary_ideas
 		full_idea_group = innovativeness_ideas
 	}
 	
-	advisor_cost = -0.10
-	leader_land_manuever = 1
+	embracement_cost = -0.10
+	innovativeness_gain = 0.50
 	
 	ai_will_do = {
 		factor = 1
 	}
 }
 
-noble_academia_2_policy = {
-	monarch_power = MIL
+mercenary_2_policy = {
+	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = noble_academia_ideas
+		has_idea_group = mercenary_ideas
 		has_idea_group = religious_ideas
 	}
 	
 	allow = {
-		full_idea_group = noble_academia_ideas
+		full_idea_group = mercenary_ideas
 		full_idea_group = religious_ideas
 	}
 	
-	land_morale = 0.10
-	manpower_in_true_faith_provinces = 0.10
+	religious_unity = 0.20
 	
 	ai_will_do = {
 		factor = 1
 	}
 }
 
-noble_academia_3_policy = { # High quality horses
-	monarch_power = MIL
+mercenary_3_policy = {
+	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = noble_academia_ideas
+		has_idea_group = mercenary_ideas
 		has_idea_group = economic_ideas
 	}
 	
 	allow = {
-		full_idea_group = noble_academia_ideas
+		full_idea_group = mercenary_ideas
 		full_idea_group = economic_ideas
 	}
 	
-	cavalry_power = 0.20
+	global_tax_modifier = 0.20
 	
 	ai_will_do = {
 		factor = 1
 	}
 }
 
-noble_academia_4_policy = {
-	monarch_power = ADM
+mercenary_4_policy = {
+	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = noble_academia_ideas
+		has_idea_group = mercenary_ideas
 		has_idea_group = expansion_ideas
 	}
 	
 	allow = {
-		full_idea_group = noble_academia_ideas
+		full_idea_group = mercenary_ideas
 		full_idea_group = expansion_ideas
 	}
 	
-	global_colonial_growth = 20
-	native_assimilation = 0.50
+	land_morale = 0.05
+	land_forcelimit_modifier = 0.10
 	
 	ai_will_do = {
 		factor = 1
 	}
 }
 
-noble_academia_5_policy = {
-	monarch_power = MIL
+mercenary_5_policy = {
+	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = noble_academia_ideas
+		has_idea_group = mercenary_ideas
 		has_idea_group = administrative_ideas
 	}
 	
 	allow = {
-		full_idea_group = noble_academia_ideas
+		full_idea_group = mercenary_ideas
 		full_idea_group = administrative_ideas
 	}
 	
-	administrative_efficiency = 0.05
-	infantry_power = 0.05
+	mil_advisor_cost = -0.10
+	free_leader_pool = 1
 	
 	ai_will_do = {
 		factor = 1
 	}
 }
 
-noble_academia_6_policy = {
+mercenary_6_policy = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = noble_academia_ideas
+		has_idea_group = mercenary_ideas
 		has_idea_group = humanist_ideas
 	}
 	
 	allow = {
-		full_idea_group = noble_academia_ideas
+		full_idea_group = mercenary_ideas
 		full_idea_group = humanist_ideas
 	}
 	
-	land_forcelimit_modifier = 0.20
+	mercenary_discipline = 0.05
 	
 	ai_will_do = {
 		factor = 1
 	}
 }
 
-noble_academia_7_policy = {
+mercenary_7_policy = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = noble_academia_ideas
+		has_idea_group = mercenary_ideas
 		has_idea_group = spy_ideas
 	}
 	
 	allow = {
-		full_idea_group = noble_academia_ideas
+		full_idea_group = mercenary_ideas
 		full_idea_group = spy_ideas
 	}
 	
-	diplomats = 1
 	global_spy_defence = 0.20
 	spy_offence = 0.20
 	
@@ -145,126 +143,124 @@ noble_academia_7_policy = {
 	}
 }
 
-noble_academia_8_policy = {
+mercenary_8_policy = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = noble_academia_ideas
+		has_idea_group = mercenary_ideas
 		has_idea_group = trade_ideas
 	}
 	
 	allow = {
-		full_idea_group = noble_academia_ideas
+		full_idea_group = mercenary_ideas
 		full_idea_group = trade_ideas
 	}
 	
-	merchants = 1
-	trade_efficiency = 0.10
+	trade_efficiency = 0.20
 	
 	ai_will_do = {
 		factor = 1
 	}
 }
 
-noble_academia_9_policy = {
+mercenary_9_policy = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = noble_academia_ideas
+		has_idea_group = mercenary_ideas
 		has_idea_group = production_ideas
 	}
 	
 	allow = {
-		full_idea_group = noble_academia_ideas
+		full_idea_group = mercenary_ideas
 		full_idea_group = production_ideas
 	}
 	
-	cavalry_cost = -0.25
-	cavalry_power = 0.10
+	mercenary_manpower = 0.30
 	
 	ai_will_do = {
 		factor = 1
 	}
 }
 
-noble_academia_10_policy = {
+mercenary_10_policy = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = noble_academia_ideas
+		has_idea_group = mercenary_ideas
 		has_idea_group = exploration_ideas
 	}
 	
 	allow = {
-		full_idea_group = noble_academia_ideas
+		full_idea_group = mercenary_ideas
 		full_idea_group = exploration_ideas
 	}
 	
-	native_assimilation = 0.50
 	global_tariffs = 0.10
+	naval_forcelimit_modifier = 0.20
 	
 	ai_will_do = {
 		factor = 1
 	}
 }
 
-noble_academia_11_policy = {
+mercenary_11_policy = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = noble_academia_ideas
+		has_idea_group = mercenary_ideas
 		has_idea_group = diplomatic_ideas
 	}
 	
 	allow = {
-		full_idea_group = noble_academia_ideas
+		full_idea_group = mercenary_ideas
 		full_idea_group = diplomatic_ideas
 	}
 	
-	diplomatic_upkeep = 1
 	diplomatic_reputation = 1
+	improve_relation_modifier = 0.20
 	
 	ai_will_do = {
 		factor = 1
 	}
 }
 
-noble_academia_12_policy = {
-	monarch_power = DIP
+mercenary_12_policy = {
+	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = noble_academia_ideas
+		has_idea_group = mercenary_ideas
 		has_idea_group = influence_ideas
 	}
 	
 	allow = {
-		full_idea_group = noble_academia_ideas
+		full_idea_group = mercenary_ideas
 		full_idea_group = influence_ideas
 	}
 	
-	diplomatic_annexation_cost = -0.10
-	reduced_liberty_desire = 10
+	vassal_forcelimit_bonus = 0.50
+	vassal_income = 0.10
 	
 	ai_will_do = {
 		factor = 1
 	}
 }
 
-noble_academia_13_policy = {
-	monarch_power = MIL
+mercenary_13_policy = {
+	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = noble_academia_ideas
+		has_idea_group = mercenary_ideas
 		has_idea_group = maritime_ideas
 	}
 	
 	allow = {
-		full_idea_group = noble_academia_ideas
+		full_idea_group = mercenary_ideas
 		full_idea_group = maritime_ideas
 	}
 	
-	leader_naval_shock = 1
-	leader_naval_fire = 1
+	leader_naval_manuever = 1
+	free_leader_pool = 1
 	
 	ai_will_do = {
 		factor = 1

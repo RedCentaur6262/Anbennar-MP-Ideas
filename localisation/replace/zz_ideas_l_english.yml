@@ -1,4 +1,9 @@
 ﻿l_english:
+ # Espionage steal institution
+ spy_steal_institution_title:0 "Study Institution"
+ spy_steal_institution_tooltip:0 "Study Institution"
+ spy_steal_institution_desc:0 "Increase support for the next missing institution in our capital state."
+ 
  # Exclusive markers
  offensive_ideas:0 "Offensive Ideas (§R*§!)"
  defensive_ideas:0 "Defensive Ideas (§R*§!)"
@@ -19,7 +24,7 @@
  strategic_ideas:0 "Strategic Ideas"
  mercenary_ideas:0 "Mercenary Ideas"
  
-
+ 
  # Production Ideas
 #  production_ideas_bonus:0 "REPLACE_ME"
 #  production_1:0 "REPLACE_ME"

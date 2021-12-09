@@ -126,11 +126,11 @@ economic_ideas = {
 		global_autonomy = -0.05
 	}
 	nationalistic_enthusiasm = {
-		land_maintenance_modifier = -0.05
-		naval_maintenance_modifier = -0.05
+		land_maintenance_modifier = -0.10
+		naval_maintenance_modifier = -0.10
 	}
 	smithian_economics = {
-		global_tax_income = 52
+		global_tax_income = 54
  	}
 
 	ai_will_do = {
@@ -185,7 +185,8 @@ expansion_ideas = {
 		native_uprising_chance = -0.5
 	}
 	factories = {
-		global_trade_goods_size_modifier = 0.2
+		# global_trade_goods_size_modifier = 0.1
+		global_manpower_modifier = 0.1
 	}
 	additional_diplomats = {
 		production_efficiency = 0.10
@@ -325,7 +326,7 @@ administrative_ideas = {
 
 	organised_mercenary_payment = {
 		state_maintenance_modifier = -0.25
-		governing_cost = -0.20
+		governing_cost = -0.10
 	}
 	adaptability = {
 		expand_administration_cost = -0.50
@@ -343,7 +344,7 @@ administrative_ideas = {
 		administrative_efficiency = 0.05
 	}
 	civil_servants = {
-		governing_capacity_modifier = 0.20
+		governing_capacity_modifier = 0.10
 	}
 
 	ai_will_do = {

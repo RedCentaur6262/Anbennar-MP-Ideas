@@ -52,11 +52,11 @@ trade_ideas = {
 	}
 
 	shrewd_commerce_practise = {
- 		global_trade_power = 0.2
+ 		global_trade_power = 0.25
   	}
   	free_trade = {
   		merchants = 1
-		trade_efficiency = 0.1
+		trade_efficiency = 0.2
   	}
 	merchant_adventures = {
 		ship_durability = 0.1
@@ -71,12 +71,12 @@ trade_ideas = {
 		trade_steering = 0.25
 	}
 	trade_manipulation = {
-		global_ship_trade_power = 0.2
+		global_ship_trade_power = 0.4
 		naval_tradition_from_trade = 1
 	}
 	fast_negotiations = {
 		leader_naval_manuever = 1
-		naval_attrition = -0.1
+		envoy_travel_time = -0.20
 	}
 
 	ai_will_do = {
@@ -123,12 +123,12 @@ trade_caravans_ideas = {
 		trade_company_investment_cost = -0.20
 	}
 	trade_caravans_6 = {
-		global_prov_trade_power_modifier = 0.2
-		global_own_trade_power = 0.2
+		global_prov_trade_power_modifier = 0.1
+		global_own_trade_power = 0.1
 	}
 	trade_caravans_7 = {
 		merchants = 1
-		placed_merchant_power = 50
+		placed_merchant_power = 25
 	}
 	
 	ai_will_do = {
@@ -166,7 +166,8 @@ production_ideas = {
 		build_cost = -0.2
 	}
 	production_6 = {
-		inflation_action_cost = -0.3
+		# inflation_action_cost = -0.3
+		global_regiment_cost = -0.10
 	}
 	production_7 = {
 		global_trade_goods_size_modifier = 0.10
@@ -197,6 +198,7 @@ exploration_ideas = {
 	}
 	colonial_ventures = {
 		colonists = 1
+		global_colonial_growth = 25
 	}
 	overseas_exploration = {
 		range = 0.5
@@ -206,10 +208,11 @@ exploration_ideas = {
 		heavy_ship_power = 0.1
 	}
 	vice_roys  = {
-		global_colonial_growth = 25
+		global_trade_goods_size_modifier = 0.1
  	}
 	free_colonies = {
 		global_tariffs = 0.25
+		envoy_travel_time = -0.20
 	}
 	global_empire = {
 		colonists = 1
@@ -527,6 +530,7 @@ influence_ideas = {
 	}
 	postal_service = {
 		envoy_travel_time = -0.25
+		diplomats = 1
 	}
 	marcher_lords = {
 		vassal_forcelimit_bonus = 0.5

@@ -166,48 +166,6 @@ strategic_8_policy = {
 }
 
 strategic_9_policy = {
-	monarch_power = DIP
-	
-	potential = {
-		has_idea_group = strategic_ideas
-		has_idea_group = trade_caravans_ideas
-	}
-	
-	allow = {
-		full_idea_group = strategic_ideas
-		full_idea_group = trade_caravans_ideas
-	}
-	
-	merchants = 1
-	trade_steering = 0.25
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-strategic_10_policy = {
-	monarch_power = MIL
-	
-	potential = {
-		has_idea_group = strategic_ideas
-		has_idea_group = production_ideas
-	}
-	
-	allow = {
-		full_idea_group = strategic_ideas
-		full_idea_group = production_ideas
-	}
-	
-	backrow_artillery_damage = 0.10
-	artillery_cost = -0.10
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-strategic_11_policy = {
 	monarch_power = MIL
 	
 	potential = {
@@ -228,7 +186,7 @@ strategic_11_policy = {
 	}
 }
 
-strategic_12_policy = {
+strategic_10_policy = {
 	monarch_power = MIL
 	
 	potential = {
@@ -249,7 +207,7 @@ strategic_12_policy = {
 	}
 }
 
-strategic_13_policy = {
+strategic_11_policy = {
 	monarch_power = DIP
 	
 	potential = {
@@ -270,7 +228,7 @@ strategic_13_policy = {
 	}
 }
 
-strategic_14_policy = {
+strategic_12_policy = {
 	monarch_power = DIP
 	
 	potential = {

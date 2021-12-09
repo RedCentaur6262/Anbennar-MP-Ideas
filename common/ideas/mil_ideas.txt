@@ -21,6 +21,9 @@ aristocracy_ideas = {
 				has_reform = great_centaur_horde
 			}
 		}
+		NOT = { has_idea_group = plutocracy_ideas }
+		NOT = { has_idea_group = horde_gov_ideas }
+		NOT = { has_idea_group = theocracy_gov_ideas }
 	}
 	
 	noble_knights = {
@@ -77,6 +80,9 @@ plutocracy_ideas = {
 
 	trigger = {
 		has_government_attribute = enables_plutocratic_idea_group
+		NOT = { has_idea_group = aristocracy_ideas }
+		NOT = { has_idea_group = horde_gov_ideas }
+		NOT = { has_idea_group = theocracy_gov_ideas }
 	}
 
 	tradition_of_payment = {
@@ -121,6 +127,9 @@ horde_gov_ideas = {
 			has_reform = centaur_settled
 			has_reform = great_centaur_horde
 		}
+		NOT = { has_idea_group = aristocracy_ideas }
+		NOT = { has_idea_group = plutocracy_ideas }
+		NOT = { has_idea_group = theocracy_gov_ideas }
 	}
 	
 	horse_lords = {
@@ -169,6 +178,9 @@ theocracy_gov_ideas = {
 				has_reform = magocracy_reform
 			}
 		}
+		NOT = { has_idea_group = aristocracy_ideas }
+		NOT = { has_idea_group = plutocracy_ideas }
+		NOT = { has_idea_group = horde_gov_ideas }
 	}
 	
 	servants_of_god = {
@@ -354,7 +366,7 @@ offensive_ideas = {
 		leader_naval_manuever = 1
 	}
 	napoleonic_warfare = {
-		siege_ability = 0.40
+		siege_ability = 0.30
 	}
 	
 	ai_will_do = {
@@ -391,12 +403,12 @@ defensive_ideas = {
 		army_tradition = 1
 	}
 	defensive_mentality = {
-		global_regiment_cost = -0.2
+		global_regiment_cost = -0.1
 		global_ship_cost = -0.1
 	}
 	supply_trains = {
-		reserves_organisation = 0.2
 		sunk_ship_morale_hit_recieved = -0.05
+		reserves_organisation = 0.2
 	}
 	improved_foraging = {
 		fire_damage_received = -0.1
@@ -427,9 +439,7 @@ quality_ideas = {
 		galley_power = 0.15
 	}
 	quality_education = {
-		cavalry_power = 0.15
-		cav_to_inf_ratio = 0.25
-		cavalry_flanking = 0.5
+		cavalry_power = 0.10
 	}
 	finest_of_horses = {
 		artillery_power = 0.1
