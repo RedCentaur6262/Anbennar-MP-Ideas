@@ -1,0 +1,4 @@
+
+can_study_institution = {
+	custom_tooltip = can_study_institution
+}

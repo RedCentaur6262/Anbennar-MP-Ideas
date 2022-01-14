@@ -5,6 +5,7 @@ spy_ideas = {
 	bonus = {
 		fabricate_claims_cost = -0.25
 		can_fabricate_for_vassals = yes
+		can_study_institution = yes
 		
 		# vampires_loyalty_modifier = 0.10
 	}
@@ -251,7 +252,6 @@ exploration_ideas = {
 			NOT = {
 				any_owned_province = {
 					has_port = yes
-					#Anbennar
 					# sea_zone = {
 					# 	NOT = { area = eastern_mediterrenean_area }
 					# }
@@ -264,28 +264,13 @@ exploration_ideas = {
 				} 
 			}
 		}
+		#Anbennar - Totally redid this factor
 		modifier = {
 			factor = 0.5
 			NOT = {
 				any_owned_province = {
 					has_port = yes
-					sea_zone = {
-						OR = {
-							NOT = { region = mediterrenean_region }
-							province_id = 1293 #Gibraltar
-							province_id = 1294 #Almeria
-						}
-						#Anbennar
-						# NOT = { area = red_sea_area }
-						# NOT = { area = baltic_area }
-					}
 				}
-			}
-			NOT = { 
-				any_owned_province = { 
-					is_in_capital_area = yes
-					has_empty_adjacent_province = yes
-				} 
 			}
 		}
 		modifier = {

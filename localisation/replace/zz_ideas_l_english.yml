@@ -3,6 +3,7 @@
  spy_steal_institution_title:0 "Study Institution"
  spy_steal_institution_tooltip:0 "Study Institution"
  spy_steal_institution_desc:0 "Increase support for the next missing institution in our capital state."
+ can_study_institution:0 "Can study institution"
  
  # Exclusive markers
  offensive_ideas:0 "Offensive Ideas (§R*§!)"
