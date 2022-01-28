@@ -598,8 +598,7 @@ mercenary_ideas = {
 	category = MIL
 	
 	bonus = {
-		discipline = -0.10
-		mercenary_discipline = 0.25
+		mercenary_discipline = 0.15
 	}
 	
 	mercenary_1 = {
