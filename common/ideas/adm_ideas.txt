@@ -5,6 +5,7 @@ innovativeness_ideas = {
 	bonus = {
 		monarch_admin_power = 1
 		artificers_loyalty_modifier = 0.1
+		artificers_influence_modifier = 0.1
 	}
 	
 	patron_of_art  = {
@@ -362,7 +363,8 @@ humanist_ideas = {
 	bonus = {
 		idea_cost = -0.1
 		yearly_harmony = 0.25  # Used if religion uses harmony (confucianism)
-		all_estate_loyalty_equilibrium = 0.10
+		# all_estate_loyalty_equilibrium = 0.10
+		all_estate_loyalty_equilibrium = 10 # This is temporary until the bug is fixed
 	}
 	
 	tolerance_idea = {
@@ -374,7 +376,6 @@ humanist_ideas = {
 	ecumenism = {
 		tolerance_heretic = 2
 		tolerance_of_heretics_capacity = 2
-		land_morale = 0.10
 	}
 	indirect_rule = {
 		years_of_nationalism = -10

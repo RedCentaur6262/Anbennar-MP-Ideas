@@ -1,0 +1,41 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_mercenary_ideas"
+		texturefile = "gfx//interface//ideas//idea_mercenary_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_noble_academia_ideas"
+		texturefile = "gfx//interface//ideas//idea_noble_academia_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_production_ideas"
+		texturefile = "gfx//interface//ideas//idea_production_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_strategic_ideas"
+		texturefile = "gfx//interface//ideas//idea_strategic_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_trade_caravans_ideas"
+		texturefile = "gfx//interface//ideas//idea_trade_caravans_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
