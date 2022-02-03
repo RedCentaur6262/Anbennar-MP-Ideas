@@ -435,23 +435,22 @@ quality_ideas = {
 	}
 	
 	private_to_marshal = {
-		infantry_power = 0.1
-		galley_power = 0.15
+		infantry_power = 0.15
 	}
 	quality_education = {
-		cavalry_power = 0.10
+		land_morale = 0.1
+		naval_morale = 0.1
 	}
 	finest_of_horses = {
 		artillery_power = 0.1
 		backrow_artillery_damage = 0.05
-		heavy_ship_power = 0.05
 	}
 	escort_ships = {
-		land_morale = 0.1
-		naval_morale = 0.1
+		heavy_ship_power = 0.05
+		light_ship_power = 0.10
 	}
 	naval_drill = {
-		light_ship_power = 0.1
+		galley_power = 0.15
 		naval_attrition = -0.1
 	}
 	copper_bottoms = {
@@ -562,7 +561,7 @@ strategic_ideas = {
 	}
 	
 	strategic_1 = {
-		infantry_power = 0.10
+		infantry_power = 0.15
 		galley_power = 0.20
 	}
 	strategic_2 = {
