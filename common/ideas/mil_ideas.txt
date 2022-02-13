@@ -86,7 +86,7 @@ plutocracy_ideas = {
 	}
 
 	tradition_of_payment = {
-		global_manpower = 0.10
+		global_manpower_modifier = 0.10
 		discipline = 0.025
 	}
 	abolished_serfdom = {
