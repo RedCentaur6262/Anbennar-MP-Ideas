@@ -76,7 +76,7 @@ production_4_policy = {
 	}
 	
 	state_maintenance_modifier = -0.1
-	trade_goods_size_modifier = 0.1
+	global_trade_goods_size_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1

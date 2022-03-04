@@ -2,3 +2,7 @@
 spy_steal_institution = {
 	institution_growth = 12
 }
+
+focus_on_covert_actions = {
+	envoy_travel_time = 1
+}

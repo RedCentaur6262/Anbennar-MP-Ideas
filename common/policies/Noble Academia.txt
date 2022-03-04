@@ -54,7 +54,8 @@ noble_academia_3_policy = { # High quality horses
 		full_idea_group = economic_ideas
 	}
 	
-	cavalry_power = 0.20
+	cavalry_power = 0.10
+	leader_land_manuever = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -179,8 +180,8 @@ noble_academia_9_policy = {
 		full_idea_group = production_ideas
 	}
 	
-	cavalry_cost = -0.25
-	cavalry_power = 0.10
+	cavalry_cost = -0.10
+	movement_speed = 0.10
 	
 	ai_will_do = {
 		factor = 1

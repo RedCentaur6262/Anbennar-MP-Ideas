@@ -180,7 +180,7 @@ trade_caravans_9_policy = {
 		full_idea_group = horde_gov_ideas
 	}
 	
-	cavalry_cost = -0.10
+	trade_efficiency = 0.10
 	cavalry_power = 0.10
 	
 	ai_will_do = {
