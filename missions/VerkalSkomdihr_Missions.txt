@@ -39,7 +39,6 @@ slot = 1
 				value = 3
 			}
 		}
-		
 		effect = {
 			add_mil_power = -100
 			add_country_modifier = {
@@ -89,7 +88,6 @@ slot = 1
 				value = 6
 			}
 		}
-		
 		effect = {
 			add_mil_power = -200
 			remove_country_modifier = verkalskomdihr_firearms_1
@@ -136,7 +134,6 @@ slot = 1
 				value = 12
 			}
 		}
-		
 		effect = {
 			add_mil_power = -300
 			remove_country_modifier = verkalskomdihr_firearms_2
@@ -189,7 +186,6 @@ slot = 1
 				}
 			}
 		}
-		
 		effect = {
 			custom_tooltip = verkalskomdihr_unlock_warding_gate_tooltip
 			set_country_flag = verkalskomdihr_warding_gate_unlocked
@@ -211,12 +207,7 @@ verkalskomdihr_internal_development = {
 		
 		provinces_to_highlight = {
 			province_id = 4100 #Verkal Skomdihr
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { fort_level = 2 }
-			}
 		}
-		
 		trigger = {
 			4100 = {
 				owned_by = ROOT
@@ -224,7 +215,6 @@ verkalskomdihr_internal_development = {
 			}
 			treasury = 200
 		}
-		
 		effect = {
 			add_treasury = -200
 			4100 = {
@@ -233,7 +223,7 @@ verkalskomdihr_internal_development = {
 					duration = -1
 				}
 			}
-			4093 = { # Arg-Ôrdstun
+			4093 = { # Arg-Ordstun
 				if = {
 					limit = {
 						NOT = { owned_by = ROOT }
@@ -255,7 +245,6 @@ verkalskomdihr_internal_development = {
 		trigger = {
 			adm_power = 100
 		}
-		
 		effect = {
 			add_adm_power = -100
 			if = {
@@ -268,7 +257,9 @@ verkalskomdihr_internal_development = {
 					duration = 3650
 				}
 			}
-			country_event = { id = verkalskomdihr.1 days = 90 }
+			country_event = {
+				id = verkalskomdihr.1 days = 90
+			}
 		}
 	}
 	
@@ -280,7 +271,7 @@ verkalskomdihr_internal_development = {
 		position = 3
 		
 		provinces_to_highlight = {
-			country_or_non_sovereign_subject_holds = ROOT
+			owned_by = ROOT
 			trade_goods = gems
 			OR = {
 				NOT = { base_production = 15 }
@@ -312,7 +303,6 @@ verkalskomdihr_internal_development = {
 				}
 			}
 		}
-		
 		effect = {
 			4100 = {
 				remove_province_modifier = verkalskomdihr_the_warding_gate_1
@@ -336,7 +326,6 @@ verkalskomdihr_internal_development = {
 			treasury = 1000
 			mil_power = 200
 		}
-		
 		effect = {
 			add_treasury = -1000
 			add_mil_power = -200
@@ -359,7 +348,6 @@ verkalskomdihr_internal_development = {
 		
 		provinces_to_highlight = {
 			province_group = deepwoods_cluster_7 #arrow grove area
-			owned_by = ROOT
 			OR = {
 				has_production_building_trigger = no
 				NOT = { base_production = 5 }
@@ -385,7 +373,6 @@ verkalskomdihr_internal_development = {
 				value = 3
 			}
 		}
-		
 		effect = {
 			3033 = {
 				change_trade_goods = tropical_wood
@@ -439,7 +426,6 @@ verkalskomdihr_internal_development = {
 				value = 5
 			}
 		}
-		
 		effect = {
 			add_country_modifier = {
 				name = verkalskomdihr_circular_saw
@@ -471,7 +457,6 @@ verkalskomdihr_internal_development = {
 			treasury = 2000
 			adm_power = 150
 		}
-		
 		effect = {
 			add_treasury = -2000
 			add_adm_power = -150
@@ -502,34 +487,8 @@ verkalskomdihr_internal_development = {
 		provinces_to_highlight = {
 			owned_by = ROOT
 			OR = {
-				AND = {
-					trade_goods = gems
-					NOT = {
-						ROOT = {
-							num_of_owned_provinces_with = {
-								owned_by = ROOT
 								trade_goods = gems
-								has_manufactory_trigger = yes
-								has_production_building_trigger = yes
-								value = 3
-							}
-						}
-					}
-				}
-				AND = {
-					trade_goods = tropical_wood
-					NOT = {
-						ROOT = {
-							num_of_owned_provinces_with = {
-								owned_by = ROOT
 								trade_goods = tropical_wood
-								has_manufactory_trigger = yes
-								has_production_building_trigger = yes
-								value = 7
-							}
-						}
-					}
-				}
 			}
 			OR = {
 				has_manufactory_trigger = no
@@ -555,7 +514,6 @@ verkalskomdihr_internal_development = {
 				value = 7
 			}
 		}
-		
 		effect = {
 			add_adm_power = -100
 			add_mil_power = -100
@@ -582,7 +540,6 @@ verkalskomdihr_internal_development = {
 				has_global_flag = veneering_happened
 			}
 		}
-		
 		effect = {
 			add_treasury = -1500
 			increase_ruler_adm_effect = yes
@@ -620,7 +577,6 @@ verkalskomdihr_internal_development = {
 				}
 			}
 		}
-		
 		effect = {
 			add_country_modifier = {
 				name = verkalskomdihr_powered_sawmills
@@ -638,7 +594,6 @@ verkalskomdihr_internal_development = {
 		
 		provinces_to_highlight = {
 			province_id = 676 #Firanyalen
-			NOT = { has_province_modifier = the_harpylen_dam }
 		}
 		
 		trigger = {
@@ -646,7 +601,6 @@ verkalskomdihr_internal_development = {
 				has_province_modifier = the_harpylen_dam
 			}
 		}
-		
 		effect = {
 			add_country_modifier = {
 				name = verkalskomdihr_water_jet_cutting_machinery
@@ -675,7 +629,6 @@ verkalskomdihr_deepwoods_development = {
 			treasury = 250
 			manpower = 10
 		}
-		
 		effect = {
 			add_treasury = -250
 			add_manpower = -10
@@ -701,7 +654,6 @@ verkalskomdihr_deepwoods_development = {
 			NOT = { has_country_modifier = verkalskomdihr_ranger_training }
 			num_of_conquistadors = 1
 		}
-		
 		effect = {
 			country_event = {
 				id = verkalskomdihr.7 days = 730 random = 365
@@ -718,7 +670,6 @@ verkalskomdihr_deepwoods_development = {
 		
 		provinces_to_highlight = {
 			superregion = deepwoods_superregion
-			owned_by = ROOT
 			OR = {
 				NOT = { religion = ancestor_worship }
 				NOT = { culture_group = dwarven }
@@ -765,7 +716,6 @@ verkalskomdihr_deepwoods_development = {
 		
 		provinces_to_highlight = {
 			province_group = deepwoods_cluster_5 #Flower grove area
-			owned_by = ROOT
 			OR = {
 				has_production_building_trigger = no
 				NOT = { base_production = 7 }
@@ -775,7 +725,6 @@ verkalskomdihr_deepwoods_development = {
 				province_id = 3030 #Emmylscotha
 			}
 		}
-		
 		trigger = {
 			num_of_owned_provinces_with = {
 				province_group = deepwoods_cluster_5
@@ -788,7 +737,6 @@ verkalskomdihr_deepwoods_development = {
 				value = 3
 			}
 		}
-		
 		effect = {
 			3030 = {
 				change_trade_goods = tropical_wood
@@ -828,7 +776,6 @@ verkalskomdihr_deepwoods_development = {
 		
 		provinces_to_highlight = {
 			province_group = deepwoods_cluster_3 #Thorn grove area
-			owned_by = ROOT
 			OR = {
 				has_production_building_trigger = no
 				NOT = { base_production = 7 }
@@ -838,7 +785,6 @@ verkalskomdihr_deepwoods_development = {
 				province_id = 3017 #Drennethylle
 			}
 		}
-		
 		trigger = {
 			num_of_owned_provinces_with = {
 				province_group = deepwoods_cluster_3
@@ -851,7 +797,6 @@ verkalskomdihr_deepwoods_development = {
 				value = 3
 			}
 		}
-		
 		effect = {
 			3017 = {
 				change_trade_goods = tropical_wood
@@ -906,7 +851,6 @@ verkalskomdihr_deepwoods_development = {
 				type = all
 			}
 		}
-		
 		effect = {
 			add_treasury = -2500
 			add_adm_power = -250
@@ -942,7 +886,6 @@ verkalskomdihr_deepwoods_development = {
 			adm_power = 200
 			natural_scientist = 3
 		}
-		
 		effect = {
 			add_treasury = -1000
 			add_adm_power = -100
@@ -983,7 +926,6 @@ verkalskomdihr_deepwoods_development = {
 			treasury = 1500
 			dip_power = 200
 		}
-		
 		effect = {
 			add_treasury = -1500
 			add_dip_power = -200
@@ -1012,7 +954,6 @@ verkalskomdihr_deepwoods_development = {
 		
 		provinces_to_highlight = {
 			province_id = 4100 #Verkal Skomdihr
-			NOT = { has_dwarven_hold_10 = yes }
 		}
 		
 		trigger = {
@@ -1063,18 +1004,12 @@ verkalskomdihr_expansion = {
 		position = 1
 		
 		provinces_to_highlight = {
-			OR = {
-				AND = {
 					area = stunad_skomdihr_area
 					OR = {
 						NOT = { owned_by = ROOT }
 						is_city = no
 					}
 				}
-				owned_by = H87
-			}
-		}
-		
 		trigger = {
 			stunad_skomdihr_area = {
 				type = all
@@ -1083,7 +1018,6 @@ verkalskomdihr_expansion = {
 			}
 			NOT = { exists = H87 }
 		}
-		
 		effect = {
 			add_country_modifier = {
 				name = verkalskomdihr_colonial_boom
@@ -1122,14 +1056,11 @@ verkalskomdihr_expansion = {
 		position = 2
 		
 		provinces_to_highlight = {
-			province_id = 4093 #Arg-Ôrdstun
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			province_id = 4093 #Arg-Ordstun
 		}
-		
 		trigger = {
 			owns_or_non_sovereign_subject_of = 4093
 		}
-		
 		effect = {
 			if = { 
 				limit = { 
@@ -1179,14 +1110,12 @@ verkalskomdihr_expansion = {
 				is_city = no
 			}
 		}
-		
 		trigger = {
 			2942 = {
 				owned_by = ROOT
 				is_city = yes
 			}
 		}
-		
 		effect = {
 			2942 = {
 				if = {
@@ -1211,7 +1140,6 @@ verkalskomdihr_expansion = {
 			province_group = deepwoods_cluster_7 #arrow grove area
 			NOT = { owned_by = ROOT }
 		}
-		
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = verkalskomdihr_expedition_has_ended
@@ -1227,7 +1155,6 @@ verkalskomdihr_expansion = {
 				value = 1
 			}
 		}
-		
 		effect = {
 			custom_tooltip = verkalskomdihr_outpost_tooltip
 			hidden_effect = {
@@ -1246,8 +1173,7 @@ verkalskomdihr_expansion = {
 				}
 				add_permanent_claim = ROOT
 			}
-			if = {
-				limit = { mission_completed = verkalskomdihr_arrow_lumber_camps } 
+			if = { limit = { mission_completed = verkalskomdihr_arrow_lumber_camps } 
 				clr_country_flag = verkalskomdihr_expedition_end
 			}
 		}
@@ -1264,14 +1190,12 @@ verkalskomdihr_expansion = {
 			region = east_deepwoods_region
 			NOT = { owned_by = ROOT }
 		}
-		
 		trigger = {
 			east_deepwoods_region = {
 				type = all
 				owned_by = ROOT
 			}
 		}
-		
 		effect = {
 			west_deepwoods_region = {
 				limit = {
@@ -1294,14 +1218,12 @@ verkalskomdihr_expansion = {
 			superregion = deepwoods_superregion
 			NOT = { owned_by = ROOT }
 		}
-		
 		trigger = {
 			deepwoods_superregion = {
 				type = all
 				owned_by = ROOT
 			}
 		}
-		
 		effect = {
 			add_prestige = 25
 			add_country_modifier = {
@@ -1321,14 +1243,12 @@ verkalskomdihr_expansion = {
 		provinces_to_highlight = {
 			province_id = 3024 #Taraile
 			OR = {
-				NOT = { owned_by = ROOT }
 				NOT = { development = 30 }
 				has_courthouse_building_trigger = no
 				has_trade_building_trigger = no
 				NOT = { fort_level = 2 }
 			}
 		}
-		
 		trigger = {
 			3024 = {
 				owned_by = ROOT
@@ -1338,7 +1258,6 @@ verkalskomdihr_expansion = {
 				fort_level = 2
 			}
 		}
-		
 		effect = {
 			3024 = {
 				change_province_name = "Grôn-Hargûn" #Means green center/heart
@@ -1386,7 +1305,6 @@ verkalskomdihr_expansion = {
 				culture_group = goblin
 			}
 		}
-		
 		trigger = {
 			deepwoods_superregion = {
 				NOT = { 
@@ -1397,7 +1315,6 @@ verkalskomdihr_expansion = {
 				type = all
 			}
 		}
-		
 		effect = {
 			add_stability_or_adm_power = yes
 			add_prestige = 25
@@ -1419,7 +1336,6 @@ verkalskomdihr_expansion = {
 			adm_power = 100
 			dip_power = 100
 		}
-		
 		effect = {
 			add_adm_power = -100
 			add_dip_power = -100
@@ -1437,7 +1353,9 @@ verkalskomdihr_expansion = {
 					}
 				}
 			}
-			country_event = { id = verkalskomdihr.4 days = 1825 }
+			country_event = {
+				id = verkalskomdihr.4 days = 1825
+			}
 		}
 	}
 	
@@ -1451,10 +1369,6 @@ verkalskomdihr_expansion = {
 		provinces_to_highlight = {
 			superregion = deepwoods_superregion
 			province_has_center_of_trade_of_level = 1
-			NOT = {
-				has_building = trade_depot
-				has_building = stock_exchange
-			}
 		}
 		
 		trigger = {
@@ -1485,8 +1399,8 @@ verkalskomdihr_expansion = {
 				tooltip = verkalskomdihr_cartel_profiteering_tooltip
 				has_idea = I13_deepwood_cartel_profiteering
 			}
+
 		}
-		
 		effect = {
 			3024 = {
 				if = {
@@ -1508,7 +1422,9 @@ verkalskomdihr_expansion = {
 					}
 				}
 			}
-			country_event = { id = verkalskomdihr.5 }
+			country_event = {
+				id = verkalskomdihr.5
+			}
 		}
 	}
 }
@@ -1536,7 +1452,6 @@ verkalskomdihr_trade = {
 				}
 			}
 		}
-		
 		effect = {
 			argrod_9_11_area = {
 				limit = {
@@ -1569,14 +1484,12 @@ verkalskomdihr_trade = {
 				is_city = no
 			}
 		}
-		
 		trigger = {
 			4238 = {
 				owned_by = ROOT
 				is_city = yes
 			}
 		}
-		
 		effect = {
 			4238 = {
 				if = {
@@ -1614,7 +1527,6 @@ verkalskomdihr_trade = {
 		
 		provinces_to_highlight = {
 			province_id = 526 #Odval Tungr
-			NOT = { country_or_subject_holds = ROOT }
 		}
 		
 		trigger = {
@@ -1623,11 +1535,13 @@ verkalskomdihr_trade = {
 					owner = {
 						is_neighbor_of = ROOT
 					}
-					country_or_subject_holds = ROOT
+					owner = {
+						is_subject_of = ROOT
+					}
+					owned_by = ROOT
 				}
 			}
 		}
-		
 		effect = {
 			if = {
 				limit = { exists = F23 }
@@ -1659,24 +1573,24 @@ verkalskomdihr_trade = {
 		provinces_to_highlight = {
 			province_id = 526 #Odval Tungr
 			OR = {
-				NOT = { country_or_subject_holds = ROOT }
-				NOT = { development = 50 }
-				NOT = { has_trade_building_trigger = yes }
-				NOT = { has_shipyard_building_trigger = yes }
-				NOT = { has_dock_building_trigger = yes }
+			
 			}
 		}
 		
 		trigger = {
 			526 = {
-				country_or_subject_holds = ROOT
+				OR = {
+					owned_by = ROOT
+					owner = {
+						is_subject_of = ROOT
+					}
+				}
 				development = 50
 				has_trade_building_trigger = yes
 				has_shipyard_building_trigger = yes
 				has_dock_building_trigger = yes
 			}	
 		}
-		
 		effect = {
 			526 = {
 				if = {
@@ -1714,7 +1628,6 @@ verkalskomdihr_trade = {
 				}
 			}
 		}
-		
 		effect = {
 			custom_tooltip = verkalskomdihr_trade_rewards_tooltip
 			hidden_effect = {
@@ -1814,7 +1727,6 @@ verkalskomdihr_trade = {
 				}
 			}
 		}
-		
 		effect = {
 			custom_tooltip = verkalskomdihr_trade_rewards_tooltip
 			hidden_effect = {
@@ -1902,11 +1814,8 @@ verkalskomdihr_trade = {
 		
 		provinces_to_highlight = {
 			province_group = deepwoods_outward_gladeway
-			OR = {
-				NOT = { owned_by = ROOT }
 				NOT = { fort_level = 2 }
 			}
-		}
 		
 		trigger = {
 			deepwoods_outward_gladeway = {
@@ -1915,7 +1824,6 @@ verkalskomdihr_trade = {
 				fort_level = 2
 			}
 		}
-		
 		effect = {
 			deepwoods_outward_gladeway = {
 				add_province_modifier = {

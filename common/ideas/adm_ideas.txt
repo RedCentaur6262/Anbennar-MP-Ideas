@@ -376,7 +376,8 @@ humanist_ideas = {
 	bonus = {
 		idea_cost = -0.1
 		yearly_harmony = 0.25  # Used if religion uses harmony (confucianism)
-		all_estate_loyalty_equilibrium = 0.10
+		# all_estate_loyalty_equilibrium = 0.10
+		all_estate_loyalty_equilibrium = 10
 	}
 	
 	tolerance_idea = {

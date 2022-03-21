@@ -1,4 +1,4 @@
-version="1.33.*"
+version="1.32.*"
 tags={
 	"Balance"
 }
@@ -7,6 +7,5 @@ dependencies={
 	"Anbennar-PublicFork"
 }
 name="Mordred Community MP Anbennar Ideas"
-supported_version="1.33.*"
-path="C:/Users/Oskar/Documents/Paradox Interactive/Europa Universalis IV/mod/Anbennar-MP-Ideas"
-remote_file_id="2622531243"
+supported_version="1.32.*"
+path="mod/Anbennar-MP-Ideas"
