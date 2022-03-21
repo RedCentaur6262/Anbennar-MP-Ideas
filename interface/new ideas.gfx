@@ -1,13 +1,5 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_idea_mercenary_ideas"
-		texturefile = "gfx//interface//ideas//idea_mercenary_ideas.dds"
-		noOfFrames = 1
-		
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	
-	spriteType = {
 		name = "GFX_idea_noble_academia_ideas"
 		texturefile = "gfx//interface//ideas//idea_noble_academia_ideas.dds"
 		noOfFrames = 1
@@ -34,6 +26,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_trade_caravans_ideas"
 		texturefile = "gfx//interface//ideas//idea_trade_caravans_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_magic_ideas"
+		texturefile = "gfx//interface//ideas//idea_magic_ideas.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate.lua"

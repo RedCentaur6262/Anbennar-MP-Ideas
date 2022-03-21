@@ -6,6 +6,6 @@ dependencies={
 	"Anbennar: A Fantasy Total Conversion Mod"
 	"Anbennar-PublicFork"
 }
-name="Mordred Community MP Anbennar Ideas"
+name="Anbennar MP Ideas & Tweaks"
 supported_version="1.32.*"
 path="mod/Anbennar-MP-Ideas"

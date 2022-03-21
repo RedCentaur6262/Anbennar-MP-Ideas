@@ -3,7 +3,6 @@
  spy_steal_institution_title:0 "Study Institution"
  spy_steal_institution_tooltip:0 "Study Institution"
  spy_steal_institution_desc:0 "Increase support for the next missing institution in our capital state."
- can_study_institution:0 "Can study institution"
  
  # Exclusive markers
  offensive_ideas:0 "§ROffensive§!"
@@ -21,104 +20,23 @@
  trade_ideas:0 "§OTrade Fleets§!"
  trade_caravans_ideas:0 "§OTrade Caravans§!"
  
- # Adm
+ # Admin Ideas Rename
  innovativeness_ideas:0 "Innovative"
  religious_ideas:0 "Religious"
  administrative_ideas:0 "Administrative"
  humanist_ideas:0 "Tolerance"
  
- # Dip
+ # Diplomatic Ideas Rename
  spy_ideas:0 "Espionage"
  diplomatic_ideas:0 "Diplomatic"
  influence_ideas:0 "Influence"
  maritime_ideas:0 "Maritime"
  
- # Mil
- aristocracy_ideas:0 "Aristocratic"
- plutocracy_ideas:0 "Plutocratic"
- horde_gov_ideas:0 "Horde Government"
- theocracy_gov_ideas:0 "Divine"
- indigenous_ideas:0 "Indigenous"
+ # Military Ideas Rename
  naval_ideas:0 "Naval"
  noble_academia_ideas:0 "Noble Academia"
  strategic_ideas:0 "Strategic"
  
-
- # Production Ideas
-#  production_ideas_bonus:0 "REPLACE_ME"
-#  production_1:0 "REPLACE_ME"
-#  production_1_desc:0 "REPLACE_ME"
-#  production_2:0 "REPLACE_ME"
-#  production_2_desc:0 "REPLACE_ME"
-#  production_3:0 "REPLACE_ME"
-#  production_3_desc:0 "REPLACE_ME"
-#  production_4:0 "REPLACE_ME"
-#  production_4_desc:0 "REPLACE_ME"
-#  production_5:0 "REPLACE_ME"
-#  production_5_desc:0 "REPLACE_ME"
-#  production_6:0 "REPLACE_ME"
-#  production_6_desc:0 "REPLACE_ME"
-#  production_7:0 "REPLACE_ME"
-#  production_7_desc:0 "REPLACE_ME"
- 
- # Trade Caravans Ideas
-#  trade_caravans_ideas_bonus:0 "REPLACE_ME"
-#  trade_caravans_1:0 "REPLACE_ME"
-#  trade_caravans_1_desc:0 "REPLACE_ME"
-#  trade_caravans_2:0 "REPLACE_ME"
-#  trade_caravans_2_desc:0 "REPLACE_ME"
-#  trade_caravans_3:0 "REPLACE_ME"
-#  trade_caravans_3_desc:0 "REPLACE_ME"
-#  trade_caravans_4:0 "REPLACE_ME"
-#  trade_caravans_4_desc:0 "REPLACE_ME"
-#  trade_caravans_5:0 "REPLACE_ME"
-#  trade_caravans_5_desc:0 "REPLACE_ME"
-#  trade_caravans_6:0 "REPLACE_ME"
-#  trade_caravans_6_desc:0 "REPLACE_ME"
-#  trade_caravans_7:0 "REPLACE_ME"
-#  trade_caravans_7_desc:0 "REPLACE_ME"
-
- # Noble Academia Ideas
-#  noble_academia_ideas_bonus:0 "REPLACE_ME"
-#  noble_academia_1:0 "REPLACE_ME"
-#  noble_academia_1_desc:0 "REPLACE_ME"
-#  noble_academia_2:0 "REPLACE_ME"
-#  noble_academia_2_desc:0 "REPLACE_ME"
-#  noble_academia_3:0 "REPLACE_ME"
-#  noble_academia_3_desc:0 "REPLACE_ME"
-#  noble_academia_4:0 "REPLACE_ME"
-#  noble_academia_4_desc:0 "REPLACE_ME"
-#  noble_academia_5:0 "REPLACE_ME"
-#  noble_academia_5_desc:0 "REPLACE_ME"
-#  noble_academia_6:0 "REPLACE_ME"
-#  noble_academia_6_desc:0 "REPLACE_ME"
-#  noble_academia_7:0 "REPLACE_ME"
-#  noble_academia_7_desc:0 "REPLACE_ME"
- 
- # Strategic Ideas
-#  strategic_ideas_bonus:0 "REPLACE_ME"
-#  strategic_1:0 "REPLACE_ME"
-#  strategic_1_desc:0 "REPLACE_ME"
-#  strategic_2:0 "REPLACE_ME"
-#  strategic_2_desc:0 "REPLACE_ME"
-#  strategic_3:0 "REPLACE_ME"
-#  strategic_3_desc:0 "REPLACE_ME"
-#  strategic_4:0 "REPLACE_ME"
-#  strategic_4_desc:0 "REPLACE_ME"
-#  strategic_5:0 "REPLACE_ME"
-#  strategic_5_desc:0 "REPLACE_ME"
-#  strategic_6:0 "REPLACE_ME"
-#  strategic_6_desc:0 "REPLACE_ME"
-#  strategic_7:0 "REPLACE_ME"
-#  strategic_7_desc:0 "REPLACE_ME"
- 
-
-
-
-
-
-
-
 
 
 
@@ -127,7 +45,7 @@
 
 # Global text colorings
 # textcolors = {
-# 	M = { 35 206 255 }	# Light blue
+# M = { 35 206 255 }	# Light blue
 # 	W = { 255 255 255 }	# White
 # 	B = { 0 0 255 }		# Blue
 # 	G = { 0 255 0 }		# Green

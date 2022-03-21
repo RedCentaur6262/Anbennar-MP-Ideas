@@ -130,7 +130,6 @@ namespace = ideas_events
 # Noble Academia
 #######################################
 
-
 # Brilliant general
 country_event = {
 	id = ideas_events.100

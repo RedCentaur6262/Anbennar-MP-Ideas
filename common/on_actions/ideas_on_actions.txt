@@ -1,0 +1,361 @@
+
+on_five_year_pulse = {
+	random_events = {
+		
+		# Innovativeness Events
+		
+		100 = innovativeness_events.1
+		
+		# Innovativenes		11 (7g 4b)
+		100 = ideagroups.300
+		100 = ideagroups.301
+		100 = ideagroups.302
+		100 = ideagroups.303
+		100 = ideagroups.304
+		100 = ideagroups.305
+		100 = ideagroups.306
+		100 = ideagroups.307
+		100 = ideagroups.308
+		100 = ideagroups.309
+		100 = ideagroups.310
+		
+		# Religious		18 (11g 7b)
+		100 = ideagroups.400
+		100 = ideagroups.401
+		100 = ideagroups.402
+		100 = ideagroups.403
+		100 = ideagroups.404
+		100 = ideagroups.405
+		100 = ideagroups.406
+		100 = ideagroups.407
+		100 = ideagroups.408
+		100 = ideagroups.409
+		100 = ideagroups.410
+		100 = ideagroups.411
+		100 = ideagroups.412
+		100 = ideagroups.413
+		100 = ideagroups.414
+		100 = ideagroups.415
+		100 = ideagroups.416
+		100 = ideagroups.417
+		
+		# Spy			9 (6g 3b)
+		100 = ideagroups.500
+		100 = ideagroups.501
+		100 = ideagroups.502
+		100 = ideagroups.503
+		100 = ideagroups.504
+		100 = ideagroups.505
+		100 = ideagroups.506
+		100 = ideagroups.507
+		100 = ideagroups.508
+		
+		
+		# Diplomatic		9 (6g 3b)
+		100 = ideagroups.600
+		100 = ideagroups.601
+		100 = ideagroups.602
+		100 = ideagroups.603
+		100 = ideagroups.604
+		100 = ideagroups.605
+		100 = ideagroups.606
+		100 = ideagroups.607
+		100 = ideagroups.608
+		
+		# Offensive 		14 (9g 5b)
+		100 = ideagroups.700
+		100 = ideagroups.701
+		100 = ideagroups.702
+		100 = ideagroups.703
+		100 = ideagroups.704
+		100 = ideagroups.705
+		100 = ideagroups.706
+		100 = ideagroups.707
+		100 = ideagroups.708
+		100 = ideagroups.709
+		100 = ideagroups.710
+		100 = ideagroups.711
+		100 = ideagroups.712
+		100 = ideagroups.713
+		
+		# Defensive		11 (5g 6b)
+		100 = ideagroups.800
+		100 = ideagroups.801
+		100 = ideagroups.802
+		100 = ideagroups.803
+		100 = ideagroups.804
+		100 = ideagroups.805
+		100 = ideagroups.806
+		100 = ideagroups.807
+		100 = ideagroups.808
+		100 = ideagroups.809
+		100 = ideagroups.810
+		100 = ideagroups.811
+		100 = ideagroups.812
+		100 = ideagroups.813
+		100 = ideagroups.814
+		100 = ideagroups.815
+		
+		# Trade			6 (7g 4b)
+		100 = ideagroups.900
+		100 = ideagroups.901
+		100 = ideagroups.902
+		100 = ideagroups.903
+		100 = ideagroups.904
+		100 = ideagroups.905
+		100 = ideagroups.906
+		100 = ideagroups.907
+		100 = ideagroups.908
+		100 = ideagroups.909
+		100 = ideagroups.910
+		
+		# Maritime			22 (14g 8b)
+		100 = ideagroups.1000
+		100 = ideagroups.1001
+		100 = ideagroups.1002
+		100 = ideagroups.1003
+		100 = ideagroups.1004
+		100 = ideagroups.1005
+		100 = ideagroups.1006
+		100 = ideagroups.1007
+		100 = ideagroups.1008
+		100 = ideagroups.1009
+		100 = ideagroups.1010
+		100 = ideagroups.1011
+		100 = ideagroups.1012
+		100 = ideagroups.1013
+		100 = ideagroups.1014
+		100 = ideagroups.1015
+		100 = ideagroups.1016
+		100 = ideagroups.1017
+		100 = ideagroups.1018
+		100 = ideagroups.1019
+		100 = ideagroups.1020
+		100 = ideagroups.1021
+		
+		# Economic		11 (7g 4b)
+		100 = ideagroups.1100
+		100 = ideagroups.1101
+		100 = ideagroups.1102
+		100 = ideagroups.1103
+		100 = ideagroups.1104
+		100 = ideagroups.1105
+		100 = ideagroups.1106
+		100 = ideagroups.1107
+		100 = ideagroups.1108
+		100 = ideagroups.1109
+		100 = ideagroups.1110
+		
+		# Exploration		11 (7g 4b)
+		100 = ideagroups.1200
+		100 = ideagroups.1201
+		100 = ideagroups.1202
+		100 = ideagroups.1203
+		100 = ideagroups.1204
+		100 = ideagroups.1205
+		100 = ideagroups.1206
+		100 = ideagroups.1207
+		100 = ideagroups.1208
+		100 = ideagroups.1209
+		100 = ideagroups.1210
+		
+		# Quality		11 (7g 4b)
+		100 = ideagroups.1300
+		100 = ideagroups.1301
+		100 = ideagroups.1302
+		100 = ideagroups.1303
+		100 = ideagroups.1304
+		100 = ideagroups.1305
+		100 = ideagroups.1306
+		100 = ideagroups.1307
+		100 = ideagroups.1308
+		100 = ideagroups.1309
+		100 = ideagroups.1310
+		
+		# Quantity		11 (7g 4b)
+		100 = ideagroups.1400
+		100 = ideagroups.1401
+		100 = ideagroups.1402
+		100 = ideagroups.1403
+		100 = ideagroups.1404
+		100 = ideagroups.1405
+		100 = ideagroups.1406
+		100 = ideagroups.1407
+		100 = ideagroups.1408
+		100 = ideagroups.1409
+		100 = ideagroups.1410
+		
+		# Expansion		11 (7g 4b)
+		100 = ideagroups.1500
+		100 = ideagroups.1501
+		100 = ideagroups.1502
+		100 = ideagroups.1503
+		100 = ideagroups.1504
+		100 = ideagroups.1505
+		100 = ideagroups.1506
+		100 = ideagroups.1507
+		100 = ideagroups.1508
+		100 = ideagroups.1509
+		100 = ideagroups.1510
+		
+		# Administrative	3 (1g 2b)
+		100 = ideagroups.1600
+		100 = ideagroups.1601
+		100 = ideagroups.1602
+		100 = ideagroups.1603
+		100 = ideagroups.1604
+		100 = ideagroups.1605
+		100 = ideagroups.1606
+		100 = ideagroups.1607
+		100 = ideagroups.1608
+		100 = ideagroups.1609
+		100 = ideagroups.1610
+		
+		# Naval		11 (7g 4b)
+		100 = ideagroups.1700
+		100 = ideagroups.1701
+		100 = ideagroups.1702
+		100 = ideagroups.1703
+		100 = ideagroups.1704
+		100 = ideagroups.1705
+		100 = ideagroups.1706
+		100 = ideagroups.1707
+		100 = ideagroups.1708
+		100 = ideagroups.1709
+		100 = ideagroups.1710
+		
+		# Influence		11 (7g 4b)
+		100 = ideagroups.1800
+		100 = ideagroups.1801
+		100 = ideagroups.1802
+		100 = ideagroups.1803
+		100 = ideagroups.1804
+		100 = ideagroups.1805
+		100 = ideagroups.1806
+		100 = ideagroups.1807
+		100 = ideagroups.1808
+		100 = ideagroups.1809
+		100 = ideagroups.1810
+		
+		# Humanist		11 (7g 4b)
+		100 = ideagroups.1900
+		100 = ideagroups.1901
+		100 = ideagroups.1902
+		100 = ideagroups.1903
+		100 = ideagroups.1904
+		100 = ideagroups.1905
+		100 = ideagroups.1906
+		100 = ideagroups.1907
+		100 = ideagroups.1908
+		100 = ideagroups.1909
+		100 = ideagroups.1910
+		
+		1000 = 0
+	}
+
+	events = {
+		#seven_cities_events.1000 #Clearing of Seven Cities Hunt when goal is no longer possible
+		# fragments.2000	#Already done in the four years pulse
+		racial_modifiers.3  #Military Force Switch if Oppressed - Civilized races
+		racial_modifiers.4  #Military Force Switch if Oppressed - Monstrous races
+
+		#Favored by the Gods Regent Court Events
+		favored_RC.1
+		favored_RC.4
+		favored_RC.7
+		favored_RC.10
+		favored_RC.13
+		favored_RC.16
+		favored_RC.19
+		favored_RC.22
+		favored_RC.25
+		favored_RC.28
+		favored_RC.31
+		favored_RC.34
+		favored_RC.37
+		#favored_RC.40
+		bulwar_flavour.30 #Surani Refugees Settling
+	}
+	
+	# Gommo research division
+	country_event = { id = gommo_expansion_events.10 days = 1 random = 90 }
+	country_event = { id = gommo_expansion_events.11 days = 1 random = 90 }
+	country_event = { id = gommo_expansion_events.12 days = 1 random = 90 }
+	country_event = { id = gommo_expansion_events.13 days = 1 random = 90 }
+	country_event = { id = gommo_expansion_events.14 days = 1 random = 90 }
+	country_event = { id = gommo_expansion_events.15 days = 1 random = 90 }
+	country_event = { id = gommo_expansion_events.16 days = 1 random = 90 }
+	country_event = { id = gommo_expansion_events.17 days = 1 random = 90 }
+	country_event = { id = gommo_expansion_events.18 days = 1 random = 90 }
+	country_event = { id = gommo_expansion_events.19 days = 1 random = 90 }
+	
+	if = { limit = { owns = 536 } #Aqatbar
+		random = {
+			chance = 35
+			country_event = { id = gommo_expansion_events.30 days = 1 random = 90 }
+		}
+	}
+	if = { limit = { owns = 365 } #Port Jaher
+		random = {
+			chance = 35
+			country_event = { id = gommo_expansion_events.31 days = 1 random = 90 }
+		}
+	}
+	if = { limit = { owns = 4435 } #Rayavhashapal
+		random = {
+			chance = 35
+			country_event = { id = gommo_expansion_events.32 days = 1 random = 90 }
+		}
+	}
+	if = { limit = { owns = 4879 } #Feiten
+		random = {
+			chance = 35
+			country_event = { id = gommo_expansion_events.33 days = 1 random = 90 }
+		}
+	}
+	if = { limit = { owns = 2773 } #Kherka
+		random = {
+			chance = 35
+			country_event = { id = gommo_expansion_events.34 days = 1 random = 90 }
+		}
+	}
+	if = { limit = { owns = 4701 } #Cay Cam Sinh
+		random = {
+			chance = 35
+			country_event = { id = gommo_expansion_events.35 days = 1 random = 90 }
+		}
+	}
+	if = { limit = { owns = 4963 } #Arawkelin
+		random = {
+			chance = 35
+			country_event = { id = gommo_expansion_events.36 days = 1 random = 90 }
+		}
+	}
+	if = { limit = { owns = 4871 } #Tianlou
+		random = {
+			chance = 35
+			country_event = { id = gommo_expansion_events.37 days = 1 random = 90 }
+		}
+	}
+	if = { limit = { owns = 4500 } #Sarisung
+		random = {
+			chance = 35
+			country_event = { id = gommo_expansion_events.38 days = 1 random = 90 }
+		}
+	}
+	if = { limit = { owns = 4936 } #Aqatbar
+		random = {
+			chance = 35
+			country_event = { id = gommo_expansion_events.39 days = 1 random = 90 }
+		}
+	}
+	if = {
+		limit = { mission_completed = A73_carver_influence }
+		random = {
+			chance = 25
+			A73 = {
+				country_event = { id = silverforge.21 days = 1 random = 90 }
+			}
+		}
+	}
+}

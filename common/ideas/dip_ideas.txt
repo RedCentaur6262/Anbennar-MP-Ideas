@@ -5,7 +5,6 @@ spy_ideas = {
 	bonus = {
 		fabricate_claims_cost = -0.25
 		can_fabricate_for_vassals = yes
-		can_study_institution = yes
 		
 		# vampires_loyalty_modifier = 0.10
 	}
@@ -57,13 +56,13 @@ trade_ideas = {
   	}
   	free_trade = {
   		merchants = 1
-		trade_efficiency = 0.2
+		trade_efficiency = 0.20
   	}
 	merchant_adventures = {
-		ship_durability = 0.1
+		ship_durability = 0.10
 	}
 	national_trade_policy = {
-		blockade_efficiency = 0.2
+		blockade_efficiency = 0.20
 		embargo_efficiency = 0.25
 	}
 	overseas_merchants = {
@@ -72,7 +71,7 @@ trade_ideas = {
 		trade_steering = 0.25
 	}
 	trade_manipulation = {
-		global_ship_trade_power = 0.4
+		global_ship_trade_power = 0.40
 		naval_tradition_from_trade = 1
 	}
 	fast_negotiations = {
@@ -102,7 +101,7 @@ trade_caravans_ideas = {
 	}
 	
 	bonus = {
-		caravan_power = 0.5
+		caravan_power = 0.50
 	}
 	
 	trade_caravans_1 = {
@@ -110,10 +109,10 @@ trade_caravans_ideas = {
 		trade_steering = 0.25
 	}
 	trade_caravans_2 = {
-		trade_efficiency = 0.1
+		trade_efficiency = 0.10
 	}
 	trade_caravans_3 = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.10
 	}
 	trade_caravans_4 = {
 		merchants = 1
@@ -124,8 +123,8 @@ trade_caravans_ideas = {
 		trade_company_investment_cost = -0.20
 	}
 	trade_caravans_6 = {
-		global_prov_trade_power_modifier = 0.1
-		global_own_trade_power = 0.1
+		global_prov_trade_power_modifier = 0.10
+		global_own_trade_power = 0.10
 	}
 	trade_caravans_7 = {
 		merchants = 1
@@ -147,24 +146,24 @@ production_ideas = {
 	}
 	
 	bonus = {
-		development_cost = -0.1
-		global_supply_limit_modifier = 0.33
+		development_cost = -0.10
+		global_supply_limit_modifier = 0.50
 	}
 	
 	production_1 = {
 		production_efficiency = 0.10
 	}
 	production_2 = {
-		governing_cost = -0.1
+		global_manpower_modifier = 0.10
 	}
 	production_3 = {
-		stability_cost_modifier = -0.3
+		stability_cost_modifier = -0.30
 	}
 	production_4 = {
-		global_autonomy = -0.1
+		global_autonomy = -0.07
 	}
 	production_5 = {
-		build_cost = -0.2
+		build_cost = -0.20
 	}
 	production_6 = {
 		# inflation_action_cost = -0.3
@@ -202,14 +201,14 @@ exploration_ideas = {
 		global_colonial_growth = 25
 	}
 	overseas_exploration = {
-		range = 0.5
+		range = 0.50
 	}
 	land_of_opportunity = {
 		treasure_fleet_income = 0.50
 		heavy_ship_power = 0.10
 	}
 	vice_roys  = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.10
  	}
 	free_colonies = {
 		global_tariffs = 0.25
@@ -457,7 +456,7 @@ diplomatic_ideas = {
 		diplomats = 2
 	}
 	cabinet = {
-		diplomatic_upkeep = 2
+		diplomatic_upkeep = 1
 	}
 	grand_banquets = {
 		province_warscore_cost = -0.25
@@ -472,8 +471,8 @@ diplomatic_ideas = {
 		monarch_diplomatic_power = 1
 	}
 	diplomatic_corps = {
-		dip_tech_cost_modifier = -0.1
-		dip_advisor_cost = -0.1
+		dip_tech_cost_modifier = -0.10
+		dip_advisor_cost = -0.10
 	}
 
 	ai_will_do = {
@@ -494,7 +493,7 @@ influence_ideas = {
 	category = DIP
 
 	bonus = {
-		unjustified_demands = -0.5
+		unjustified_demands = -0.50
 	}
 
 	tribute_system = {
@@ -508,7 +507,7 @@ influence_ideas = {
 		diplomatic_annexation_cost = -0.30
 	}
 	buffer_states = {
-		diplomatic_upkeep = 2
+		diplomatic_upkeep = 1
 	}
 	diplomatic_influence = {
 		diplomatic_reputation = 2
@@ -518,7 +517,7 @@ influence_ideas = {
 		diplomats = 1
 	}
 	marcher_lords = {
-		vassal_forcelimit_bonus = 0.5
+		vassal_forcelimit_bonus = 0.50
 	}
 
 	ai_will_do = {

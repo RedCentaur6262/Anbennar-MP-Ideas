@@ -183,33 +183,33 @@ expansion_ideas = {
 	}
 	
 	bonus = {
- 		global_colonial_growth = 40
+ 		global_colonial_growth = 35
+		auto_explore_adjacent_to_colony = yes
 	}
 	
 	additional_colonists = {
 		colonists = 1
-		colonist_placement_chance = 0.1
+		colonist_placement_chance = 0.10
 	}
 	additional_merchants = {
 		merchants = 1
 		placed_merchant_power = 20
 	}
 	faster_colonists = {
-		colonists = 1
-		native_uprising_chance = -0.5
+		production_efficiency = 0.10
 	}
 	factories = {
-		auto_explore_adjacent_to_colony = yes
-		global_manpower_modifier = 0.1
+		governing_cost = -0.1
 	}
 	additional_diplomats = {
-		production_efficiency = 0.10
+		colonists = 1
+		native_uprising_chance = -0.50
 	}
 	general_colonization_law  = {
 		center_of_trade_upgrade_cost = -0.25
 	}
 	competetive_merchants  = {
-		global_trade_power = 0.2
+		global_trade_power = 0.20
 	}
 	
 	ai_will_do = {
