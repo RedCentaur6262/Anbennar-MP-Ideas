@@ -191,7 +191,7 @@ exploration_ideas = {
 	
 	bonus = {
 		cb_on_primitives = yes
-		adventurers_loyalty_modifier = 0.1	#Anbennar
+		adventurers_loyalty_modifier = 0.10
 	}
 	
 	quest_for_the_new_world	= {
@@ -205,8 +205,8 @@ exploration_ideas = {
 		range = 0.5
 	}
 	land_of_opportunity = {
-		treasure_fleet_income = 0.5
-		heavy_ship_power = 0.1
+		treasure_fleet_income = 0.50
+		heavy_ship_power = 0.10
 	}
 	vice_roys  = {
 		global_trade_goods_size_modifier = 0.1
@@ -547,6 +547,7 @@ maritime_ideas = {
 
 	bonus = {
 		sea_repair = yes
+		movement_speed_in_fleet_modifier = 1 
 	}
 
 	merchant_traditions = {

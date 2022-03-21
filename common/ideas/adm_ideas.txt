@@ -24,18 +24,26 @@ innovativeness_ideas = {
 	}
 	print_culture = {
 		embracement_cost = -0.15
-		global_institution_spread = 1
+		global_institution_spread = 0.75
 	}
 	optimism = {
-		war_exhaustion = -0.05
+		war_exhaustion = -0.04
 	}
 	formalized_officer_corps = {
 		free_leader_pool = 1
-		leader_cost = -0.05
 	}
 
 	ai_will_do = {
 		factor = 0.3
+		modifier = {
+			factor = 5
+			not = {
+				has_global_modifier_value = {
+					which = global_institution_spread
+					value = -0.3
+				}
+			}
+		}
 		modifier = {
 			factor = 2
 			has_reform = steppe_horde
@@ -74,9 +82,14 @@ religious_ideas = {
 	devoutness = {
 		tolerance_own = 2
 		papal_influence = 2
-		devotion = 1
+		devotion = 0.5
 		monthly_fervor_increase = 0.25
 		church_power_modifier = 0.1
+		monthly_piety_accelerator = 0.001
+		yearly_karma_decay = 0.1
+		yearly_doom_reduction = 1
+		yearly_authority = 0.15
+		yearly_patriarch_authority = 0.005
 	}
 	religious_tradition = {
 		prestige = 1
@@ -186,7 +199,7 @@ expansion_ideas = {
 		native_uprising_chance = -0.5
 	}
 	factories = {
-		# global_trade_goods_size_modifier = 0.1
+		auto_explore_adjacent_to_colony = yes
 		global_manpower_modifier = 0.1
 	}
 	additional_diplomats = {
@@ -363,8 +376,7 @@ humanist_ideas = {
 	bonus = {
 		idea_cost = -0.1
 		yearly_harmony = 0.25  # Used if religion uses harmony (confucianism)
-		# all_estate_loyalty_equilibrium = 0.10
-		all_estate_loyalty_equilibrium = 10 # This is temporary until the bug is fixed
+		all_estate_loyalty_equilibrium = 0.10
 	}
 	
 	tolerance_idea = {
@@ -380,7 +392,6 @@ humanist_ideas = {
 	}
 	indirect_rule = {
 		years_of_nationalism = -10
-		land_morale = 0.10
 	}
 	cultural_ties = {
 		num_accepted_cultures = 3
@@ -407,3 +418,45 @@ humanist_ideas = {
 		}
 	}
 }
+
+magic_ideas = {
+	category = ADM
+	
+	trigger = {
+		# TODO: Only if you have mage estate
+		has_estate = estate_mages
+	}
+	
+	bonus = {
+		# TODO: Can invite court mages
+		mages_loyalty_modifier = 0.10
+		mages_influence_modifier = 0.10
+	}
+	
+	magic_1 = {
+		monarch_lifespan = 0.25
+	}
+	magic_2 = {
+		prestige_decay = -0.01
+	}
+	magic_3 = {
+		global_tax_modifier = 0.10
+	}
+	magic_4 = {
+		leader_land_shock = 2
+	}
+	magic_5 = {
+		defensiveness = 0.20
+	}
+	magic_6 = {
+		infantry_shock = 0.10
+	}
+	magic_7 = {
+		free_leader_pool = 1
+	}
+	
+	ai_will_do = {
+		factor = 0.5
+	}
+}
+

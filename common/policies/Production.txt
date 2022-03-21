@@ -105,107 +105,107 @@ production_5_policy = {
 	}
 }
 
-production_6_policy = {
-	monarch_power = MIL
+# production_6_policy = {
+# 	monarch_power = MIL
 	
-	potential = {
-		has_idea_group = production_ideas
-		has_idea_group = aristocracy_ideas
-	}
+# 	potential = {
+# 		has_idea_group = production_ideas
+# 		has_idea_group = aristocracy_ideas
+# 	}
 	
-	allow = {
-		full_idea_group = production_ideas
-		full_idea_group = aristocracy_ideas
-	}
+# 	allow = {
+# 		full_idea_group = production_ideas
+# 		full_idea_group = aristocracy_ideas
+# 	}
 	
-	cavalry_power = 0.1
-	cavalry_cost = -0.1
+# 	cavalry_power = 0.1
+# 	cavalry_cost = -0.1
 	
-	ai_will_do = {
-		factor = 1
-	}
-}
+# 	ai_will_do = {
+# 		factor = 1
+# 	}
+# }
 
-production_7_policy = {
-	monarch_power = DIP
+# production_7_policy = {
+# 	monarch_power = DIP
 	
-	potential = {
-		has_idea_group = production_ideas
-		has_idea_group = plutocracy_ideas
-	}
+# 	potential = {
+# 		has_idea_group = production_ideas
+# 		has_idea_group = plutocracy_ideas
+# 	}
 	
-	allow = {
-		full_idea_group = production_ideas
-		full_idea_group = plutocracy_ideas
-	}
+# 	allow = {
+# 		full_idea_group = production_ideas
+# 		full_idea_group = plutocracy_ideas
+# 	}
 	
-	trade_efficiency = 0.1
-	global_trade_power = 0.1
+# 	trade_efficiency = 0.1
+# 	global_trade_power = 0.1
 	
-	ai_will_do = {
-		factor = 1
-	}
-}
+# 	ai_will_do = {
+# 		factor = 1
+# 	}
+# }
 
-production_8_policy = {
-	monarch_power = MIL
+# production_8_policy = {
+# 	monarch_power = MIL
 	
-	potential = {
-		has_idea_group = production_ideas
-		has_idea_group = horde_gov_ideas
-	}
+# 	potential = {
+# 		has_idea_group = production_ideas
+# 		has_idea_group = horde_gov_ideas
+# 	}
 	
-	allow = {
-		full_idea_group = production_ideas
-		full_idea_group = horde_gov_ideas
-	}
+# 	allow = {
+# 		full_idea_group = production_ideas
+# 		full_idea_group = horde_gov_ideas
+# 	}
 	
-	shock_damage = 0.1
+# 	shock_damage = 0.1
 	
-	ai_will_do = {
-		factor = 1
-	}
-}
+# 	ai_will_do = {
+# 		factor = 1
+# 	}
+# }
 
-production_9_policy = {
-	monarch_power = DIP
+# production_9_policy = {
+# 	monarch_power = DIP
 	
-	potential = {
-		has_idea_group = production_ideas
-		has_idea_group = theocracy_gov_ideas
-	}
+# 	potential = {
+# 		has_idea_group = production_ideas
+# 		has_idea_group = theocracy_gov_ideas
+# 	}
 	
-	allow = {
-		full_idea_group = production_ideas
-		full_idea_group = theocracy_gov_ideas
-	}
+# 	allow = {
+# 		full_idea_group = production_ideas
+# 		full_idea_group = theocracy_gov_ideas
+# 	}
 	
-	manpower_in_true_faith_provinces = 0.2
+# 	manpower_in_true_faith_provinces = 0.2
 	
-	ai_will_do = {
-		factor = 1
-	}
-}
+# 	ai_will_do = {
+# 		factor = 1
+# 	}
+# }
 
-production_10_policy = {
-	monarch_power = MIL
+# production_10_policy = {
+# 	monarch_power = MIL
 	
-	potential = {
-		has_idea_group = production_ideas
-		has_idea_group = indigenous_ideas
-	}
+# 	potential = {
+# 		has_idea_group = production_ideas
+# 		has_idea_group = indigenous_ideas
+# 	}
 	
-	allow = {
-		full_idea_group = production_ideas
-		full_idea_group = indigenous_ideas
-	}
+# 	allow = {
+# 		full_idea_group = production_ideas
+# 		full_idea_group = indigenous_ideas
+# 	}
 	
-	tribal_development_growth = 0.005
+# 	tribal_development_growth = 0.005
 	
-	ai_will_do = {
-		factor = 1
-	}
-}
+# 	ai_will_do = {
+# 		factor = 1
+# 	}
+# }
 
 production_11_policy = {
 	monarch_power = MIL
@@ -327,27 +327,6 @@ production_16_policy = {
 	
 	siege_ability = 0.1
 	leader_siege = 1
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-production_17_policy = {
-	monarch_power = MIL
-	
-	potential = {
-		has_idea_group = production_ideas
-		has_idea_group = mercenary_ideas
-	}
-	
-	allow = {
-		full_idea_group = production_ideas
-		full_idea_group = mercenary_ideas
-	}
-	
-	mercenary_cost = -0.10
-	merc_maintenance_modifier = -0.10
 	
 	ai_will_do = {
 		factor = 1

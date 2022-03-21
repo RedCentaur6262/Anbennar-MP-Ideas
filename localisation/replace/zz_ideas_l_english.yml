@@ -6,26 +6,44 @@
  can_study_institution:0 "Can study institution"
  
  # Exclusive markers
- offensive_ideas:0 "Offensive Ideas (§R*§!)"
- defensive_ideas:0 "Defensive Ideas (§R*§!)"
+ offensive_ideas:0 "§ROffensive§!"
+ defensive_ideas:0 "§RDefensive§!"
 
- quantity_ideas:0 "Quantity Ideas (§G*§!)"
- quality_ideas:0 "Quality Ideas (§G*§!)"
+ quantity_ideas:0 "§GQuantity§!"
+ quality_ideas:0 "§GQuality§!"
  
- exploration_ideas:0 "Exploration Ideas (§T*§!)"
- expansion_ideas:0 "Expansion Ideas (§T*§!)"
+ exploration_ideas:0 "§TExploration§!"
+ expansion_ideas:0 "§TExpansion§!"
  
- production_ideas:0 "Production Ideas (§Y*§!)"
- economic_ideas:0 "Economic Ideas (§Y*§!)"
+ production_ideas:0 "§YProduction§!"
+ economic_ideas:0 "§YEconomic§!"
  
- trade_ideas:0 "Trade Fleets Ideas (§O*§!)"
- trade_caravans_ideas:0 "Trade Caravans Ideas (§O*§!)"
+ trade_ideas:0 "§OTrade Fleets§!"
+ trade_caravans_ideas:0 "§OTrade Caravans§!"
  
- noble_academia_ideas:0 "Noble Academia Ideas"
- strategic_ideas:0 "Strategic Ideas"
- mercenary_ideas:0 "Mercenary Ideas"
+ # Adm
+ innovativeness_ideas:0 "Innovative"
+ religious_ideas:0 "Religious"
+ administrative_ideas:0 "Administrative"
+ humanist_ideas:0 "Tolerance"
  
+ # Dip
+ spy_ideas:0 "Espionage"
+ diplomatic_ideas:0 "Diplomatic"
+ influence_ideas:0 "Influence"
+ maritime_ideas:0 "Maritime"
  
+ # Mil
+ aristocracy_ideas:0 "Aristocratic"
+ plutocracy_ideas:0 "Plutocratic"
+ horde_gov_ideas:0 "Horde Government"
+ theocracy_gov_ideas:0 "Divine"
+ indigenous_ideas:0 "Indigenous"
+ naval_ideas:0 "Naval"
+ noble_academia_ideas:0 "Noble Academia"
+ strategic_ideas:0 "Strategic"
+ 
+
  # Production Ideas
 #  production_ideas_bonus:0 "REPLACE_ME"
 #  production_1:0 "REPLACE_ME"
@@ -94,100 +112,48 @@
 #  strategic_7:0 "REPLACE_ME"
 #  strategic_7_desc:0 "REPLACE_ME"
  
- # Mercenary Ideas
- mercenary_ideas_bonus:0 "While our heavy investments into mercenaries has been successful, the lack of attention to our standing armies have eroded discipline."
- mercenary_1:0 "Grant the companies recruitment privileges"
- mercenary_1_desc:0 "The mercenary companies are allowed to establish recruitment posts within our nation, allowing them to draft the willing into their armies from our own populace."
- mercenary_2:0 "Promote looting"
- mercenary_2_desc:0 "With no allegiance to the locals, the mercenaries have no incentives to not loot their belongings. Do we truly intend to help the enemy and discourage them?"
- mercenary_3:0 "Peasants need not fight"
- mercenary_3_desc:0 "With the lower classes no longer busy fighting for the good of the nation, they can now work undisturbed."
- mercenary_4:0 "The Mercenary tax"
- mercenary_4_desc:0 "Its a privileged life that our lower classes find themselves in. They need not fight and die for our glorious nation. They should compensate the mercenaries for fighting for them."
- mercenary_5:0 "Code of honour"
- mercenary_5_desc:0 "Our continued hiring and honouring of agreements have increased the competition between mercenary companies. This has led to higher quality troops and smaller initial payments for the glory of fighting for us."
- mercenary_6:0 "Safety among the peasantry"
- mercenary_6_desc:0 "Our reliance on professional mercenary armies have meant that the peasantry no longer need to worry that their fathers or husbands be sent of to die in war."
- mercenary_7:0 "Extended outreach"
- mercenary_7_desc:0 "Our merchants have approached us with a plan on how to reach and transport mercenaries from far away lands."
 
 
- # Policies
 
- # Production
-#  production_1_policy:0 "REPLACE_ME"
-#  desc_production_1_policy:0 "REPLACE_ME"
-#  production_2_policy:0 "REPLACE_ME"
-#  desc_production_2_policy:0 "REPLACE_ME"
-#  production_3_policy:0 "REPLACE_ME"
-#  desc_production_3_policy:0 "REPLACE_ME"
-#  production_4_policy:0 "REPLACE_ME"
-#  desc_production_4_policy:0 "REPLACE_ME"
-#  production_5_policy:0 "REPLACE_ME"
-#  desc_production_5_policy:0 "REPLACE_ME"
-#  production_6_policy:0 "REPLACE_ME"
-#  desc_production_6_policy:0 "REPLACE_ME"
-#  production_7_policy:0 "REPLACE_ME"
-#  desc_production_7_policy:0 "REPLACE_ME"
-#  production_8_policy:0 "REPLACE_ME"
-#  desc_production_8_policy:0 "REPLACE_ME"
-#  production_9_policy:0 "REPLACE_ME"
-#  desc_production_9_policy:0 "REPLACE_ME"
-#  production_10_policy:0 "REPLACE_ME"
-#  desc_production_10_policy:0 "REPLACE_ME"
-#  production_11_policy:0 "REPLACE_ME"
-#  desc_production_11_policy:0 "REPLACE_ME"
-#  production_12_policy:0 "REPLACE_ME"
-#  desc_production_12_policy:0 "REPLACE_ME"
-#  production_13_policy:0 "REPLACE_ME"
-#  desc_production_13_policy:0 "REPLACE_ME"
-#  production_14_policy:0 "REPLACE_ME"
-#  desc_production_14_policy:0 "REPLACE_ME"
-#  production_15_policy:0 "REPLACE_ME"
-#  desc_production_15_policy:0 "REPLACE_ME"
-#  production_16_policy:0 "REPLACE_ME"
-#  desc_production_16_policy:0 "REPLACE_ME"
-#  production_17_policy:0 "REPLACE_ME"
-#  desc_production_17_policy:0 "REPLACE_ME"
-#  production_18_policy:0 "REPLACE_ME"
-#  desc_production_18_policy:0 "REPLACE_ME"
 
- # Trade Caravans
-#  trade_caravans_1_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_1_policy:0 "REPLACE_ME"
-#  trade_caravans_2_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_2_policy:0 "REPLACE_ME"
-#  trade_caravans_3_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_3_policy:0 "REPLACE_ME"
-#  trade_caravans_4_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_4_policy:0 "REPLACE_ME"
-#  trade_caravans_5_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_5_policy:0 "REPLACE_ME"
-#  trade_caravans_6_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_6_policy:0 "REPLACE_ME"
-#  trade_caravans_7_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_7_policy:0 "REPLACE_ME"
-#  trade_caravans_8_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_8_policy:0 "REPLACE_ME"
-#  trade_caravans_9_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_9_policy:0 "REPLACE_ME"
-#  trade_caravans_10_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_10_policy:0 "REPLACE_ME"
-#  trade_caravans_11_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_11_policy:0 "REPLACE_ME"
-#  trade_caravans_12_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_12_policy:0 "REPLACE_ME"
-#  trade_caravans_13_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_13_policy:0 "REPLACE_ME"
-#  trade_caravans_14_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_14_policy:0 "REPLACE_ME"
-#  trade_caravans_15_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_15_policy:0 "REPLACE_ME"
-#  trade_caravans_16_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_16_policy:0 "REPLACE_ME"
-#  trade_caravans_17_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_17_policy:0 "REPLACE_ME"
-#  trade_caravans_18_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_18_policy:0 "REPLACE_ME"
-#  trade_caravans_19_policy:0 "REPLACE_ME"
-#  desc_trade_caravans_19_policy:0 "REPLACE_ME"
+
+
+
+
+
+
+
+
+
+# Global text colorings
+# textcolors = {
+# 	M = { 35 206 255 }	# Light blue
+# 	W = { 255 255 255 }	# White
+# 	B = { 0 0 255 }		# Blue
+# 	G = { 0 255 0 }		# Green
+# 	R = { 255 50 50 }	# Red
+# 	b = { 0 0 0 }		# Black
+# 	g = { 176 176 176 } # Gray
+# 	Y = { 255 189 0 }	# Yellow
+# 	T = { 0 255 239 }	# Teal
+# 	O = { 255 130 0 }	# Orange
+# 	l = { 154 193 75 }	# Lime/Mustard
+
+# 	#Anbennar
+# 	P = { 104 75 148 }	# Purple
+# 	H = { 255 243 156 }	# Pale yellow
+# 	d = { 101 127 153 }	# Damerian blue
+# 	D = { 138 172 211 }	# Damerian blue (lighter)
+# 	S = { 193 236 255 }	# Sky blue
+# 	L = { 225 200 136 }	# Beige/Washed out orange
+# 	p = { 255 158 169 }	# Pink
+# 	m = { 205 255 186 }	# Mint
+# 	w = { 254 254 254 }	# White-1
+# 	y = { 219 203 71 }	# Dark yellow
+# 	r = { 190 10 10 }	# Dark red
+# 	v = { 44 171 50 }	# Green
+# 	C = { 137 60 152 }	# Darker pink/Magenta
+# 	c = { 181 77 218 }	# Dark pink
+# 	o = { 208 102 32 }	# Darker orange
+# 	E = { 94 87 219 }	# Indigo/Blue going purple
+# }

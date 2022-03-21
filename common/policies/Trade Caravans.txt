@@ -125,110 +125,110 @@ trade_caravans_6_policy = {
 	}
 }
 
-trade_caravans_7_policy = {
-	monarch_power = DIP
+# trade_caravans_7_policy = {
+# 	monarch_power = DIP
 	
-	potential = {
-		has_idea_group = trade_caravans_ideas
-		has_idea_group = aristocracy_ideas
-	}
+# 	potential = {
+# 		has_idea_group = trade_caravans_ideas
+# 		has_idea_group = aristocracy_ideas
+# 	}
 	
-	allow = {
-		full_idea_group = trade_caravans_ideas
-		full_idea_group = aristocracy_ideas
-	}
+# 	allow = {
+# 		full_idea_group = trade_caravans_ideas
+# 		full_idea_group = aristocracy_ideas
+# 	}
 	
-	cavalry_cost = -0.10
-	caravan_power = 0.20
+# 	cavalry_cost = -0.10
+# 	caravan_power = 0.20
 	
-	ai_will_do = {
-		factor = 1
-	}
-}
+# 	ai_will_do = {
+# 		factor = 1
+# 	}
+# }
 
-trade_caravans_8_policy = {
-	monarch_power = DIP
+# trade_caravans_8_policy = {
+# 	monarch_power = DIP
 	
-	potential = {
-		has_idea_group = trade_caravans_ideas
-		has_idea_group = plutocracy_ideas
-	}
+# 	potential = {
+# 		has_idea_group = trade_caravans_ideas
+# 		has_idea_group = plutocracy_ideas
+# 	}
 	
-	allow = {
-		full_idea_group = trade_caravans_ideas
-		full_idea_group = plutocracy_ideas
-	}
+# 	allow = {
+# 		full_idea_group = trade_caravans_ideas
+# 		full_idea_group = plutocracy_ideas
+# 	}
 	
-	trade_goods_size_modifier = 0.10
-	trade_efficiency = 0.10
+# 	trade_goods_size_modifier = 0.10
+# 	trade_efficiency = 0.10
 	
-	ai_will_do = {
-		factor = 1
-	}
-}
+# 	ai_will_do = {
+# 		factor = 1
+# 	}
+# }
 
-trade_caravans_9_policy = {
-	monarch_power = MIL
+# trade_caravans_9_policy = {
+# 	monarch_power = MIL
 	
-	potential = {
-		has_idea_group = trade_caravans_ideas
-		has_idea_group = horde_gov_ideas
-	}
+# 	potential = {
+# 		has_idea_group = trade_caravans_ideas
+# 		has_idea_group = horde_gov_ideas
+# 	}
 	
-	allow = {
-		full_idea_group = trade_caravans_ideas
-		full_idea_group = horde_gov_ideas
-	}
+# 	allow = {
+# 		full_idea_group = trade_caravans_ideas
+# 		full_idea_group = horde_gov_ideas
+# 	}
 	
-	trade_efficiency = 0.10
-	cavalry_power = 0.10
+# 	trade_efficiency = 0.10
+# 	cavalry_power = 0.10
 	
-	ai_will_do = {
-		factor = 1
-	}
-}
+# 	ai_will_do = {
+# 		factor = 1
+# 	}
+# }
 
-trade_caravans_10_policy = {
-	monarch_power = MIL
+# trade_caravans_10_policy = {
+# 	monarch_power = MIL
 	
-	potential = {
-		has_idea_group = trade_caravans_ideas
-		has_idea_group = theocracy_gov_ideas
-	}
+# 	potential = {
+# 		has_idea_group = trade_caravans_ideas
+# 		has_idea_group = theocracy_gov_ideas
+# 	}
 	
-	allow = {
-		full_idea_group = trade_caravans_ideas
-		full_idea_group = theocracy_gov_ideas
-	}
+# 	allow = {
+# 		full_idea_group = trade_caravans_ideas
+# 		full_idea_group = theocracy_gov_ideas
+# 	}
 	
-	land_morale = 0.10
-	manpower_in_true_faith_provinces = 0.10
+# 	land_morale = 0.10
+# 	manpower_in_true_faith_provinces = 0.10
 	
-	ai_will_do = {
-		factor = 1
-	}
-}
+# 	ai_will_do = {
+# 		factor = 1
+# 	}
+# }
 
-trade_caravans_11_policy = {
-	monarch_power = DIP
+# trade_caravans_11_policy = {
+# 	monarch_power = DIP
 	
-	potential = {
-		has_idea_group = trade_caravans_ideas
-		has_idea_group = indigenous_ideas
-	}
+# 	potential = {
+# 		has_idea_group = trade_caravans_ideas
+# 		has_idea_group = indigenous_ideas
+# 	}
 	
-	allow = {
-		full_idea_group = trade_caravans_ideas
-		full_idea_group = indigenous_ideas
-	}
+# 	allow = {
+# 		full_idea_group = trade_caravans_ideas
+# 		full_idea_group = indigenous_ideas
+# 	}
 	
-	tribal_development_growth = 0.005
-	development_cost = -0.10
+# 	tribal_development_growth = 0.005
+# 	development_cost = -0.10
 	
-	ai_will_do = {
-		factor = 1
-	}
-}
+# 	ai_will_do = {
+# 		factor = 1
+# 	}
+# }
 
 trade_caravans_12_policy = {
 	monarch_power = MIL
@@ -375,26 +375,3 @@ trade_caravans_18_policy = {
 		factor = 1
 	}
 }
-
-trade_caravans_19_policy = {
-	monarch_power = DIP
-	
-	potential = {
-		has_idea_group = trade_caravans_ideas
-		has_idea_group = mercenary_ideas
-	}
-	
-	allow = {
-		full_idea_group = trade_caravans_ideas
-		full_idea_group = mercenary_ideas
-	}
-	
-	production_efficiency = 0.10
-	land_morale = 0.10
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-
