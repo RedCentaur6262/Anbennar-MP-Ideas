@@ -149,6 +149,209 @@ country_event = {
 	
 	option = {
 		name = ideas_events.100.a
-		create_general = { tradition = 100 }
+		
+		random_list = {
+			50 = {
+				create_general = { 
+					tradition = 80 
+					add_fire = 1
+				}
+			}
+			50 = {
+				create_general = { 
+					tradition = 80 
+					add_shock = 1
+				}
+			}
+		}
 	}
 }
+
+# Supplimental Training
+country_event = {
+	id = ideas_events.101
+	title = ideas_events_title.101
+	desc = ideas_events_desc.101
+	picture = ANGRY_MOB_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = noble_academia_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = ideas_events.101.a
+		
+		random_list = {
+			25 = {
+				add_country_modifier = {
+					name = supplimental_training_fire
+					duration = 3650
+				}
+			}
+			25 = {
+				add_country_modifier = {
+					name = supplimental_training_shock
+					duration = 3650
+				}
+			}
+			25 = {
+				add_country_modifier = {
+					name = supplimental_training_manuever
+					duration = 3650
+				}
+			}
+			25 = {
+				add_country_modifier = {
+					name = supplimental_training_siege
+					duration = 3650
+				}
+			}
+		}
+	}
+}
+
+# Additional training
+country_event = {
+	id = ideas_events.102
+	title = ideas_events_title.102
+	desc = ideas_events_desc.102
+	picture = ANGRY_MOB_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = noble_academia_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = ideas_events.102.a
+		add_army_tradition = 10
+	}
+}
+
+
+
+#######################################
+# Strategic
+#######################################
+
+
+country_event = {
+	id = ideas_events.200
+	title = ideas_events_title.200
+	desc = ideas_events_desc.200
+	picture = ANGRY_MOB_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = strategic_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = ideas_events.200.a
+		
+	}
+}
+
+
+
+#######################################
+# Production
+#######################################
+
+
+country_event = {
+	id = ideas_events.300
+	title = ideas_events_title.300
+	desc = ideas_events_desc.300
+	picture = ANGRY_MOB_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = strategic_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = ideas_events.300.a
+		
+	}
+}
+
+
+
+#######################################
+# Trade Caravans
+#######################################
+
+
+country_event = {
+	id = ideas_events.400
+	title = ideas_events_title.400
+	desc = ideas_events_desc.400
+	picture = ANGRY_MOB_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = strategic_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = ideas_events.400.a
+		
+	}
+}
+
+
+
+#######################################
+# Magic
+#######################################
+
+
+country_event = {
+	id = ideas_events.500
+	title = ideas_events_title.500
+	desc = ideas_events_desc.500
+	picture = ANGRY_MOB_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = strategic_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = ideas_events.500.a
+		
+	}
+}
+

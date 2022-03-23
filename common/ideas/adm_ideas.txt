@@ -120,11 +120,12 @@ economic_ideas = {
 	}
 	
 	bonus = {
-		development_cost = -0.15
+		max_absolutism = 20
+		max_revolutionary_zeal = 20
 	}
 
 	bureaucracy = {
-		global_tax_modifier = 0.20
+		global_tax_modifier = 0.25
 	}
 	organised_construction = {
 		build_cost = -0.15
@@ -137,14 +138,14 @@ economic_ideas = {
 		interest = -1
 	}
 	centralization = {
-		global_autonomy = -0.05
+		global_autonomy = -0.07
 	}
 	nationalistic_enthusiasm = {
 		land_maintenance_modifier = -0.10
 		naval_maintenance_modifier = -0.10
 	}
 	smithian_economics = {
-		global_tax_income = 54
+		production_efficiency = 0.25
  	}
 
 	ai_will_do = {
@@ -207,6 +208,7 @@ expansion_ideas = {
 	}
 	general_colonization_law  = {
 		center_of_trade_upgrade_cost = -0.25
+		envoy_travel_time = -0.25
 	}
 	competetive_merchants  = {
 		global_trade_power = 0.20
@@ -335,7 +337,7 @@ administrative_ideas = {
 	category = ADM
 
 	bonus = {
-		core_creation = -0.20
+		administrative_efficiency = 0.05
 	}
 
 	organised_mercenary_payment = {
@@ -343,19 +345,19 @@ administrative_ideas = {
 		governing_cost = -0.10
 	}
 	adaptability = {
-		expand_administration_cost = -0.50
-	}
-	benefits_for_mercenaries = {
-		global_autonomy = -0.05
-	}
-	bookkeeping = {
 		adm_tech_cost_modifier = -0.10
 	}
-	organised_mercenary_recruitment = {
+	benefits_for_mercenaries = {
+		core_creation = -0.20
+	}
+	bookkeeping = {
 		adm_advisor_cost = -0.10
 	}
+	organised_mercenary_recruitment = {
+		expand_administration_cost = -0.50
+	}
 	administrative_efficiency_idea = {
-		administrative_efficiency = 0.05
+		global_autonomy = -0.05
 	}
 	civil_servants = {
 		governing_capacity_modifier = 0.10
@@ -396,7 +398,6 @@ humanist_ideas = {
 	}
 	cultural_ties = {
 		num_accepted_cultures = 3
-		culture_conversion_cost = 0.50
 	}
 	benevolence = {
 		promote_culture_cost = -0.50
@@ -430,30 +431,30 @@ magic_ideas = {
 	
 	bonus = {
 		# TODO: Can invite court mages
-		mages_loyalty_modifier = 0.10
+		mages_loyalty_modifier = 0.15
 		mages_influence_modifier = 0.10
 	}
 	
 	magic_1 = {
-		monarch_lifespan = 0.25
-	}
-	magic_2 = {
 		prestige_decay = -0.01
 	}
-	magic_3 = {
+	magic_2 = {
 		global_tax_modifier = 0.10
 	}
-	magic_4 = {
+	magic_3 = {
 		leader_land_shock = 2
 	}
-	magic_5 = {
+	magic_4 = {
 		defensiveness = 0.20
 	}
-	magic_6 = {
+	magic_5 = {
 		infantry_shock = 0.10
 	}
+	magic_6 = {
+		possible_policy = 1
+	}
 	magic_7 = {
-		free_leader_pool = 1
+		monarch_lifespan = 0.25
 	}
 	
 	ai_will_do = {

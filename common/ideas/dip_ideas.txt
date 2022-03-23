@@ -11,16 +11,16 @@ spy_ideas = {
 	
 	efficient_spies = {
 		spy_offence = 0.50
-		advisor_cost = -0.10
 	}
 	agent_training = {
 		diplomats = 1
 	}
 	vetting = {
 		global_spy_defence = 0.33
+		advisor_cost = -0.10
 	}
 	state_propaganda = {
-		ae_impact = -0.20
+		# ae_impact = -0.20
 		province_warscore_cost = -0.10
 	}
 	claim_fabrication = {
@@ -59,7 +59,7 @@ trade_ideas = {
 		trade_efficiency = 0.20
   	}
 	merchant_adventures = {
-		ship_durability = 0.10
+		trade_range_modifier = 0.25
 	}
 	national_trade_policy = {
 		blockade_efficiency = 0.20
@@ -67,12 +67,11 @@ trade_ideas = {
 	}
 	overseas_merchants = {
 		merchants = 1
-		trade_range_modifier = 0.25
 		trade_steering = 0.25
 	}
 	trade_manipulation = {
-		global_ship_trade_power = 0.40
-		naval_tradition_from_trade = 1
+		global_ship_trade_power = 0.20
+		naval_tradition_from_trade = 0.50
 	}
 	fast_negotiations = {
 		leader_naval_manuever = 1
@@ -112,19 +111,19 @@ trade_caravans_ideas = {
 		trade_efficiency = 0.10
 	}
 	trade_caravans_3 = {
-		global_trade_goods_size_modifier = 0.10
+		merchants = 1
 	}
 	trade_caravans_4 = {
-		merchants = 1
+		global_trade_goods_size_modifier = 0.10
 		mercantilism_cost = -0.20
 	}
 	trade_caravans_5 = {
-		center_of_trade_upgrade_cost = -0.20
-		trade_company_investment_cost = -0.20
+		merchants = 1
+		global_prov_trade_power_modifier = 0.10
 	}
 	trade_caravans_6 = {
-		global_prov_trade_power_modifier = 0.10
-		global_own_trade_power = 0.10
+		center_of_trade_upgrade_cost = -0.20
+		trade_company_investment_cost = -0.20
 	}
 	trade_caravans_7 = {
 		merchants = 1
@@ -146,8 +145,7 @@ production_ideas = {
 	}
 	
 	bonus = {
-		development_cost = -0.10
-		global_supply_limit_modifier = 0.50
+		global_trade_goods_size_modifier = 0.10
 	}
 	
 	production_1 = {
@@ -157,10 +155,10 @@ production_ideas = {
 		global_manpower_modifier = 0.10
 	}
 	production_3 = {
-		stability_cost_modifier = -0.30
+		stability_cost_modifier = -0.20
 	}
 	production_4 = {
-		global_autonomy = -0.07
+		global_autonomy = -0.05
 	}
 	production_5 = {
 		build_cost = -0.20
@@ -170,7 +168,7 @@ production_ideas = {
 		global_regiment_cost = -0.10
 	}
 	production_7 = {
-		global_trade_goods_size_modifier = 0.10
+		global_supply_limit_modifier = 0.50
 	}
 	
 	ai_will_do = {
@@ -191,10 +189,12 @@ exploration_ideas = {
 	bonus = {
 		cb_on_primitives = yes
 		adventurers_loyalty_modifier = 0.10
+		adventurers_influence_modifier = 0.10
 	}
 	
 	quest_for_the_new_world	= {
 		may_explore = yes
+		naval_attrition = -0.10
 	}
 	colonial_ventures = {
 		colonists = 1
@@ -205,18 +205,18 @@ exploration_ideas = {
 	}
 	land_of_opportunity = {
 		treasure_fleet_income = 0.50
-		heavy_ship_power = 0.10
+		ship_durability = 0.10
 	}
 	vice_roys  = {
 		global_trade_goods_size_modifier = 0.10
  	}
 	free_colonies = {
-		global_tariffs = 0.25
+		global_tariffs = 1
 		envoy_travel_time = -0.20
 	}
 	global_empire = {
 		colonists = 1
-		colonist_placement_chance = 0.05
+		colonist_placement_chance = 0.15
 	}
 	
 	ai_will_do = {
@@ -460,9 +460,11 @@ diplomatic_ideas = {
 	}
 	grand_banquets = {
 		province_warscore_cost = -0.25
+		ae_impact = -0.20
 	}
 	benign_diplomats = {
 		improve_relation_modifier = 0.50
+		power_projection_from_insults = 1
 	}
 	experienced_diplomats  = {
 		diplomatic_reputation = 2
@@ -493,31 +495,31 @@ influence_ideas = {
 	category = DIP
 
 	bonus = {
-		unjustified_demands = -0.50
+		vassal_forcelimit_bonus = 0.50
 	}
 
 	tribute_system = {
-		vassal_income = 0.33
-	}
-	additional_loyalist_recruitment = {
 		reduced_liberty_desire = 15
 		accept_vassalization_reasons = 10
+	}
+	additional_loyalist_recruitment = {
+		diplomatic_upkeep = 1
 	}
 	integrated_elites = {
 		diplomatic_annexation_cost = -0.30
 	}
 	buffer_states = {
-		diplomatic_upkeep = 1
+		vassal_income = 0.50
 	}
 	diplomatic_influence = {
 		diplomatic_reputation = 2
 	}
 	postal_service = {
-		envoy_travel_time = -0.25
-		diplomats = 1
+		manpower_recovery_speed = 0.10
+		reinforce_cost_modifier = -0.15
 	}
 	marcher_lords = {
-		vassal_forcelimit_bonus = 0.50
+		# TODO: Subjugation wargoal
 	}
 
 	ai_will_do = {
@@ -539,43 +541,41 @@ influence_ideas = {
 
 maritime_ideas = {
 	category = DIP
-
+	
 	trigger = {
 		primitives = no
 	}
-
+	
 	bonus = {
 		sea_repair = yes
-		movement_speed_in_fleet_modifier = 1 
+		leader_naval_manuever = 1
 	}
-
+	
 	merchant_traditions = {
 		naval_tradition_from_trade = 0.50
 		navy_tradition_decay = -0.01
 	}
 	merchant_marine = {
-		global_sailors_modifier = 0.50
-		naval_forcelimit_modifier = 0.50
+		naval_maintenance_modifier = -0.30
 	}
 	sheltered_ports = {
-		global_ship_repair = 0.20
-		sailor_maintenance_modifer = -0.20
+		may_perform_slave_raid_on_same_religion	= yes
 	}
 	grand_navy = {
-		sailors_recovery_speed = 0.33
+		capture_ship_chance = 0.33
+		privateer_efficiency = 0.50
 	}
 	ships_penny = {
-		global_ship_cost = -0.25
+		allowed_marine_fraction = 0.20
 	}
 	sea_hawks = {
-		free_leader_pool = 1
-		admiral_cost = -0.25
+		blockade_efficiency = 0.50
+		privateer_efficiency = 0.50
 	}
 	naval_fighting_instruction = {
-		blockade_efficiency = 0.50
-		privateer_efficiency = 0.25
+		naval_forcelimit_modifier = 0.50
 	}
-
+	
 	ai_will_do = {
 		factor = 0.41
 		modifier = {

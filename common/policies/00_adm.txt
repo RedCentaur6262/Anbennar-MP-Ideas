@@ -187,29 +187,29 @@ the_espionage_act = {
 	}
 }
 
-manueline_architecture = {
-	monarch_power = ADM
+# manueline_architecture = {
+# 	monarch_power = ADM
 
-	potential = {
-		has_idea_group = aristocracy_ideas
-		has_idea_group = expansion_ideas
-	}
+# 	potential = {
+# 		has_idea_group = aristocracy_ideas
+# 		has_idea_group = expansion_ideas
+# 	}
 	
-	allow = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = expansion_ideas
-	}
+# 	allow = {
+# 		full_idea_group = aristocracy_ideas
+# 		full_idea_group = expansion_ideas
+# 	}
 
-	build_cost = -0.15
+# 	build_cost = -0.15
 	
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0.1
-			is_at_war = yes
-		}
-	}
-}
+# 	ai_will_do = {
+# 		factor = 1
+# 		modifier = {
+# 			factor = 0.1
+# 			is_at_war = yes
+# 		}
+# 	}
+# }
 
 the_royal_commission_act = {
 	monarch_power = ADM
@@ -472,7 +472,7 @@ the_pioneer_policy = {
 		full_idea_group = expansion_ideas
 	}
 
-	auto_explore_adjacent_to_colony = yes
+	colonists = 1
 	colonist_placement_chance = 0.05
 	
 	ai_will_do = {

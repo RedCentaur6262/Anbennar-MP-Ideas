@@ -266,35 +266,32 @@ naval_ideas = {
 	}
 	
 	bonus = {
-		ship_durability = 0.15
-		allowed_marine_fraction = 0.25
+		global_naval_engagement_modifier = 0.20
+		allowed_marine_fraction = 0.20
 	}
 	
 	boarding_parties = {
 		leader_naval_shock = 1
-		galley_power = 0.20
+		galley_power = 0.10
 	}
 	improved_rams = {
 		naval_attrition = -0.10
 	}
 	naval_cadets = {
 		leader_naval_fire = 1
-		sunk_ship_morale_hit_recieved = -0.20
 	}
 	naval_glory = {
-		navy_tradition = 1
+		sunk_ship_morale_hit_recieved = -0.10
 	}
 	press_gangs = {
 		sailors_recovery_speed = 0.25
 	}
 	oak_forests_for_ships = {
 		heavy_ship_power = 0.10
-		light_ship_power = 0.15
 	}
 	superior_seamanship = {
 		leader_naval_manuever = 1
-		naval_morale = 0.20
-		global_naval_engagement_modifier = 0.20
+		naval_morale = 0.10
 	}
 	
 	ai_will_do = {
@@ -397,7 +394,7 @@ defensive_ideas = {
 		defensiveness = 0.15
 	}
 	military_drill = {
-		land_morale = 0.15
+		land_morale = 0.10
 		naval_morale = 0.10
 	}
 	improved_manuever = {
@@ -412,7 +409,7 @@ defensive_ideas = {
 		global_ship_cost = -0.10
 	}
 	supply_trains = {
-		sunk_ship_morale_hit_recieved = -0.20
+		sunk_ship_morale_hit_recieved = -0.10
 		reserves_organisation = 0.20
 	}
 	improved_foraging = {
@@ -441,30 +438,26 @@ quality_ideas = {
 	
 	private_to_marshal = {
 		infantry_power = 0.15
-		cavalry_power = 0.10
 	}
 	quality_education = {
-		land_morale = 0.10
-		naval_morale = 0.10
+		cavalry_power = 0.10
 	}
 	finest_of_horses = {
-		artillery_power = 0.1
-		backrow_artillery_damage = 0.10
+		heavy_ship_power = 0.10
 	}
 	escort_ships = {
-		heavy_ship_power = 0.10
+		galley_power = 0.10
 		light_ship_power = 0.10
 	}
 	naval_drill = {
-		galley_power = 0.15
-		naval_attrition = -0.10
-	}
-	copper_bottoms = {
 		drill_decay_modifier = -0.20
 		drill_gain_modifier = 0.60
 	}
+	copper_bottoms = {
+		artillery_power = 0.1
+	}
 	massed_battery = {
-		yearly_army_professionalism = 0.004
+		yearly_army_professionalism = 0.002
 		navy_tradition_decay = -0.01
 	}
 	
@@ -569,7 +562,7 @@ strategic_ideas = {
 	category = MIL
 
 	bonus = {
-		movement_speed = 0.10
+		movement_speed = 0.15
 	}
 	
 	strategic_1 = {
@@ -581,21 +574,20 @@ strategic_ideas = {
 		navy_tradition = 0.5
 	}
 	strategic_3 = {
-		artillery_power = 0.10
-		backrow_artillery_damage = 0.10
-		heavy_ship_power = 0.10
-	}
-	strategic_4 = {
 		global_manpower_modifier = 0.10
 		global_sailors_modifier = 0.20
+	}
+	strategic_4 = {
+		war_taxes_cost_modifier = -0.50
+		free_leader_pool = 1
 	}
 	strategic_5 = {
 		artillery_bonus_vs_fort = 1
 		siege_ability = 0.20
 	}
 	strategic_6 = {
-		war_taxes_cost_modifier = -0.50
-		free_leader_pool = 1
+		backrow_artillery_damage = 0.10
+		heavy_ship_power = 0.10
 	}
 	strategic_7 = {
 		mil_advisor_cost = -0.10

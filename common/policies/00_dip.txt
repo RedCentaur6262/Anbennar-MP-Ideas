@@ -812,7 +812,7 @@ fortified_trading_posts = {
 		full_idea_group = trade_ideas
 	}	
 	
-	global_ship_trade_power = 0.4
+	global_ship_trade_power = 0.2
 	light_ship_cost = -0.1
 	
 	ai_will_do = {
@@ -1145,8 +1145,8 @@ the_naval_supremacy_act = {
 		full_idea_group = maritime_ideas
 	}	
 	
-	privateer_efficiency = 0.5
-	blockade_efficiency = 0.5
+	privateer_efficiency = 2
+	light_ship_power = 0.10
 	
 	ai_will_do = {
 		factor = 0.8
