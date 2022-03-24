@@ -1,262 +1,267 @@
 
-# aristocracy_ideas = {
-# 	category = MIL
+aristocracy_ideas = {
+	category = MIL
 
-# 	bonus = {
-# 		leader_siege = 1
-# 		nobles_loyalty_modifier = 0.1
-# 	}
+	bonus = {
+		leader_siege = 1
+		nobles_loyalty_modifier = 0.1
+	}
 
-# 	trigger = {
-# 		OR = {
-# 			has_government_attribute = enables_aristocratic_idea_group
-# 			government = tribal
-# 		}
-# 		NOT = { government = theocracy }
-# 		NOT = { 
-# 			OR = {
-# 				has_reform = steppe_horde
-# 				has_reform = centaur_horde
-# 				has_reform = centaur_settled
-# 				has_reform = great_centaur_horde
-# 			}
-# 		}
-# 		NOT = { has_idea_group = plutocracy_ideas }
-# 		NOT = { has_idea_group = horde_gov_ideas }
-# 		NOT = { has_idea_group = theocracy_gov_ideas }
-# 	}
+	trigger = {
+		always = no
+		# OR = {
+		# 	has_government_attribute = enables_aristocratic_idea_group
+		# 	government = tribal
+		# }
+		# NOT = { government = theocracy }
+		# NOT = { 
+		# 	OR = {
+		# 		has_reform = steppe_horde
+		# 		has_reform = centaur_horde
+		# 		has_reform = centaur_settled
+		# 		has_reform = great_centaur_horde
+		# 	}
+		# }
+		# NOT = { has_idea_group = plutocracy_ideas }
+		# NOT = { has_idea_group = horde_gov_ideas }
+		# NOT = { has_idea_group = theocracy_gov_ideas }
+	}
 	
-# 	noble_knights = {
-# 		cavalry_power = 0.10
-# 		cav_to_inf_ratio = 0.25
-# 	}
-# 	military_traditions = {
-# 		mil_tech_cost_modifier  = -0.1
-# 		leader_cost = -0.1
-# 	}
-# 	local_nobility = {
-# 		cavalry_cost = -0.10
-# 		global_autonomy = -0.05
-# 	}
-# 	serfdom = {
-# 		global_manpower_modifier = 0.20
-# 		land_forcelimit_modifier = 0.1
-# 	}
-# 	noble_officers = {
-# 		army_tradition_decay = -0.01
-# 		navy_tradition_decay = -0.01
-# 	}
-# 	international_nobility = {
-# 		diplomats = 1
-# 		free_leader_pool = 1
-# 	}
-# 	noble_resilience = {
-# 		yearly_absolutism = 1
-# 		max_absolutism = 10
-# 	}
+	noble_knights = {
+		cavalry_power = 0.10
+		cav_to_inf_ratio = 0.25
+	}
+	military_traditions = {
+		mil_tech_cost_modifier  = -0.1
+		leader_cost = -0.1
+	}
+	local_nobility = {
+		cavalry_cost = -0.10
+		global_autonomy = -0.05
+	}
+	serfdom = {
+		global_manpower_modifier = 0.20
+		land_forcelimit_modifier = 0.1
+	}
+	noble_officers = {
+		army_tradition_decay = -0.01
+		navy_tradition_decay = -0.01
+	}
+	international_nobility = {
+		diplomats = 1
+		free_leader_pool = 1
+	}
+	noble_resilience = {
+		yearly_absolutism = 1
+		max_absolutism = 10
+	}
 	
 
-# 	ai_will_do = {
-# 		factor = 0.45
+	ai_will_do = {
+		factor = 0.45
 		
-# 		modifier = {
-# 			factor = 0.5
-# 			is_subject = yes
-# 		}	
-# 	}
-# }
+		modifier = {
+			factor = 0.5
+			is_subject = yes
+		}	
+	}
+}
 
-# plutocracy_ideas = {
-# 	category = MIL
+plutocracy_ideas = {
+	category = MIL
 
-# 	bonus = {
-# 		candidate_random_bonus = 1
-# 		burghers_loyalty_modifier = 0.1
-# 		vaisyas_loyalty_modifier = 0.1
+	bonus = {
+		candidate_random_bonus = 1
+		burghers_loyalty_modifier = 0.1
+		vaisyas_loyalty_modifier = 0.1
 		
-# 		# ANBENNAR
-# 		castonath_patricians_loyalty_modifier = 0.1
-# 	}
+		# ANBENNAR
+		castonath_patricians_loyalty_modifier = 0.1
+	}
 
-# 	trigger = {
-# 		has_government_attribute = enables_plutocratic_idea_group
-# 		NOT = { has_idea_group = aristocracy_ideas }
-# 		NOT = { has_idea_group = horde_gov_ideas }
-# 		NOT = { has_idea_group = theocracy_gov_ideas }
-# 	}
+	trigger = {
+		always = no
+		# has_government_attribute = enables_plutocratic_idea_group
+		# NOT = { has_idea_group = aristocracy_ideas }
+		# NOT = { has_idea_group = horde_gov_ideas }
+		# NOT = { has_idea_group = theocracy_gov_ideas }
+	}
 
-# 	tradition_of_payment = {
-# 		global_manpower_modifier = 0.10
-# 		discipline = 0.025
-# 	}
-# 	abolished_serfdom = {
-# 		land_morale = 0.10
-# 	}
-# 	bill_of_rights = {
-# 		global_unrest = -2
-# 	}
-# 	free_merchants = {
-# 		merchants = 1
-# 	}
-# 	free_subjects = {
-# 		global_trade_goods_size_modifier = 0.1
-# 	}
-# 	free_cities = {
-# 		caravan_power = 0.25
-# 	}
-# 	emancipation = {
-# 		manpower_recovery_speed = 0.2
-# 	}
+	tradition_of_payment = {
+		global_manpower_modifier = 0.10
+		discipline = 0.025
+	}
+	abolished_serfdom = {
+		land_morale = 0.10
+	}
+	bill_of_rights = {
+		global_unrest = -2
+	}
+	free_merchants = {
+		merchants = 1
+	}
+	free_subjects = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	free_cities = {
+		caravan_power = 0.25
+	}
+	emancipation = {
+		manpower_recovery_speed = 0.2
+	}
 
-# 	ai_will_do = {
-# 		factor = 0.4
-# 	}
-# }
+	ai_will_do = {
+		factor = 0.4
+	}
+}
 
-# horde_gov_ideas = {
-# 	category = MIL
+horde_gov_ideas = {
+	category = MIL
 	
-# 	bonus = {
-# 		cavalry_power = 0.20
-# 	}
+	bonus = {
+		cavalry_power = 0.20
+	}
 	
-# 	trigger = {
-# 		OR = {
-# 			has_reform = steppe_horde
-# 			has_reform = centaur_horde
-# 			has_reform = centaur_settled
-# 			has_reform = great_centaur_horde
-# 			has_reform = pachyderm_masters
-# 		}
-# 		NOT = { has_idea_group = aristocracy_ideas }
-# 		NOT = { has_idea_group = plutocracy_ideas }
-# 		NOT = { has_idea_group = theocracy_gov_ideas }
-# 	}
+	trigger = {
+		always = no
+		# OR = {
+		# 	has_reform = steppe_horde
+		# 	has_reform = centaur_horde
+		# 	has_reform = centaur_settled
+		# 	has_reform = great_centaur_horde
+		# 	has_reform = pachyderm_masters
+		# }
+		# NOT = { has_idea_group = aristocracy_ideas }
+		# NOT = { has_idea_group = plutocracy_ideas }
+		# NOT = { has_idea_group = theocracy_gov_ideas }
+	}
 	
-# 	horse_lords = {
-# 		cavalry_cost = -0.30
-# 	}
-# 	beyond_the_sun = {
-# 		ae_impact = -0.1
-# 	}
-# 	mandate_of_the_khan = {
-# 		religious_unity = 0.25
-# 	}
-# 	there_shall_be_no_grass = {
-# 		land_attrition = -0.2
-# 	}
-# 	horde_loyalty = {
-# 		global_unrest = -1
-# 	}
-# 	watchers_of_the_silk_road = {	
-# 		caravan_power = 0.20
-# 	}
-# 	a_magnanimous_empire = {
-# 		num_accepted_cultures = 2
-# 	}
+	horse_lords = {
+		cavalry_cost = -0.30
+	}
+	beyond_the_sun = {
+		ae_impact = -0.1
+	}
+	mandate_of_the_khan = {
+		religious_unity = 0.25
+	}
+	there_shall_be_no_grass = {
+		land_attrition = -0.2
+	}
+	horde_loyalty = {
+		global_unrest = -1
+	}
+	watchers_of_the_silk_road = {	
+		caravan_power = 0.20
+	}
+	a_magnanimous_empire = {
+		num_accepted_cultures = 2
+	}
 	
-# 	ai_will_do = {
-# 		factor = 20
-# 	}
-# }
+	ai_will_do = {
+		factor = 20
+	}
+}
 
-# theocracy_gov_ideas = {
-# 	category = MIL
+theocracy_gov_ideas = {
+	category = MIL
 	
-# 	bonus = {
-# 		global_heretic_missionary_strength = 0.01
-# 		church_loyalty_modifier = 0.1
-# 		brahmins_hindu_loyalty_modifier = 0.1
-# 		brahmins_muslim_loyalty_modifier = 0.1
-# 	}
+	bonus = {
+		global_heretic_missionary_strength = 0.01
+		church_loyalty_modifier = 0.1
+		brahmins_hindu_loyalty_modifier = 0.1
+		brahmins_muslim_loyalty_modifier = 0.1
+	}
 	
-# 	trigger = {
-# 		government = theocracy
-# 		NOT = {
-# 			OR = {
-# 				has_adventurer_reform = yes
-# 				has_reform = secular_order_reform
-# 				has_reform = magocracy_reform
-# 				has_reform = magisterium_reform
-# 				has_reform = black_demesne_reform
-# 				has_reform = black_acolyte_reform
-# 			}
-# 		}
-# 		NOT = { has_idea_group = aristocracy_ideas }
-# 		NOT = { has_idea_group = plutocracy_ideas }
-# 		NOT = { has_idea_group = horde_gov_ideas }
-# 	}
+	trigger = {
+		always = no
+		# government = theocracy
+		# NOT = {
+		# 	OR = {
+		# 		has_adventurer_reform = yes
+		# 		has_reform = secular_order_reform
+		# 		has_reform = magocracy_reform
+		# 		has_reform = magisterium_reform
+		# 		has_reform = black_demesne_reform
+		# 		has_reform = black_acolyte_reform
+		# 	}
+		# }
+		# NOT = { has_idea_group = aristocracy_ideas }
+		# NOT = { has_idea_group = plutocracy_ideas }
+		# NOT = { has_idea_group = horde_gov_ideas }
+	}
 	
-# 	servants_of_god = {
-# 		devotion = 1
-# 		legitimacy = 0.5
-# 	}
-# 	by_the_grace_of_god = {
-# 		fire_damage_received = -0.1
-# 	}
-# 	friends_in_high_places = {
-# 		leader_cost = -0.1
-# 	}
-# 	flesh_is_weak = {
-# 		land_morale = 0.1
-# 	}
-# 	alpha_and_omega = {
-# 		enforce_religion_cost = -0.4
-# 		culture_conversion_cost = -0.1
-# 	}
-# 	conviction_of_sin = {
-# 		global_unrest = -2
-# 	}
-# 	martyrs = {
-# 		manpower_in_true_faith_provinces = 0.20
-# 	}
-# 	ai_will_do = {
-# 		factor = 0.9
-# 		modifier = {
-# 			factor = 0
-# 			has_idea_group = humanist_ideas
-# 		}
-# 	}
-# }
+	servants_of_god = {
+		devotion = 1
+		legitimacy = 0.5
+	}
+	by_the_grace_of_god = {
+		fire_damage_received = -0.1
+	}
+	friends_in_high_places = {
+		leader_cost = -0.1
+	}
+	flesh_is_weak = {
+		land_morale = 0.1
+	}
+	alpha_and_omega = {
+		enforce_religion_cost = -0.4
+		culture_conversion_cost = -0.1
+	}
+	conviction_of_sin = {
+		global_unrest = -2
+	}
+	martyrs = {
+		manpower_in_true_faith_provinces = 0.20
+	}
+	ai_will_do = {
+		factor = 0.9
+		modifier = {
+			factor = 0
+			has_idea_group = humanist_ideas
+		}
+	}
+}
 
-# indigenous_ideas = {
-# 	category = MIL
+indigenous_ideas = {
+	category = MIL
 
-# 	bonus = {
-# 		global_institution_spread = 0.25
-# 	}
+	bonus = {
+		global_institution_spread = 0.25
+	}
 
-# 	trigger = {
-# 		has_government_attribute = enables_natives_idea_group
-# 	}
+	trigger = {
+		always = no
+		# has_government_attribute = enables_natives_idea_group
+	}
 
-# 	indigenous_bountiful_land = {
-# 		tribal_development_growth = 0.015
-# 		development_cost = -0.05
-# 	}
-# 	indigenous_irregular_warfare = {
-# 		hostile_attrition = 1
-# 	}
-# 	indigenous_constitution = {
-# 		monthly_reform_progress_modifier = 0.25
-# 	}
-# 	indigenous_braves = {
-# 		land_morale = 0.10
-# 	}
-# 	indigenous_controlled_burns = {
-# 		global_manpower_modifier = 0.2
-# 	}
-# 	indigenous_trade_with_foreigners = {
-# 		idea_cost = -0.1
-# 	}
-# 	indigenous_treaties = {
-# 		province_warscore_cost = -0.2
-# 	}
+	indigenous_bountiful_land = {
+		tribal_development_growth = 0.015
+		development_cost = -0.05
+	}
+	indigenous_irregular_warfare = {
+		hostile_attrition = 1
+	}
+	indigenous_constitution = {
+		monthly_reform_progress_modifier = 0.25
+	}
+	indigenous_braves = {
+		land_morale = 0.10
+	}
+	indigenous_controlled_burns = {
+		global_manpower_modifier = 0.2
+	}
+	indigenous_trade_with_foreigners = {
+		idea_cost = -0.1
+	}
+	indigenous_treaties = {
+		province_warscore_cost = -0.2
+	}
 
-# 	ai_will_do = {
-# 		factor = 1.0
-# 	}
-# }
+	ai_will_do = {
+		factor = 1.0
+	}
+}
 
 naval_ideas = {
 	category = MIL

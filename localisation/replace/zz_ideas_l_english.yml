@@ -25,6 +25,7 @@
  religious_ideas:0 "Religious"
  administrative_ideas:0 "Administrative"
  humanist_ideas:0 "Tolerance"
+ magic_ideas:0 "Magic"
  
  # Diplomatic Ideas Rename
  spy_ideas:0 "Espionage"
@@ -38,40 +39,165 @@
  strategic_ideas:0 "Strategic"
  
 
+ ## New Idea Groups
+ magic_ideas_bonus:0 "REPLACE_ME"
+ magic_1:0 "REPLACE_ME"
+ magic_1_desc:0 "REPLACE_ME"
+ magic_2:0 "REPLACE_ME"
+ magic_2_desc:0 "REPLACE_ME"
+ magic_3:0 "REPLACE_ME"
+ magic_3_desc:0 "REPLACE_ME"
+ magic_4:0 "REPLACE_ME"
+ magic_4_desc:0 "REPLACE_ME"
+ magic_5:0 "REPLACE_ME"
+ magic_5_desc:0 "REPLACE_ME"
+ magic_6:0 "REPLACE_ME"
+ magic_6_desc:0 "REPLACE_ME"
+ magic_7:0 "REPLACE_ME"
+ magic_7_desc:0 "REPLACE_ME"
+
+ trade_caravans_ideas_bonus:0 "REPLACE_ME"
+ trade_caravans_1:0 "REPLACE_ME"
+ trade_caravans_1_desc:0 "REPLACE_ME"
+ trade_caravans_2:0 "REPLACE_ME"
+ trade_caravans_2_desc:0 "REPLACE_ME"
+ trade_caravans_3:0 "REPLACE_ME"
+ trade_caravans_3_desc:0 "REPLACE_ME"
+ trade_caravans_4:0 "REPLACE_ME"
+ trade_caravans_4_desc:0 "REPLACE_ME"
+ trade_caravans_5:0 "REPLACE_ME"
+ trade_caravans_5_desc:0 "REPLACE_ME"
+ trade_caravans_6:0 "REPLACE_ME"
+ trade_caravans_6_desc:0 "REPLACE_ME"
+ trade_caravans_7:0 "REPLACE_ME"
+ trade_caravans_7_desc:0 "REPLACE_ME"
+
+ production_ideas_bonus:0 "REPLACE_ME"
+ production_1:0 "REPLACE_ME"
+ production_1_desc:0 "REPLACE_ME"
+ production_2:0 "REPLACE_ME"
+ production_2_desc:0 "REPLACE_ME"
+ production_3:0 "REPLACE_ME"
+ production_3_desc:0 "REPLACE_ME"
+ production_4:0 "REPLACE_ME"
+ production_4_desc:0 "REPLACE_ME"
+ production_5:0 "REPLACE_ME"
+ production_5_desc:0 "REPLACE_ME"
+ production_6:0 "REPLACE_ME"
+ production_6_desc:0 "REPLACE_ME"
+ production_7:0 "REPLACE_ME"
+ production_7_desc:0 "REPLACE_ME"
+
+ noble_academia_ideas_bonus:0 "REPLACE_ME"
+ noble_academia_1:0 "REPLACE_ME"
+ noble_academia_1_desc:0 "REPLACE_ME"
+ noble_academia_2:0 "REPLACE_ME"
+ noble_academia_2_desc:0 "REPLACE_ME"
+ noble_academia_3:0 "REPLACE_ME"
+ noble_academia_3_desc:0 "REPLACE_ME"
+ noble_academia_4:0 "REPLACE_ME"
+ noble_academia_4_desc:0 "REPLACE_ME"
+ noble_academia_5:0 "REPLACE_ME"
+ noble_academia_5_desc:0 "REPLACE_ME"
+ noble_academia_6:0 "REPLACE_ME"
+ noble_academia_6_desc:0 "REPLACE_ME"
+ noble_academia_7:0 "REPLACE_ME"
+ noble_academia_7_desc:0 "REPLACE_ME"
+
+ strategic_ideas_bonus:0 "REPLACE_ME"
+ strategic_1:0 "REPLACE_ME"
+ strategic_1_desc:0 "REPLACE_ME"
+ strategic_2:0 "REPLACE_ME"
+ strategic_2_desc:0 "REPLACE_ME"
+ strategic_3:0 "REPLACE_ME"
+ strategic_3_desc:0 "REPLACE_ME"
+ strategic_4:0 "REPLACE_ME"
+ strategic_4_desc:0 "REPLACE_ME"
+ strategic_5:0 "REPLACE_ME"
+ strategic_5_desc:0 "REPLACE_ME"
+ strategic_6:0 "REPLACE_ME"
+ strategic_6_desc:0 "REPLACE_ME"
+ strategic_7:0 "REPLACE_ME"
+ strategic_7_desc:0 "REPLACE_ME"
 
 
+ ## TOOD: Rename and change descriptions for modified old ideas
 
 
+ ## Modifiers
+ supplimental_training_fire:0 "REPLACE_ME"
+ desc_supplimental_training_fire:0 "REPLACE_ME"
+ supplimental_training_shock:0 "REPLACE_ME"
+ desc_supplimental_training_shock:0 "REPLACE_ME"
+ supplimental_training_manuever:0 "REPLACE_ME"
+ desc_supplimental_training_manuever:0 "REPLACE_ME"
+ supplimental_training_siege:0 "REPLACE_ME"
+ desc_supplimental_training_siege:0 "REPLACE_ME"
+
+ ### Idea Events
+ 
+ ## Noble Academia
+ ideas_events_title.100:0 "REPLACE_ME"
+ ideas_events_desc.100:0 "REPLACE_ME"
+ ideas_events.100.a:0 "REPLACE_ME"
+
+ ideas_events_title.101:0 "REPLACE_ME"
+ ideas_events_desc.101:0 "REPLACE_ME"
+ ideas_events.101.a:0 "REPLACE_ME"
+
+ ideas_events_title.102:0 "REPLACE_ME"
+ ideas_events_desc.102:0 "REPLACE_ME"
+ ideas_events.102.a:0 "REPLACE_ME"
+
+ ## Strategic
+ ideas_events_title.200:0 "REPLACE_ME"
+ ideas_events_desc.200:0 "REPLACE_ME"
+ ideas_events.200.a:0 "REPLACE_ME"
+
+ ## Production
+ ideas_events_title.300:0 "REPLACE_ME"
+ ideas_events_desc.300:0 "REPLACE_ME"
+ ideas_events.300.a:0 "REPLACE_ME"
+
+ ## Trade caravans
+ ideas_events_title.400:0 "REPLACE_ME"
+ ideas_events_desc.400:0 "REPLACE_ME"
+ ideas_events.400.a:0 "REPLACE_ME"
+ 
+ ## Magic
+ ideas_events_title.500:0 "REPLACE_ME"
+ ideas_events_desc.500:0 "REPLACE_ME"
+ ideas_events.500.a:0 "REPLACE_ME"
 
 # Global text colorings
 # textcolors = {
-# M = { 35 206 255 }	# Light blue
-# 	W = { 255 255 255 }	# White
-# 	B = { 0 0 255 }		# Blue
-# 	G = { 0 255 0 }		# Green
-# 	R = { 255 50 50 }	# Red
-# 	b = { 0 0 0 }		# Black
-# 	g = { 176 176 176 } # Gray
-# 	Y = { 255 189 0 }	# Yellow
-# 	T = { 0 255 239 }	# Teal
-# 	O = { 255 130 0 }	# Orange
-# 	l = { 154 193 75 }	# Lime/Mustard
+#   M = { 35  206 255 } # Light blue
+#   W = { 255 255 255 } # White
+#   B = { 0   0   255 } # Blue
+#   G = { 0   255 0   } # Green
+#   R = { 255 50  50  } # Red
+#   b = { 0   0   0   } # Black
+#   g = { 176 176 176 } # Gray
+#   Y = { 255 189 0   } # Yellow
+#   T = { 0   255 239 } # Teal
+#   O = { 255 130 0   } # Orange
+#   l = { 154 193 75  } # Lime/Mustard
 
-# 	#Anbennar
-# 	P = { 104 75 148 }	# Purple
-# 	H = { 255 243 156 }	# Pale yellow
-# 	d = { 101 127 153 }	# Damerian blue
-# 	D = { 138 172 211 }	# Damerian blue (lighter)
-# 	S = { 193 236 255 }	# Sky blue
-# 	L = { 225 200 136 }	# Beige/Washed out orange
-# 	p = { 255 158 169 }	# Pink
-# 	m = { 205 255 186 }	# Mint
-# 	w = { 254 254 254 }	# White-1
-# 	y = { 219 203 71 }	# Dark yellow
-# 	r = { 190 10 10 }	# Dark red
-# 	v = { 44 171 50 }	# Green
-# 	C = { 137 60 152 }	# Darker pink/Magenta
-# 	c = { 181 77 218 }	# Dark pink
-# 	o = { 208 102 32 }	# Darker orange
-# 	E = { 94 87 219 }	# Indigo/Blue going purple
+#   #Anbennar
+#   P = { 104 75  148 } # Purple
+#   H = { 255 243 156 } # Pale yellow
+#   d = { 101 127 153 } # Damerian blue
+#   D = { 138 172 211 } # Damerian blue (lighter)
+#   S = { 193 236 255 } # Sky blue
+#   L = { 225 200 136 } # Beige/Washed out orange
+#   p = { 255 158 169 } # Pink
+#   m = { 205 255 186 } # Mint
+#   w = { 254 254 254 } # White-1
+#   y = { 219 203 71  } # Dark yellow
+#   r = { 190 10  10  } # Dark red
+#   v = { 44  171 50  } # Green
+#   C = { 137 60  152 } # Darker pink/Magenta
+#   c = { 181 77  218 } # Dark pink
+#   o = { 208 102 32  } # Darker orange
+#   E = { 94  87  219 } # Indigo/Blue going purple
 # }
