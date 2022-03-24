@@ -167,7 +167,7 @@ country_event = {
 	}
 }
 
-# Supplimental Training
+# supplemental Training
 country_event = {
 	id = ideas_events.101
 	title = ideas_events_title.101
@@ -190,25 +190,25 @@ country_event = {
 		random_list = {
 			25 = {
 				add_country_modifier = {
-					name = supplimental_training_fire
+					name = supplemental_training_fire
 					duration = 3650
 				}
 			}
 			25 = {
 				add_country_modifier = {
-					name = supplimental_training_shock
+					name = supplemental_training_shock
 					duration = 3650
 				}
 			}
 			25 = {
 				add_country_modifier = {
-					name = supplimental_training_manuever
+					name = supplemental_training_manuever
 					duration = 3650
 				}
 			}
 			25 = {
 				add_country_modifier = {
-					name = supplimental_training_siege
+					name = supplemental_training_siege
 					duration = 3650
 				}
 			}

@@ -125,46 +125,53 @@
 
 
  ## Modifiers
- supplimental_training_fire:0 "REPLACE_ME"
- desc_supplimental_training_fire:0 "REPLACE_ME"
- supplimental_training_shock:0 "REPLACE_ME"
- desc_supplimental_training_shock:0 "REPLACE_ME"
- supplimental_training_manuever:0 "REPLACE_ME"
- desc_supplimental_training_manuever:0 "REPLACE_ME"
- supplimental_training_siege:0 "REPLACE_ME"
- desc_supplimental_training_siege:0 "REPLACE_ME"
+ supplemental_training_fire:0 "REPLACE_ME"
+ desc_supplemental_training_fire:0 "REPLACE_ME"
+ supplemental_training_shock:0 "REPLACE_ME"
+ desc_supplemental_training_shock:0 "REPLACE_ME"
+ supplemental_training_manuever:0 "REPLACE_ME"
+ desc_supplemental_training_manuever:0 "REPLACE_ME"
+ supplemental_training_siege:0 "REPLACE_ME"
+ desc_supplemental_training_siege:0 "REPLACE_ME"
 
  ### Idea Events
  
  ## Noble Academia
+ # Brilliant general
  ideas_events_title.100:0 "REPLACE_ME"
  ideas_events_desc.100:0 "REPLACE_ME"
  ideas_events.100.a:0 "REPLACE_ME"
 
+ # Supplemental Training
  ideas_events_title.101:0 "REPLACE_ME"
  ideas_events_desc.101:0 "REPLACE_ME"
  ideas_events.101.a:0 "REPLACE_ME"
 
+ # Template
  ideas_events_title.102:0 "REPLACE_ME"
  ideas_events_desc.102:0 "REPLACE_ME"
  ideas_events.102.a:0 "REPLACE_ME"
 
  ## Strategic
+ # Template
  ideas_events_title.200:0 "REPLACE_ME"
  ideas_events_desc.200:0 "REPLACE_ME"
  ideas_events.200.a:0 "REPLACE_ME"
 
  ## Production
+ # Template
  ideas_events_title.300:0 "REPLACE_ME"
  ideas_events_desc.300:0 "REPLACE_ME"
  ideas_events.300.a:0 "REPLACE_ME"
 
  ## Trade caravans
+ # Template
  ideas_events_title.400:0 "REPLACE_ME"
  ideas_events_desc.400:0 "REPLACE_ME"
  ideas_events.400.a:0 "REPLACE_ME"
  
  ## Magic
+ # Template
  ideas_events_title.500:0 "REPLACE_ME"
  ideas_events_desc.500:0 "REPLACE_ME"
  ideas_events.500.a:0 "REPLACE_ME"
