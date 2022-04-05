@@ -74,7 +74,8 @@ strategic_4_policy = {
 		full_idea_group = expansion_ideas
 	}
 	
-	ae_impact = -0.10
+	# ae_impact = -0.10
+	colonist_placement_chance = 0.10
 	core_creation = -0.05
 	
 	ai_will_do = {
@@ -138,6 +139,7 @@ strategic_7_policy = {
 	}
 	
 	global_manpower_modifier = 0.10
+	possible_condottieri = 4
 	
 	ai_will_do = {
 		factor = 1
@@ -179,7 +181,7 @@ strategic_9_policy = {
 	}
 	
 	land_forcelimit_modifier = 0.10
-	naval_forcelimit_modifier = 0.50
+	naval_forcelimit_modifier = 0.20
 	
 	ai_will_do = {
 		factor = 1
@@ -200,7 +202,7 @@ strategic_10_policy = {
 	}
 	
 	diplomats = 1
-	improve_relation_modifier = 0.33
+	mil_advisor_cost = -0.10
 	
 	ai_will_do = {
 		factor = 1

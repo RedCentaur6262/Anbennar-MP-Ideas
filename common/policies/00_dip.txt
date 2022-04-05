@@ -53,7 +53,7 @@ hold_the_weather_gauge = {
 	}
 	
 	leader_naval_manuever = 1
-	ship_durability = 0.05
+	ship_durability = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -257,7 +257,7 @@ naval_infrastructure_act = {
 	}
 
 
-	naval_forcelimit_modifier = 0.33
+	naval_forcelimit_modifier = 0.20
 
 
 	ai_will_do = {
@@ -310,41 +310,41 @@ new_naval_tactis = {
 	}
 }
 
-trade_connection_policy = {
-	monarch_power = DIP
-	potential = {
-		has_idea_group = aristocracy_ideas
-		has_idea_group = trade_ideas
-	}
+# trade_connection_policy = {
+# 	monarch_power = DIP
+# 	potential = {
+# 		has_idea_group = aristocracy_ideas
+# 		has_idea_group = trade_ideas
+# 	}
 	
-	allow = {
-		full_idea_group = aristocracy_ideas
-		full_idea_group = trade_ideas
-	}
+# 	allow = {
+# 		full_idea_group = aristocracy_ideas
+# 		full_idea_group = trade_ideas
+# 	}
 
-	global_foreign_trade_power = 0.30
-	merchants = 1
+# 	global_foreign_trade_power = 0.30
+# 	merchants = 1
 
-	ai_will_do = {
-		factor = 0.8		
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.2
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.3
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.4
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.5
-		}
-	}
-}
+# 	ai_will_do = {
+# 		factor = 0.8		
+# 		modifier = {
+# 			factor = 1.5
+# 			trade_income_percentage = 0.2
+# 		}
+# 		modifier = {
+# 			factor = 1.5
+# 			trade_income_percentage = 0.3
+# 		}
+# 		modifier = {
+# 			factor = 1.5
+# 			trade_income_percentage = 0.4
+# 		}
+# 		modifier = {
+# 			factor = 1.5
+# 			trade_income_percentage = 0.5
+# 		}
+# 	}
+# }
 
 naval_secrecy_act = {
 	monarch_power = DIP
@@ -358,8 +358,8 @@ naval_secrecy_act = {
 		full_idea_group = defensive_ideas
 	}
 
-	global_spy_defence = 0.2
-	naval_morale = 0.1
+	global_spy_defence = 0.20
+	naval_morale = 0.05
 
 	ai_will_do = {
 		factor = 0.8
@@ -446,8 +446,8 @@ production_quota_act = {
 		full_idea_group = trade_ideas
 		full_idea_group = quantity_ideas
 	}
-	global_trade_goods_size_modifier = 0.2
- 
+	global_trade_goods_size_modifier = 0.1
+	 
 
 	ai_will_do = {
 		factor = 0.7
@@ -533,30 +533,30 @@ commercial_embassies = {
 	}
 }
 
-mandatory_service = {
-	monarch_power = DIP
-	potential = {
-		has_idea_group = diplomatic_ideas
-		has_idea_group = plutocracy_ideas
-	}
+# mandatory_service = {
+# 	monarch_power = DIP
+# 	potential = {
+# 		has_idea_group = diplomatic_ideas
+# 		has_idea_group = plutocracy_ideas
+# 	}
 	
-	allow = {
-		full_idea_group = diplomatic_ideas
-		full_idea_group = plutocracy_ideas
-	}
+# 	allow = {
+# 		full_idea_group = diplomatic_ideas
+# 		full_idea_group = plutocracy_ideas
+# 	}
 	
-	reelection_cost = -0.10
-	legitimacy = 1.0
-	devotion = 1.0
-	horde_unity = 1.0
-	meritocracy = 0.5
-	may_recruit_female_generals = yes
-	female_advisor_chance = 0.25
+# 	reelection_cost = -0.10
+# 	legitimacy = 1.0
+# 	devotion = 1.0
+# 	horde_unity = 1.0
+# 	meritocracy = 0.5
+# 	may_recruit_female_generals = yes
+# 	female_advisor_chance = 0.25
 
-	ai_will_do = {
-		factor = 0
-	}
-}
+# 	ai_will_do = {
+# 		factor = 0
+# 	}
+# }
 
 
 professional_diplomatic_corps = {
@@ -582,57 +582,57 @@ professional_diplomatic_corps = {
 
 
 
-colonial_companies_act = {
-	monarch_power = DIP
-	potential = {
-		has_idea_group = exploration_ideas
-		has_idea_group = plutocracy_ideas
-	}
+# colonial_companies_act = {
+# 	monarch_power = DIP
+# 	potential = {
+# 		has_idea_group = exploration_ideas
+# 		has_idea_group = plutocracy_ideas
+# 	}
 	
-	allow = {
-		full_idea_group = exploration_ideas
-		full_idea_group = plutocracy_ideas
-	}
+# 	allow = {
+# 		full_idea_group = exploration_ideas
+# 		full_idea_group = plutocracy_ideas
+# 	}
 	
-	range = 0.20
-	global_colonial_growth = 10
+# 	range = 0.20
+# 	global_colonial_growth = 10
 
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { num_of_colonists = 1 }
-		}
-		modifier = {
-			factor = 0.6
-			NOT = { num_of_colonies = 1 }
-		}
-	}
-}
+# 	ai_will_do = {
+# 		factor = 1
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { num_of_colonists = 1 }
+# 		}
+# 		modifier = {
+# 			factor = 0.6
+# 			NOT = { num_of_colonies = 1 }
+# 		}
+# 	}
+# }
 
-protected_shipping_lanes = {
-	monarch_power = DIP
-	potential = {
-		has_idea_group = maritime_ideas
-		has_idea_group = plutocracy_ideas
-	}
+# protected_shipping_lanes = {
+# 	monarch_power = DIP
+# 	potential = {
+# 		has_idea_group = maritime_ideas
+# 		has_idea_group = plutocracy_ideas
+# 	}
 	
-	allow = {
-		full_idea_group = maritime_ideas
-		full_idea_group = plutocracy_ideas
-	}
+# 	allow = {
+# 		full_idea_group = maritime_ideas
+# 		full_idea_group = plutocracy_ideas
+# 	}
 	
-	light_ship_cost = -0.15
-	light_ship_power = 0.15
+# 	light_ship_cost = -0.15
+# 	light_ship_power = 0.15
 
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { num_of_light_ship = 10 }
-		}
-	}
-}
+# 	ai_will_do = {
+# 		factor = 1
+# 		modifier = {
+# 			factor = 0
+# 			NOT = { num_of_light_ship = 10 }
+# 		}
+# 	}
+# }
 
 chaplains_of_the_fleet = {
 	monarch_power = DIP
@@ -647,7 +647,7 @@ chaplains_of_the_fleet = {
 		full_idea_group = maritime_ideas
 	}
 	
-	naval_morale = 0.1
+	naval_morale = 0.05
 	recover_navy_morale_speed = 0.05
 	
 	ai_will_do = {
@@ -722,8 +722,9 @@ the_foreign_aid_act = {
 		full_idea_group = influence_ideas
 	}	
 	
-	diplomatic_upkeep = 1
-	diplomatic_reputation = 1
+	# diplomatic_upkeep = 1
+	diplomatic_reputation = 2
+	diplomatic_annexation_cost = -0.20
 	
 	ai_will_do = {
 		factor = 0.9
@@ -743,7 +744,9 @@ cultural_unity = {
 		full_idea_group = religious_ideas
 	}	
 	
-	culture_conversion_cost = -0.2
+	diplomats = 1
+	prestige = 1
+	# diplomatic_upkeep = 1
 	
 	ai_will_do = {
 		factor = 0.6
@@ -894,7 +897,8 @@ the_cooperation_act = {
 		full_idea_group = influence_ideas
 	}	
 	
-	caravan_power = 0.33
+	# caravan_power = 0.33
+	global_foreign_trade_power = 0.33
 	merchants = 1
 	
 	ai_will_do = {
@@ -1058,7 +1062,7 @@ black_chamber_act = {
 		full_idea_group = offensive_ideas
 	}
 	
-	spy_offence = 0.10
+	fabricate_claims_cost = -0.25
 	diplomats = 1
 
 	ai_will_do = {
@@ -1079,7 +1083,8 @@ diplomatic_defence_act = {
 	}
 
 	diplomats = 1
-	diplomatic_upkeep = 1
+	global_regiment_cost = -0.10
+	global_ship_cost = -0.10
 	
 	ai_will_do = {
 		factor = 0.7
@@ -1104,7 +1109,8 @@ armed_neutrality_act = {
 		full_idea_group = trade_ideas
 	}
 	
-	trade_steering = 0.25
+	# trade_steering = 0.25
+	global_prov_trade_power_modifier = 0.10
 	merchants = 1
 
 	ai_will_do = {
@@ -1170,7 +1176,7 @@ letters_of_marque = {
 		full_idea_group = exploration_ideas
 	}
 	
-	privateer_efficiency = 0.5
+	native_uprising_chance = -0.5
 	ship_durability = 0.05
 
 	
@@ -1196,7 +1202,7 @@ trained_marines_act = {
 		full_idea_group = maritime_ideas
 	}
 	
-	naval_morale = 0.2
+	naval_morale = 0.10
 
 	ai_will_do = {
 		factor = 1

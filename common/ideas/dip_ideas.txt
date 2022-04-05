@@ -152,7 +152,7 @@ production_ideas = {
 		production_efficiency = 0.10
 	}
 	production_2 = {
-		global_manpower_modifier = 0.10
+		build_time = -0.10
 	}
 	production_3 = {
 		stability_cost_modifier = -0.20
@@ -164,7 +164,6 @@ production_ideas = {
 		build_cost = -0.20
 	}
 	production_6 = {
-		# inflation_action_cost = -0.3
 		global_regiment_cost = -0.10
 	}
 	production_7 = {

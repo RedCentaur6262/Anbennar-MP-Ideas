@@ -231,7 +231,7 @@ trade_caravans_6_policy = {
 # }
 
 trade_caravans_12_policy = {
-	monarch_power = MIL
+	monarch_power = DIP
 	
 	potential = {
 		has_idea_group = trade_caravans_ideas
@@ -243,7 +243,8 @@ trade_caravans_12_policy = {
 		full_idea_group = naval_ideas
 	}
 	
-	global_ship_trade_power = 0.20
+	caravan_power = 0.20
+	trade_efficiency = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -368,8 +369,8 @@ trade_caravans_18_policy = {
 		full_idea_group = strategic_ideas
 	}
 	
-	leader_siege = 1
 	siege_ability = 0.10
+	global_supply_limit_modifier = 0.50
 	
 	ai_will_do = {
 		factor = 1

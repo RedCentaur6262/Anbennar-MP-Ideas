@@ -34,7 +34,7 @@ production_2_policy = {
 	}
 	
 	tolerance_own = 1
-	global_tax_modifier = 0.1
+	production_efficiency = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -96,8 +96,7 @@ production_5_policy = {
 		full_idea_group = humanist_ideas
 	}
 	
-	tolerance_heathen = 1
-	tolerance_heretic = 1
+	religious_unity = 0.10
 	global_manpower_modifier = 0.1
 	
 	ai_will_do = {
@@ -208,7 +207,7 @@ production_5_policy = {
 # }
 
 production_11_policy = {
-	monarch_power = MIL
+	monarch_power = DIP
 	
 	potential = {
 		has_idea_group = production_ideas
@@ -242,7 +241,8 @@ production_12_policy = {
 	}
 	
 	global_supply_limit_modifier = 0.50
-	land_attrition = -0.10
+	# land_attrition = -0.10
+	backrow_artillery_damage = 0.07
 	
 	ai_will_do = {
 		factor = 1
@@ -271,7 +271,7 @@ production_13_policy = {
 }
 
 production_14_policy = {
-	monarch_power = DIP
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = production_ideas
