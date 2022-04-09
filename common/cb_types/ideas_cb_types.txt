@@ -1,0 +1,35 @@
+
+
+
+cb_influence_subjugation = {
+	
+	valid_for_subject = no
+	
+	prerequisites = {
+		has_idea_group = influence_ideas
+		total_development = FROM
+		is_neighbor_of = FROM
+		FROM = { is_subject = no }
+		
+		OR = {
+			FROM = { NOT = { total_development = 200 } }
+			variable_arithmetic_trigger = {
+				custom_tooltip = from_total_development_is_a_quarter_of_ours
+				export_to_variable = {
+					which = our_total_development
+					value = trigger_value:total_development
+				}
+				export_to_variable = {
+					which = from_total_development
+					value = trigger_value:total_development
+					who = FROM
+				}
+				divide_variable = { which = our_total_development value = 4 }
+				
+				check_variable = { which = our_total_development which = from_total_development }
+			}
+		}
+	}
+	
+	war_goal = take_capital_vassalize
+}

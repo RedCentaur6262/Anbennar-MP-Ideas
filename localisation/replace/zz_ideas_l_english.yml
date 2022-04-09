@@ -31,13 +31,67 @@
  spy_ideas:0 "Espionage"
  diplomatic_ideas:0 "Diplomatic"
  influence_ideas:0 "Influence"
- maritime_ideas:0 "Privatering"
+ maritime_ideas:0 "Privateering"
  
  # Military Ideas Rename
  naval_ideas:0 "Naval"
  noble_academia_ideas:0 "Noble Academia"
  strategic_ideas:0 "Strategic"
  
+ CV_IDEAS_BONUS_IDEA:0 "When fully unlocked, you gain the following additional benefit:\n" 
+
+ ## TOOD: Rename and change descriptions for modified old ideas
+ 
+
+ ### Diplomatic Ideas
+
+ ## Espionage Localization
+ efficient_spies:0 "Efficient Spies"
+ efficient_spies_desc:0 "Most peasants will sell their own mother for cash but find those who can do something truly useful is more difficult. Through experience we are learning to separate the wheat from the chaff.\n"
+ 
+ agent_training:0 "Agent Training"
+ agent_training_desc:0 "We have many covert operations planned but lack the men for the tasks. Establishing a training method for our spies will help bolster the available agents for dangerous missions.\n"
+ 
+ vetting:0 "Vetting"
+ vetting_desc:0 "With so many offices for profit, we sometimes find that those who run our administration are susceptible to bribes from foreign powers. A few simple background checks will weed out the most prone to corruption.\n"
+ 
+ state_propaganda:0 "State Propaganda"
+ state_propaganda_desc:0 "As with a man, a nation's reputation is everything, and the establishment of an official propaganda service will ensure our good name is not smeared by the lies of our enemies.\n"
+ 
+ claim_fabrication:0 "Claim Fabrication"
+ claim_fabrication_desc:0 "Claiming something as yours is easy, persuading everyone else that you have a valid claim is much harder. By spreading our diplomatic net wide, we can ensure that the people who matter know that this claim is ours.\n"
+ 
+ privateers:0 "Privateers"
+ privateers_desc:0 "Waging war on enemy commerce rests on the apex of the first triad of victory. We will encourage crusty sea captains to strike at the enemy's trade.\n"
+ 
+ audit_checks:0 "Audit Checks"
+ audit_checks_desc:0 "While we look to infiltrate other nations, we must be vigilant of poisonous ideas spreading around our own courts. Assembling an audit team to ensure our ministers are acting in the state's interest will help root out some rotten elements.\n\nAllows studying technologies."
+ 
+
+ ## Influence Localization
+ tribute_system:0 "Tribute System"
+ tribute_system_desc:0 "Strengthen our income by establishing a formalized system of yearly tribute from our vassals.\n"
+ 
+ additional_loyalist_recruitment:0 "Additional Loyalist Recruitment"
+ additional_loyalist_recruitment_desc:0 "Naturally, there are those who reside in our subjects' lands who understand the divine right of our rule. By recruiting and aiding these enlightened individuals we can strengthen our grasp on subject nations.\n"
+
+ integrated_elites:0 "Integrated Elites"
+ integrated_elites_desc:0 "By bringing the ruling elite of our subject nations into our government we can smoothen the process of integrating their provinces significantly.\n"
+
+ buffer_states:0 "Buffer States"
+ buffer_states_desc:0 "To avoid wars between us and a mighty rival, establishing a buffer state between us is not only mutually beneficial but imperative for the stability of the region.\n"
+
+ diplomatic_influence:0 "Diplomatic Influence"
+ diplomatic_influence_desc:0 "By focusing on Diplomacy we can increase the power we wield on the diplomatic stage. This power can gain us many friends.\n"
+
+ postal_service:0 "Postal Service"
+ postal_service_desc:0 "With communications being what they are, it is difficult to ensure that our diplomatic dispatches arrive in a timely fashion. Creating a network of post offices and courier rest stops will make it easier for our voice to be heard in distant lands.\n"
+
+ marcher_lords:0 "Marcher Lords"
+ marcher_lords_desc:0 "\nGrants subjugation casus belli on neighbouring states that have less than 200 development or has less than a quarter of our total development."
+
+#  cb_influence_subjugation:0 ""
+#  cb_influence_subjugation_desc:0 ""
 
  ## New Idea Groups
 #  magic_ideas_bonus:0 "REPLACE_ME"
@@ -119,9 +173,6 @@
 #  strategic_6_desc:0 "REPLACE_ME"
 #  strategic_7:0 "REPLACE_ME"
 #  strategic_7_desc:0 "REPLACE_ME"
-
-
- ## TOOD: Rename and change descriptions for modified old ideas
 
 
  ## Modifiers
