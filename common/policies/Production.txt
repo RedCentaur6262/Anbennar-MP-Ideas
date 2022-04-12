@@ -304,7 +304,7 @@ production_15_policy = {
 		full_idea_group = quantity_ideas
 	}
 	
-	trade_goods_size_modifier = 0.10
+	global_trade_goods_size_modifier = 0.10
 	production_efficiency = 0.10
 	
 	ai_will_do = {

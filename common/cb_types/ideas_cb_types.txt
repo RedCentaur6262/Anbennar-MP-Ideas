@@ -6,7 +6,7 @@ cb_influence_subjugation = {
 	valid_for_subject = no
 	
 	prerequisites = {
-		has_idea_group = influence_ideas
+		full_idea_group = influence_ideas
 		total_development = FROM
 		is_neighbor_of = FROM
 		FROM = { is_subject = no }
