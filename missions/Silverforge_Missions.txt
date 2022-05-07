@@ -930,7 +930,7 @@ A73_soldier_up = {
 			else = { treasury = 2800 }
 			or = {
 				has_idea_group = trade_ideas
-				has_idea_group = trade_caravan_ideas
+				has_idea_group = trade_caravans_ideas
 			}
 		}
 		
