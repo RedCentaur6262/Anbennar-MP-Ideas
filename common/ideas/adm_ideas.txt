@@ -4,8 +4,6 @@ innovativeness_ideas = {
 	
 	bonus = {
 		monarch_admin_power = 1
-		artificers_loyalty_modifier = 0.1
-		artificers_influence_modifier = 0.1
 	}
 	
 	patron_of_art  = {
@@ -13,10 +11,10 @@ innovativeness_ideas = {
 	}
 	empiricism = {
 		innovativeness_gain = 0.5
+		idea_cost = -0.10
 	}
 	scientific_revolution = {
-		technology_cost = -0.1
-		idea_cost = -0.05
+		technology_cost = -0.10
 	}
 	dynamic_court = {
 		advisor_pool = 2
@@ -30,7 +28,8 @@ innovativeness_ideas = {
 		war_exhaustion = -0.04
 	}
 	formalized_officer_corps = {
-		free_leader_pool = 1
+		global_tax_modifier = 0.10
+		production_efficiency = 0.10
 	}
 
 	ai_will_do = {
@@ -379,8 +378,7 @@ humanist_ideas = {
 	bonus = {
 		idea_cost = -0.1
 		yearly_harmony = 0.25  # Used if religion uses harmony (confucianism)
-		# all_estate_loyalty_equilibrium = 0.10
-		all_estate_loyalty_equilibrium = 10
+		all_estate_loyalty_equilibrium = 0.10
 	}
 	
 	tolerance_idea = {
@@ -426,8 +424,8 @@ magic_ideas = {
 	category = ADM
 	
 	trigger = {
-		# TODO: Only if you have mage estate
 		has_estate = estate_mages
+		not = { has_idea_group = artificery_ideas }
 	}
 	
 	bonus = {
@@ -456,6 +454,46 @@ magic_ideas = {
 	}
 	magic_7 = {
 		monarch_lifespan = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 0.5
+	}
+}
+
+artificery_ideas = {
+	category = ADM
+	
+	trigger = {
+		has_estate = estate_artificers
+		not = { has_idea_group = magic_ideas }
+	}
+	
+	bonus = {
+		artificers_influence_modifier = 0.15
+		artificers_loyalty_modifier = 0.1
+	}
+	
+	artificery_1 = {
+		build_time = -0.10
+	}
+	artificery_2 = {
+		production_efficiency = 0.10
+	}
+	artificery_3 = {
+		build_cost = -0.10
+	}
+	artificery_4 = {
+		technology_cost = -0.05
+	}
+	artificery_5 = {
+		innovativeness_gain = 0.50
+	}
+	artificery_6 = {
+		special_unit_forcelimit = 0.20
+	}
+	artificery_7 = {
+		fire_damage = 0.05
 	}
 	
 	ai_will_do = {

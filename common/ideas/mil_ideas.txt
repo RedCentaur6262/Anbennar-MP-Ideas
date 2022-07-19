@@ -271,7 +271,7 @@ naval_ideas = {
 	}
 	
 	bonus = {
-		global_naval_engagement_modifier = 0.20
+		global_naval_engagement_modifier = 0.10
 		allowed_marine_fraction = 0.20
 	}
 	
@@ -281,9 +281,11 @@ naval_ideas = {
 	}
 	improved_rams = {
 		naval_attrition = -0.10
+		infantry_shock = 0.10
 	}
 	naval_cadets = {
 		leader_naval_fire = 1
+		infantry_power = 0.10
 	}
 	naval_glory = {
 		sunk_ship_morale_hit_recieved = -0.10
@@ -296,7 +298,7 @@ naval_ideas = {
 	}
 	superior_seamanship = {
 		leader_naval_manuever = 1
-		naval_morale = 0.10
+		global_sailors_modifier = 0.40
 	}
 	
 	ai_will_do = {
@@ -482,19 +484,19 @@ quantity_ideas = {
 	}
 	
 	bonus = {
-		land_forcelimit = 20
-		land_forcelimit_modifier  = 0.20
-		naval_forcelimit = 20
+		land_forcelimit = 10
+		land_forcelimit_modifier  = 0.10
+		naval_forcelimit = 10
 		naval_forcelimit_modifier = 0.20
 	}
 	
 	mass_army = {
-		global_manpower = 10
-		global_manpower_modifier = 0.20
+		global_manpower = 5
+		global_manpower_modifier = 0.10
 		global_sailors_modifier = 0.20
 	}
 	the_young_can_serve = {
-		manpower_recovery_speed = 0.25
+		manpower_recovery_speed = 0.20
 		sailors_recovery_speed = 0.30
 	}
 	enforced_service = {
@@ -507,7 +509,7 @@ quantity_ideas = {
 	}
 	camp_followers = {
 		global_supply_limit_modifier = 1
-		global_naval_engagement_modifier = 0.25
+		global_naval_engagement_modifier = 0.10
 	}
 	garrison_conscription = {
 		garrison_size = 0.20

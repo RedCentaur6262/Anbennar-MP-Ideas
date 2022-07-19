@@ -20,12 +20,14 @@
  trade_ideas:0 "§OTrade Fleets§!"
  trade_caravans_ideas:0 "§OTrade Caravans§!"
  
+ magic_ideas:0 "Magic"
+ artificery_ideas:0 "Artificery"
+ 
  # Admin Ideas Rename
  innovativeness_ideas:0 "Innovative"
  religious_ideas:0 "Religious"
  administrative_ideas:0 "Administrative"
  humanist_ideas:0 "Tolerance"
- magic_ideas:0 "Magic"
  
  # Diplomatic Ideas Rename
  spy_ideas:0 "Espionage"

@@ -1,12 +1,13 @@
-version="1.32.*"
+version=""
 tags={
 	"Balance"
 }
 dependencies={
 	"Anbennar: A Fantasy Total Conversion Mod"
+	"[1.32] Anbennar: A Fantasy Total Conversion Mod"
 	"Anbennar-PublicFork"
 	"UI a la Artemis [Anbennar Compatibility]"
 }
 name="Anbennar MP Ideas & Tweaks"
-supported_version="1.32.*"
+supported_version="1.33.*"
 path="mod/Anbennar-MP-Ideas"
