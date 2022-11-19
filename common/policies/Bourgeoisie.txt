@@ -13,6 +13,7 @@ bourgeoisie_1_policy = {
 	}
 	
 	advisor_cost = -0.10
+	advisor_pool = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -39,7 +40,7 @@ bourgeoisie_2_policy = {
 	}
 }
 
-bourgeoisie_3_policy = { # High quality horses
+bourgeoisie_3_policy = { 
 	monarch_power = MIL
 	
 	potential = {
@@ -80,7 +81,7 @@ bourgeoisie_4_policy = {
 }
 
 bourgeoisie_5_policy = {
-	monarch_power = ADM
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = bourgeoisie_ideas
@@ -100,7 +101,7 @@ bourgeoisie_5_policy = {
 }
 
 bourgeoisie_6_policy = {
-	monarch_power = MIL
+	monarch_power = ADM
 	
 	potential = {
 		has_idea_group = bourgeoisie_ideas
@@ -224,7 +225,7 @@ bourgeoisie_11_policy = {
 }
 
 bourgeoisie_12_policy = {
-	monarch_power = DIP
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = bourgeoisie_ideas
@@ -244,7 +245,7 @@ bourgeoisie_12_policy = {
 }
 
 bourgeoisie_13_policy = {
-	monarch_power = MIL
+	monarch_power = DIP
 	
 	potential = {
 		has_idea_group = bourgeoisie_ideas
@@ -265,7 +266,7 @@ bourgeoisie_13_policy = {
 }
 
 bourgeoisie_14_policy = {
-	monarch_power = MIL
+	monarch_power = ADM
 	
 	potential = {
 		has_idea_group = bourgeoisie_ideas
