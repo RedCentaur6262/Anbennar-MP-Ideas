@@ -9,5 +9,5 @@ dependencies={
 	"UI a la Artemis [Anbennar Compatibility]"
 }
 name="Anbennar MP Ideas & Tweaks"
-supported_version="1.33.*"
+supported_version="1.34.*"
 path="mod/Anbennar-MP-Ideas"
