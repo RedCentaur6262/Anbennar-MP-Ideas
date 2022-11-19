@@ -375,7 +375,7 @@ offensive_ideas = {
 		leader_naval_manuever = 1
 	}
 	napoleonic_warfare = {
-		siege_ability = 0.20
+		siege_ability = 0.10
 	}
 	
 	ai_will_do = {
@@ -421,8 +421,8 @@ defensive_ideas = {
 		reserves_organisation = 0.20
 	}
 	improved_foraging = {
-		fire_damage_received = -0.075
-		shock_damage_received = -0.075
+		fire_damage_received = -0.10
+		shock_damage_received = -0.10
 		ship_durability = 0.10
 	}
 
@@ -445,7 +445,7 @@ quality_ideas = {
 	}
 	
 	private_to_marshal = {
-		infantry_power = 0.15
+		infantry_power = 0.10
 	}
 	quality_education = {
 		cavalry_power = 0.10
@@ -484,14 +484,14 @@ quantity_ideas = {
 	}
 	
 	bonus = {
-		land_forcelimit = 10
+		land_forcelimit = 20
 		land_forcelimit_modifier  = 0.10
 		naval_forcelimit = 10
 		naval_forcelimit_modifier = 0.20
 	}
 	
 	mass_army = {
-		global_manpower = 5
+		global_manpower = 10
 		global_manpower_modifier = 0.10
 		global_sailors_modifier = 0.20
 	}
@@ -591,8 +591,8 @@ strategic_ideas = {
 		free_leader_pool = 1
 	}
 	strategic_5 = {
-		artillery_bonus_vs_fort = 1
-		siege_ability = 0.20
+		reinforce_speed = 0.10
+		recover_army_morale_speed = 0.10
 	}
 	strategic_6 = {
 		backrow_artillery_damage = 0.10
