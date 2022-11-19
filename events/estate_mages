@@ -1,0 +1,46 @@
+#Talented Battlemage Cohort
+#country_event = {
+#    id = mages_estate_events.14
+#    title = mages_estate_events.14.t
+#    desc = mages_estate_events.14.d            #as in a generation of battlemages loyal to the cause is enlisted
+#    picture = ELECTION_REPUBLICAN_eventPicture
+#
+#    trigger = {
+#        has_estate = estate_mages
+#        has_estate_privilege = estate_mages_battlemage_academies
+#        estate_loyalty = {
+#            estate = estate_mages
+#            loyalty = 60
+#        }
+#        estate_influence = {
+#            estate = estate_mages
+#            influence = 60
+#        }
+#    }
+#
+#    is_triggered_only = yes
+#
+#    mean_time_to_happen = {
+#        days = 1
+#        modifier = {
+#            factor = 1.5
+#            has_estate_privilege = estate_mages_organization_state
+#        }
+#        modifier = {
+#            factor = 1.5
+#            has_estate_privilege = estate_mages_organization_magisterium
+#        }
+#        modifier = {
+#            factor = 2
+#            is_at_war = yes
+#        }
+#    }
+#
+#    option = {
+#        name = mages_estate_events.14.a #Magic Missile!
+#        add_country_modifier = {
+#            name = talented_battlemage_cohort
+#            duration = 7300
+#        }
+#    }
+# }
