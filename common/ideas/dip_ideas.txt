@@ -11,13 +11,14 @@ spy_ideas = {
 	
 	efficient_spies = {
 		spy_offence = 0.50
+    movement_speed = 0.1
 	}
 	agent_training = {
 		diplomats = 1
 	}
 	vetting = {
 		global_spy_defence = 0.33
-		advisor_cost = -0.10
+		advisor_cost = -0.15
 	}
 	state_propaganda = {
 		# ae_impact = -0.20
@@ -123,7 +124,6 @@ trade_caravans_ideas = {
 	}
 	trade_caravans_6 = {
 		center_of_trade_upgrade_cost = -0.20
-		trade_company_investment_cost = -0.20
 	}
 	trade_caravans_7 = {
 		merchants = 1
@@ -456,6 +456,7 @@ diplomatic_ideas = {
 	}
 	cabinet = {
 		diplomatic_upkeep = 1
+    war_exhaustion = -0.05
 	}
 	grand_banquets = {
 		province_warscore_cost = -0.25
@@ -558,14 +559,15 @@ maritime_ideas = {
 		naval_maintenance_modifier = -0.30
 	}
 	sheltered_ports = {
-		may_perform_slave_raid_on_same_religion	= yes
+		sailor_maintenance_modifer = -0.2
+    sailors_recovery_speed = 0.15
 	}
 	grand_navy = {
 		capture_ship_chance = 0.33
 		privateer_efficiency = 0.50
 	}
 	ships_penny = {
-		allowed_marine_fraction = 0.20
+		allowed_marine_fraction = 0.25
 	}
 	sea_hawks = {
 		blockade_efficiency = 0.50
