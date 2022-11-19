@@ -272,7 +272,7 @@ naval_ideas = {
 	
 	bonus = {
 		global_naval_engagement_modifier = 0.10
-		allowed_marine_fraction = 0.20
+		allowed_marine_fraction = 0.25
 	}
 	
 	boarding_parties = {
@@ -284,7 +284,8 @@ naval_ideas = {
 		infantry_shock = 0.10
 	}
 	naval_cadets = {
-		leader_naval_fire = 1
+		is_marine_modifier = yes
+		shock_damge_recieved = -0.1
 		infantry_power = 0.10
 	}
 	naval_glory = {
@@ -375,7 +376,7 @@ offensive_ideas = {
 		leader_naval_manuever = 1
 	}
 	napoleonic_warfare = {
-		siege_ability = 0.10
+		siege_ability = 0.20
 	}
 	
 	ai_will_do = {
@@ -527,6 +528,12 @@ quantity_ideas = {
 noble_academia_ideas = {
 	category = MIL
 	
+	trigger = {
+		not = {
+			has_idea_group = adventurors_ideas
+		}
+	}
+	
 	bonus = {
 		free_leader_pool = 2
 		monarch_military_power = 1
@@ -564,6 +571,10 @@ noble_academia_ideas = {
 	
 	ai_will_do = {
 		factor = 0.1 #TODO
+    		modifier = {
+      			factor = 0.9
+      			if_monarchy = yes
+			}
 	}
 }
 
