@@ -530,7 +530,7 @@ noble_academia_ideas = {
 	
 	trigger = {
 		not = {
-			has_idea_group = adventurors_ideas
+			has_idea_group = bourgeoisie_ideas
 		}
 	}
 	
