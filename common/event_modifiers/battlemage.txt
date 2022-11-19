@@ -1,0 +1,3 @@
+talented_battlemage_cohort = {
+	prestige_from_land = 0.01
+}
