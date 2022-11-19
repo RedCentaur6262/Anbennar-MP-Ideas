@@ -39,6 +39,7 @@
  naval_ideas:0 "Naval"
  noble_academia_ideas:0 "Noble Academia"
  strategic_ideas:0 "Strategic"
+ bourgeoisie_ideas:0 "Bourgeoisie" 
  
  CV_IDEAS_BONUS_IDEA:0 "When fully unlocked, you gain the following additional benefit:\n" 
 
