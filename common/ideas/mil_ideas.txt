@@ -605,3 +605,46 @@ strategic_ideas = {
 		factor = 0.75
 	}
 }
+
+bourgeoisie_ideas = {
+  	category = MIL
+  
+  	trigger = {
+		not = {
+			has_idea_group = noble_academia_ideas
+		}
+	}
+  	bonus = {
+  		adventuror_loyalty_modifier = 0.1
+		burgher_loyalty_modifer = 0.1
+  	}
+  	bourgeoisie_1 = {
+		global_manpower_modifier = -0.5
+		mercenary_manpower = 0.5
+  	}
+  	bourgeoisie_2 = {
+		global_trade_goods_size_modifier = 0.10
+  	}
+  	bourgeoisie_3 = {
+		leader_land_manuever = 1
+		caravan_power = 0.2
+  	}
+  	bourgeoisie_4 = {
+		mercenary_discipline = 0.10
+  	}
+  	bourgeoisie_5 = {
+		land_morale = 0.1
+  	}
+  	bourgeoisie_6 = {
+		light_ship_power = 0.1
+  	}
+  	bourgeoisie_7 = {
+		mercenary_cost = -0.33
+  	}
+  	ai_will_do = {
+    		factor = 0.1
+    		modifier = {
+      			factor = 0.9
+      			if_republic = yes
+		}
+  }
