@@ -626,8 +626,8 @@ bourgeoisie_ideas = {
 		}
 	}
   	bonus = {
-  		adventuror_loyalty_modifier = 0.1
-		burgher_loyalty_modifer = 0.1
+  		adventurers_loyalty_modifier = 0.1
+		burghers_loyalty_modifer = 0.1
   	}
   	bourgeoisie_1 = {
 		global_manpower_modifier = -0.5
