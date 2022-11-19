@@ -3,7 +3,7 @@ innovativeness_ideas = {
 	category = ADM
 	
 	bonus = {
-		monarch_admin_power = 1
+		monthly_reform_progress = 0.5
 	}
 	
 	patron_of_art  = {
@@ -21,11 +21,11 @@ innovativeness_ideas = {
 		advisor_cost = -0.15
 	}
 	print_culture = {
-		embracement_cost = -0.15
-		global_institution_spread = 0.75
+		embracement_cost = -0.20
+		global_institution_spread = 0.5
 	}
 	optimism = {
-		war_exhaustion = -0.04
+		war_exhaustion = -0.05
 	}
 	formalized_officer_corps = {
 		global_tax_modifier = 0.10
@@ -62,7 +62,7 @@ religious_ideas = {
 	category = ADM
 
 	bonus = {
-		land_forcelimit_modifier = 0.10
+		manpower_in_true_faith_provinces = 0.1
 		brahmins_hindu_loyalty_modifier = 0.1
 		church_loyalty_modifier = 0.1
 	}
@@ -75,7 +75,7 @@ religious_ideas = {
 		culture_conversion_cost = -0.25
 	}
 	divine_supremacy = {
-		global_missionary_strength = 0.03
+		global_missionary_strength = 0.04
 		missionary_maintenance_cost = -0.5
 	}
 	devoutness = {
@@ -95,7 +95,7 @@ religious_ideas = {
 		diplomatic_upkeep = 1
 	}
 	inquisition = {
-		global_heretic_missionary_strength = 0.03
+		global_heretic_missionary_strength = 0.02
 	}
 	deus_vult = {
 		cb_on_religious_enemies = yes
@@ -128,8 +128,8 @@ economic_ideas = {
 		global_tax_modifier = 0.25
 	}
 	organised_construction = {
-		build_cost = -0.15
-		build_time = -0.15
+		build_cost = -0.20
+		build_time = -0.20
 	}
 	national_bank = {
 		inflation_reduction = 0.15
@@ -138,7 +138,7 @@ economic_ideas = {
 		interest = -1
 	}
 	centralization = {
-		global_autonomy = -0.07
+		global_autonomy = -0.075
 	}
 	nationalistic_enthusiasm = {
 		land_maintenance_modifier = -0.10
@@ -184,7 +184,7 @@ expansion_ideas = {
 	}
 	
 	bonus = {
- 		global_colonial_growth = 35
+ 		global_colonial_growth = 25
 		auto_explore_adjacent_to_colony = yes
 	}
 	
@@ -337,7 +337,7 @@ administrative_ideas = {
 	category = ADM
 
 	bonus = {
-		administrative_efficiency = 0.05
+		monarch_admin_power = 1
 	}
 
 	organised_mercenary_payment = {
@@ -386,7 +386,7 @@ humanist_ideas = {
 	}
 	local_traditions = {
 		global_unrest = -2
-		harmonization_speed = 0.25
+		harmonization_speed = 0.5
 	}
 	ecumenism = {
 		tolerance_heretic = 2
@@ -404,7 +404,7 @@ humanist_ideas = {
 	humanist_tolerance = {
 		tolerance_heathen = 2
 		tolerance_of_heathens_capacity = 2
-		global_manpower_modifier = 0.20
+		manpower_in_accepted_culture_provinces = 0.25
 	}
 
 	ai_will_do = {
@@ -441,7 +441,8 @@ magic_ideas = {
 		global_tax_modifier = 0.10
 	}
 	magic_3 = {
-		leader_land_shock = 2
+		leader_land_shock = 1
+		leader_siege = 1
 	}
 	magic_4 = {
 		defensiveness = 0.20
@@ -475,13 +476,14 @@ artificery_ideas = {
 	}
 	
 	artificery_1 = {
-		build_time = -0.10
+		drill_decay_modifier = -0.1
 	}
 	artificery_2 = {
 		production_efficiency = 0.10
 	}
 	artificery_3 = {
 		build_cost = -0.10
+		build_time = -0.10
 	}
 	artificery_4 = {
 		technology_cost = -0.05
@@ -490,14 +492,13 @@ artificery_ideas = {
 		innovativeness_gain = 0.50
 	}
 	artificery_6 = {
-		special_unit_forcelimit = 0.20
+		special_unit_forcelimit = 0.25
 	}
 	artificery_7 = {
-		fire_damage = 0.05
+		fire_damage = 0.10
 	}
 	
 	ai_will_do = {
 		factor = 0.5
 	}
 }
-
