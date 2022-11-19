@@ -13,7 +13,6 @@ bourgeoisie_1_policy = {
 	}
 	
 	advisor_cost = -0.10
-	leader_land_manuever = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -33,8 +32,7 @@ bourgeoisie_2_policy = {
 		full_idea_group = religious_ideas
 	}
 	
-	land_morale = 0.10
-	manpower_in_true_faith_provinces = 0.10
+	shock_damage_received = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -54,8 +52,7 @@ bourgeoisie_3_policy = { # High quality horses
 		full_idea_group = economic_ideas
 	}
 	
-	cavalry_power = 0.10
-	leader_land_manuever = 1
+	land_morale = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -75,8 +72,7 @@ bourgeoisie_4_policy = {
 		full_idea_group = expansion_ideas
 	}
 	
-	global_colonial_growth = 20
-	native_assimilation = 0.50
+	global_colonial_growth = 25
 	
 	ai_will_do = {
 		factor = 1
@@ -96,7 +92,7 @@ bourgeoisie_5_policy = {
 		full_idea_group = administrative_ideas
 	}
 	
-	administrative_efficiency = 0.05
+	mercenary_manpower = 0.20
 	
 	ai_will_do = {
 		factor = 1
@@ -116,7 +112,9 @@ bourgeoisie_6_policy = {
 		full_idea_group = humanist_ideas
 	}
 	
-	land_forcelimit_modifier = 0.20
+	global_tax_modifier  = 0.05
+	production_efficiency = 0.05
+	global_manpower_modifier = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -136,9 +134,7 @@ bourgeoisie_7_policy = {
 		full_idea_group = spy_ideas
 	}
 	
-	diplomats = 1
-	global_spy_defence = 0.20
-	spy_offence = 0.20
+	land_attrition = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -159,7 +155,6 @@ bourgeoisie_8_policy = {
 	}
 	
 	merchants = 1
-	trade_efficiency = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -179,8 +174,7 @@ bourgeoisie_9_policy = {
 		full_idea_group = production_ideas
 	}
 	
-	cavalry_cost = -0.25
-	movement_speed = 0.10
+	mercenary_discipline = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -200,8 +194,8 @@ bourgeoisie_10_policy = {
 		full_idea_group = exploration_ideas
 	}
 	
-	native_assimilation = 0.50
 	global_tariffs = 0.10
+	trade_efficiency = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -221,8 +215,8 @@ bourgeoisie_11_policy = {
 		full_idea_group = diplomatic_ideas
 	}
 	
-	army_tradition_from_battle = 1
-	diplomatic_reputation = 1
+	global_unrest = -1
+	state_maintenance_modifier = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -242,8 +236,7 @@ bourgeoisie_12_policy = {
 		full_idea_group = influence_ideas
 	}
 	
-	diplomatic_annexation_cost = -0.10
-	reduced_liberty_desire = 10
+	mercenary_manpower = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -263,8 +256,8 @@ bourgeoisie_13_policy = {
 		full_idea_group = maritime_ideas
 	}
 	
-	leader_naval_shock = 1
-	leader_naval_fire = 1
+	naval_morale = 0.05
+	capture_ship_chance = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -284,8 +277,7 @@ bourgeoisie_14_policy = {
 		full_idea_group = artificery_ideas
 	}
 	
-	leader_naval_shock = 1
-	leader_naval_fire = 1
+	development_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -305,15 +297,14 @@ bourgeoisie_15_policy = {
 		full_idea_group = magic_ideas
 	}
 	
-	leader_naval_shock = 1
-	leader_naval_fire = 1
+	fire_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
 	}
 }
 
-bourgeoisie_13_policy = {
+bourgeoisie_16_policy = {
 	monarch_power = MIL
 	
 	potential = {
@@ -326,8 +317,7 @@ bourgeoisie_13_policy = {
 		full_idea_group = trade_caravans_ideas
 	}
 	
-	leader_naval_shock = 1
-	leader_naval_fire = 1
+	merc_maintenance_modifier = -0.2
 	
 	ai_will_do = {
 		factor = 1
