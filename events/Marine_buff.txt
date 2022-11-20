@@ -1,15 +1,15 @@
  country_event = {
     id = mordcommunity_events.1
-    title = mordcommunity_events.1.t
-    desc = mordcommunity_events.1.d
-    picture = GOOD_WITH_MONARCH_eventPicture # Red, change
+    title = mordcommunity_events_title.1
+    desc = mordcommunity_events_desc.1
+    picture = GOOD_WITH_MONARCH_eventPicture 
     
     is_triggered_only = yes
 
     option = {
-        mordcommunity_events.1.a
+        name = mordcommunity_events.1.a
         add_country_modifier = {
-                name = mordcommunity_modifier1
+                name = mordcommunity_modifier.1
                 duration = -1
             }
         }
