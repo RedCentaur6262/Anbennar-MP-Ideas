@@ -284,8 +284,7 @@ naval_ideas = {
 		infantry_shock = 0.10
 	}
 	naval_cadets = {
-		trigger = {
-			event = mordcommunity_events.1
+		event = mordcommunity_events.1
 		}
 	}
 	naval_glory = {
