@@ -47,7 +47,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
-		name = "GFX_bourgeoisie_ideas"
+		name = "GFX_idea_bourgeoisie_ideas"
 		texturefile = "gfx//interface//ideas//idea_bourgeoisie_ideas.dds"
 		noOfFrames = 1
 		
