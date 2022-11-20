@@ -1,0 +1,4 @@
+ Even
+ is_marine_modifier = yes
+        shock_damge_recieved = -0.1
+        infantry_power = 0.10 
