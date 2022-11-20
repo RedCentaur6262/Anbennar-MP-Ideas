@@ -2,5 +2,4 @@ mordcommunity_modifier.1 = {
 	desc = desc_mordcommunity_modifier.1
 	Is_marine_modifier = yes
 	Shock_damage_recieved = - 0.1
-	duration = -1
 }
