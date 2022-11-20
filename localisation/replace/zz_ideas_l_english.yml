@@ -207,8 +207,8 @@ bourgeoisie_7_desc:0 "With our established infrastructure to support adventurers
  ### Idea Events
  
  ## Marines
- mordcommunity_events_title.1:0
- mordcommunity_events_desc.1:0
+ mordcommunity_events.1.t:0
+ mordcommunity_events.1.d:0
  mordcommunity_events.1.a:0
  
  ## Noble Academia
