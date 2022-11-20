@@ -47,3 +47,9 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 }
+spriteType = {
+		name = "GFX_bourgeoisie_ideas"
+		texturefile = "gfx//interface//ideas//bourgeoisie_ideas.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
