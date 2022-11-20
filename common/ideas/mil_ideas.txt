@@ -284,12 +284,7 @@ naval_ideas = {
 		infantry_shock = 0.10
 	}
 	naval_cadets = {
-		effect = {
-			add_country_modifier = {
-				name = mordcommunity_modifier.1
-				duration = -1
-			}
-		}
+		event = mordcommunity_events.1
 	}
 	naval_glory = {
 		sunk_ship_morale_hit_recieved = -0.10
