@@ -7,7 +7,7 @@
    # is_triggered_only = yes
 
    trigger = {    
-        naval_ideas = 3
+        naval_ideas = naval_cadets
    }
    mean_time_to_happen = {
 	 	     days = 1
