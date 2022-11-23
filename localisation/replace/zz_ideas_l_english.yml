@@ -221,8 +221,8 @@ bourgeoisie_7_desc:0 "With our established infrastructure to support adventurers
  mordcommunity_events.2.a:0 "Magnificent"
  
  # Modifier
- mordcommunity_modifier.1:0 "Replace"
- desc_mordcommunity_modifier.1:0 "Replace"
+ mordcommunity_modifier.1:0 "Professional Marine Corps"
+ desc_mordcommunity_modifier.1:0 "With Marines becoming more important it is high time we treat them like a separate military branch and have a dedicated training regimen tailored to their needs"
  
  ## Bourgeoisie
  #Noble Uprising
