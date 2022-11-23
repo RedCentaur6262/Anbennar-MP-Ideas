@@ -56,6 +56,7 @@ noble_academia_3_policy = { # High quality horses
 	
 	cavalry_power = 0.10
 	leader_land_manuever = 1
+	cav_to_inf_ratio = 0.1
 	
 	ai_will_do = {
 		factor = 1
