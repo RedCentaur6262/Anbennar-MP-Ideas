@@ -210,10 +210,15 @@ bourgeoisie_7_desc:0 "With our established infrastructure to support adventurers
  ### Idea Events
  
  ## Marines
- # Event
+ # Event1
  mordcommunity_events_title.1:0 "Replace"
  mordcommunity_events_desc.1:0 "Replace"
  mordcommunity_events.1.a:0 "Replace"
+ 
+ # Event2
+ mordcommunity_events_title.2:0 "Replace"
+ mordcommunity_events_desc.2:0 "Replace"
+ mordcommunity_events.2.a:0 "Replace"
  
  # Modifier
  mordcommunity_modifier.1:0 "Replace"
