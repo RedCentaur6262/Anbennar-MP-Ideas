@@ -8,6 +8,9 @@
 
    trigger = {    
         naval_ideas = naval_cadets
+	not = {
+		has_country_modifier = mordcommunity_modifier.1
+	}
    }
    mean_time_to_happen = {
 	 	     days = 1
