@@ -24,3 +24,27 @@
             }
         }
     }
+
+country_event = {
+    id = mordcommunity_events.2
+    title = mordcommunity_events_title.2
+    desc = mordcommunity_events_desc.2
+    picture = GOOD_WITH_MONARCH_eventPicture 
+    
+   # is_triggered_only = yes
+
+   trigger = {    
+        has_country_modifier = mordcommunity_modifier.1
+	not = {
+		naval_ideas = naval_cadets
+	}
+   }
+   mean_time_to_happen = {
+	 	     days = 1
+   }
+  
+    option = {
+        name = mordcommunity_events.2.a
+        remove_country_modifier = mordcommunity_modifier.1
+        }
+    }
