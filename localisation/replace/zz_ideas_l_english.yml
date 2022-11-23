@@ -290,6 +290,34 @@ bourgeoisie_7_desc:0 "With our established infrastructure to support adventurers
  bourgeoisie_16_policy:0 "Caravan Guards Company"
  desc_bourgeoisie_16_policy:0 "With the successes of our Caravan Guards program and the proliferation of trading caravans in general, some of the more succesful veteran guards have established a company. Our adventurers now have a stable source of income supplanting some of the wages we had to pay before."
  
+ strategic_1_policy:0 "International Wargaming Institute"
+ desc_strategic_1_policy:0 "by creating a cross-border institute for wargaming we can attract military minds from beyond our borders; improving our reputation and ease fo access to leaders all the same" 
+ strategic_2_policy:0 "National Unity Strategy"
+ desc_strategic_2_policy:0 "By creating a comprehensive strategy on how to influence people to think like us we can do so more effectively"
+ strategic_3_policy:0 "Strategic Arms Fund"
+ desc_strategic_3_policy:0 "By ordering the national bank to set up a fund to acquire new arms from the profits of other investments. We can ensure our troops have access to better arms at only a fraction of the cost for the state"
+ strategic_4_policy:0 "Office of Acquisition" 
+ desc_strategic_4_policy:0 " The Office of Acquisition will deal with all manners of expansion of the state, ensuring settlers, government officials, cartographers and diplomats can do their work."
+ strategic_5_policy:0 "Regional Gunnery School Act"
+ desc_strategic_5_policy:0 "by establishing a hub-and-spoke system of gunnery schools we should be able to find talented artillery commanders more quickly, who can then be sent to the capital for further training"
+ strategic_6_policy:0 "Guaranteed Liberties Act"
+ desc_strategic_6_policy:0 "By establishing a legal framework of guaranteeing people's rights nationally, we can coordinate local police forces to crack down on discriminatory practices more effectively"
+ strategic_7_policy:0 "Civil Espionage Agency"
+ desc_strategic_7_policy:0 "The CEA is responsible of keeping a close eye on our own population and organize people belonging to our state in foreign lands"
+ strategic_8_policy:0 "Trade Council"
+ desc_strategic_8_policy:0 "By establishing an advisory board of merchants to the state, we can more easily cooperate with the private sector and develop national strategies to aid their efforts"
+ strategic_9_policy:0 "Ministry of the Colonies"
+ desc_strategic_9_policy:0 "With the creation of a ministry dedicated to directly overseeing the colonies we should be able to utilize the potential of those lands to a far greater extent"
+ strategic_10_policy:0 "Expanded Cabinet"
+ desc_strategic_10_policy:0 "with the Cabinet and Strategic Council we have two fantastic institutions to aid the government. By expanding the Cabinet with strategic council members we can enlarge the diplomatic corps for affairs both foreign and domestic."
+ strategic_11_policy:0 "Supragovernmental Legal Institution"
+ desc_strategic_11_policy:0 "We can further entangle our subjects with a supragovernmental legal framework. They will perceive a sense of autonomous decision-making on their part, while we leverage more funds and forces from them for our state."
+ strategic_12_policy:0 "Death by a thousand cuts doctrine"
+ desc_strategic_12_policy:0 "With our overwhelming shipbuilding capacity and vast amount of sailors, we have established a doctrine that focuses on attrition. Many ships will sink, but that is a risk we are willing to take, and our sailors trust our strategic judgment."
+ 
+ 
+ 
+ 
 # Global text colorings
 # textcolors = {
 #   M = { 35  206 255 } # Light blue
