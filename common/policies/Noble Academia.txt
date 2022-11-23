@@ -180,7 +180,8 @@ noble_academia_9_policy = {
 	}
 	
 	cavalry_cost = -0.25
-	movement_speed = 0.10
+	cav_to_inf_ratio = 0.1
+	
 	
 	ai_will_do = {
 		factor = 1
