@@ -98,6 +98,7 @@ noble_academia_5_policy = {
 	}
 	
 	administrative_efficiency = 0.05
+	cav_to_inf_ratio = 0.1
 	
 	ai_will_do = {
 		factor = 1
