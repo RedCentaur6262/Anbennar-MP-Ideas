@@ -216,13 +216,29 @@ bourgeoisie_7_desc:0 "With our established infrastructure to support adventurers
  mordcommunity_events.1.a:0 "Magnificent"
  
  # Event2
- mordcommunity_events_title.2:0 "Professional Marine Corps"
- mordcommunity_events_desc.2:0 "With Marines becoming more important it is high time we treat them like a separate military branch and have a dedicated training regimen tailored to their needs"
+ mordcommunity_events_title.2:0 "Sad Marine Noises"
+ mordcommunity_events_desc.2:0 "You can hear blub blub blub and help screams in the distance but you don't pay attention to them"
  mordcommunity_events.2.a:0 "Magnificent"
  
  # Modifier
  mordcommunity_modifier.1:0 "Replace"
  desc_mordcommunity_modifier.1:0 "Replace"
+ 
+ ## Bourgeoisie
+ #Noble Uprising
+ mordred_ideas_events_title.1:0 "Replace"
+ mordred_ideas_events_desc.1:0 "Replace"
+ mordred_ideas_events.1.a:0 "Replace"
+ 
+ # Merchants Benefit
+ mordred_ideas_events_title.2:0 "Replace"
+ mordred_ideas_events_desc.2:0 "Replace"
+ mordred_ideas_events.2.a:0 "Replace"
+ 
+ ## Artificer
+ mordred_ideas_events_title.3:0 "Replace"
+ mordred_ideas_events_desc.3:0 "Replace"
+ mordred_ideas_events.3.a:0 "Replace"
  
  ## Noble Academia
  # Brilliant general
