@@ -284,7 +284,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = strategic_ideas
+		has_idea_group = production_ideas
 	}	
 
 	mean_time_to_happen = {
@@ -313,7 +313,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = strategic_ideas
+		has_idea_group = trade_caravans_ideas
 	}	
 
 	mean_time_to_happen = {
@@ -342,7 +342,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = strategic_ideas
+		has_idea_group = magic_ideas
 	}	
 
 	mean_time_to_happen = {
@@ -359,28 +359,106 @@ country_event = {
 # Bourgeoisie
 #######################################
 
-
+# Noble Uprising
 country_event = {
-	id = ideas_events.500
-	title = ideas_events_title.500
-	desc = ideas_events_desc.500
+	id = mordred_ideas_events.1
+	title = mordred_ideas_events_title.1
+	desc = mordred_ideas_events_desc.1
 	picture = ANGRY_MOB_eventPicture
 
 	is_triggered_only = yes
-
+	
 	trigger = {
-		has_idea_group = strategic_ideas
-	}	
+		has_idea_group = bourgeoisie_ideas
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = mordred_ideas_events.1.a
+		reduce_estate_nobles_loyalty_effect = yes
+		random_owned_province = {
+			noble_rebels = 1
+		}
+	}
+}
+# Merchants Benefit
+country_event = {
+	id = mordred_ideas_events.2
+	title = mordred_ideas_events_title.2
+	desc = mordred_ideas_events_desc.2
+	picture = ADVISOR_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_idea_group = bourgeoisie_ideas
+	}
+	
+	immediate = {
+		check_if_non_state_advisor_effect = { #Hidden, must be followed by erase_advisor_flags_effect
+			chance_of_primary = 75 #Not percentages!
+			chance_of_tertiary = 5
+			chance_of_secondary = 25
+		}
+		hidden_effect = {
+			random_list = {
+				33 = { set_country_flag = treasurer_flag }
+				33 = { set_country_flag = master_of_mint_flag }
+				33 = { set_country_flag = trader_flag }
+			}
+		}
+	}
 
 	mean_time_to_happen = {
 		days = 1
 	}
 	
 	option = {
-		name = ideas_events.500.a
+		name = mordred_ideas_events.2
+		add_meritocracy_effect = yes
 		
+		trigger_switch = {
+			on_trigger = has_country_flag
+			treasurer_flag = {
+				generate_advisor_of_type_and_semi_random_religion_effect = {
+					advisor_type=treasurer
+					advisor_type_if_not_state=treasurer
+					skill = 2
+					discount=yes
+				}
+			}
+			master_of_mint_flag = {
+				generate_advisor_of_type_and_semi_random_religion_effect = {
+					advisor_type=master_of_mint
+					advisor_type_if_not_state=master_of_mint
+					skill = 2
+					discount=yes
+				}
+			}
+			trader_flag = {
+				generate_advisor_of_type_and_semi_random_religion_effect = {
+					advisor_type=trader
+					advisor_type_if_not_state=trader
+					skill = 2
+					discount=yes
+				}
+			}
+		}
+	}
+	after = {
+		erase_advisor_flags_effect = yes
+		trigger_switch = {
+			on_trigger = has_country_flag
+			treasurer_flag = { clr_country_flag = treasurer_flag }
+			master_of_mint_flag = { clr_country_flag = master_of_mint_flag }
+			trader_flag = { clr_country_flag = trader_flag }
+		}
 	}
 }
+
 
 #######################################
 # Artificer
@@ -388,15 +466,15 @@ country_event = {
 
 
 country_event = {
-	id = ideas_events.500
-	title = ideas_events_title.500
-	desc = ideas_events_desc.500
+	id = mordred_ideas_events.3
+	title = mordred_ideas_events_title.3
+	desc = mordred_ideas_events_desc.3
 	picture = ANGRY_MOB_eventPicture
 
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = strategic_ideas
+		has_idea_group = artificer_ideas
 	}	
 
 	mean_time_to_happen = {
@@ -404,8 +482,8 @@ country_event = {
 	}
 	
 	option = {
-		name = ideas_events.500.a
-		
+		name = mordred_ideas_events.3.a
+		add_years_of_income = 1		
 	}
 }
 
