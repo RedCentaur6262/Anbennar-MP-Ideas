@@ -23,9 +23,6 @@
  magic_ideas:0 "Magic"
  artificery_ideas:0 "Artificery"
  
- bourgeoisie_ideas:0 "§lBourgeoisie§!"
- noble_academia:0 "§lNoble Academia§!"
- 
  # Admin Ideas Rename
  innovativeness_ideas:0 "Innovative"
  religious_ideas:0 "Religious"
@@ -119,9 +116,9 @@ magic_7_desc:0 "Our court necromancer has devised a concoction that should exten
 trade_caravans_ideas_bonus:0 "The State Caravaneers"
 trade_caravans_1:0 "Grand Caravansary"
 trade_caravans_1_desc:0 "We will establish a central office and marketplace for trading caravans in our capital. This will serve to coordinate our overland trading caravans so they don't compete with eachother and access more markets."
-trade_caravans_2:0 "Relaxed regulations"
+trade_caravans_2:0 "Relaxed Regulations"
 trade_caravans_2_desc:0 "To promote the ease of doing trade in our lands we will relax regulations. This will cut down on time required and increase the volume of goods, leading to higher profits for our merchants."
-trade_caravans_3:0 "Tax incentives for merchants"
+trade_caravans_3:0 "Tax Incentives for Merchants"
 trade_caravans_3_desc:0 "We will provide incentives for free citizens to start up their own companies for doing trade, our larger merchant class will be able to acquire goods in more far away markets due to our already extensive network."
 trade_caravans_4:0 "Carte Blanche Directive"
 trade_caravans_4_desc:0 "The government has decided that private companies can get a permit for a so-called Carte Blanche for their operations. They can hire private armies, source labour in whatever way they see fit, whatever is necessary to compete with foreign merchants and turn a hefty profit."
@@ -137,7 +134,7 @@ production_1:0 "Economies of Scale"
 production_1_desc:0 "By creating larger manufacturing complexes we can make our production of all types of goods more efficient"
 production_2:0 "Construction Industry"
 production_2_desc:0 "By creating specialized construction companies we can innovate construction methods more quickly and always have the capacity to get things built quickly."
-production_3:0 "Employment programs"
+production_3:0 "Employment Programs"
 production_3_desc:0 "The government will ensure it's people remain productive. Even in harsh times there is always work that needs to be done, whether in the construction companies, cleaning the streets or otherwise. A pre-occupied populace is a placated populace. "
 production_4:0 "Industrial Clerk Program"
 production_4_desc:0 "We require large private businesses to employ clerks from the government. These will help register, tax, and oversee people who work. This should expediate our control over newly conquered and more rural areas."
@@ -210,15 +207,10 @@ bourgeoisie_7_desc:0 "With our established infrastructure to support adventurers
  ### Idea Events
  
  ## Marines
- # Event1
- mordcommunity_events_title.1:0 "Replace"
- mordcommunity_events_desc.1:0 "Replace"
- mordcommunity_events.1.a:0 "Replace"
- 
- # Event2
- mordcommunity_events_title.2:0 "Replace"
- mordcommunity_events_desc.2:0 "Replace"
- mordcommunity_events.2.a:0 "Replace"
+ # Event
+ mordcommunity_events_title.1:0 "Professional Marine Corps"
+ mordcommunity_events_desc.1:0 "With Marines becoming more important it is high time we treat them like a separate military branch and have a dedicated training regimen tailored to their needs"
+ mordcommunity_events.1.a:0 "Magnificent"
  
  # Modifier
  mordcommunity_modifier.1:0 "Replace"
@@ -317,14 +309,170 @@ bourgeoisie_7_desc:0 "With our established infrastructure to support adventurers
  strategic_9_policy:0 "Ministry of the Colonies"
  desc_strategic_9_policy:0 "With the creation of a ministry dedicated to directly overseeing the colonies we should be able to utilize the potential of those lands to a far greater extent"
  strategic_10_policy:0 "Expanded Cabinet"
- desc_strategic_10_policy:0 "with the Cabinet and Strategic Council we have two fantastic institutions to aid the government. By expanding the Cabinet with strategic council members we can enlarge the diplomatic corps for affairs both foreign and domestic."
+ desc_strategic_10_policy:0 "With the Cabinet and Strategic Council we have two fantastic institutions to aid the government. By expanding the Cabinet with strategic council members we can enlarge the diplomatic corps for affairs both foreign and domestic."
  strategic_11_policy:0 "Supragovernmental Legal Institution"
  desc_strategic_11_policy:0 "We can further entangle our subjects with a supragovernmental legal framework. They will perceive a sense of autonomous decision-making on their part, while we leverage more funds and forces from them for our state."
- strategic_12_policy:0 "Death by a thousand cuts doctrine"
+ strategic_12_policy:0 "Death by a Thousand Cuts Doctrine"
  desc_strategic_12_policy:0 "With our overwhelming shipbuilding capacity and vast amount of sailors, we have established a doctrine that focuses on attrition. Many ships will sink, but that is a risk we are willing to take, and our sailors trust our strategic judgment."
  
+ trade_caravans_1_policy:0 "Marketplace of Ideas"
+ desc_trade_caravans_1_policy:0 "Trade is not just good for exchanging goods, but also ideas. We can push our innovation even further and applying those advances in making more profits."
+ trade_caravans_2_policy:0 "Exposure Efforts"
+ desc_trade_caravans_2_policy:0 "Trade Caravans often hail from foreign lands with different cultures and religions. These earnest traders show that other beliefs aren't as bad as the church makes them out to be."
+ trade_caravans_3_policy:0 "Transport Hub Development"
+ desc_trade_caravans_3_policy:0 " Caravan routes require infrastructure  to support the flow of goods. Intersections of these different routes can serve as locations to develop even further and create a tax base to invest in even better infrastructure."
+ trade_caravans_4_policy:0 "Settler Caravans"
+ desc_trade_caravans_4_policy:0 "The primacy of caravaneering has left us with an excess of caravans and ample experience on how to use them. These tools can speed up our colonizing efforts considerably."
+ trade_caravans_5_policy:0 "Caravaneers in Administration"
+ desc_trade_caravans_5_policy:0 "Succesful Caravaneers  could be an excellent addition to our government, knowing what markets need what goods and how we can improve our outputs. They are quite willing to contribute to the state to increase their profits too."
+ trade_caravans_6_policy:0 "Foreign Merchant Integration Act"
+ desc_trade_caravans_6_policy:0 "Foreign Merchants are an abundant source of foreign ideas, rather than eschew them we should try to bind them to our government, helping further our development of policies and increasing our trade influence"
+ trade_caravans_7_policy:0 "TBD"
+ desc_trade_caravans_7_policy:0 "TBD"
+ trade_caravans_8_policy:0 "TBD"
+ desc_trade_caravans_8_policy:0 "TBD"
+ trade_caravans_9_policy:0 "TBD"
+ desc_trade_caravans_9_policy:0 "TBD"
+ trade_caravans_10_policy:0 "TBD"
+ desc_trade_caravans_10_policy:0 "TBD"
+ trade_caravans_11_policy:0 "TBD"
+ desc_trade_caravans_11_policy:0 "TBD"
+ trade_caravans_12_policy:0 "Combined Trade Doctrine"
+ desc_trade_caravans_12_policy:0 "Even if we focus on trade via caravans, some natural barriers require ships to traverse efficiently and coastal roads are prone to pirate attacks. By integrating naval support our caravans should be more effective and efficient."
+ trade_caravans_13_policy:0 "War Cart Doctrine"
+ desc_trade_caravans_13_policy:0 "Our vast array of caravans can also be put to use in supply trains for our armies. Ensuring resources reach the front."
+ trade_caravans_14_policy:0 "Fortified Supply Act"
+ desc_trade_caravans_14_policy:0 "By having all of our forts acting as Supply hubs for our caravans we are beter prepared for sieges, we can levy tax on the goods coming in, while also keeping our forts better prepared for sieges."
+ trade_caravans_15_policy:0 "Field Support Act"
+ desc_trade_caravans_15_policy:0 "Our Caravans can offer all kinds of support for our armies, bringing training equipment, field hospitals, record keepers and more. This should help our armies maintain their quality" 
+ trade_caravans_16_policy:0 "Mobile Recruitment Centers"
+ desc_trade_caravans_16_policy:0 "Our Army Recruitment liaisons can make use of our caravan network so more people fulfill their conscription duties" 
+ trade_caravans_17_policy:0 "Royal Academy of Caravaneering" 
+ desc_trade_caravans_17_policy:0 "The Art of Caravaneering is something that can be taught and our noble officers would do well learning the tricks of the trade to move not goods, but troops efficiently from A to B."
+ trade_caravans_18_policy:0 "Advanced Logistics System"
+ desc_trade_caravans_18_policy:0 "Our strategic council has devised ways to implement new ways to utilize our caravans to provide logistics for our armies, aiding offensive sieges and protracted campaigns in enemy lands."
  
+ production_1_policy:0 "Industrial Innovation Incentive"
+ desc_production_1_policy:0 "Our private industries can aid the state by trying to use their funds to innovate on their own, lowering the burden on the state"
+ production_2_policy:0 "Company Chapels"
+ desc_production_2_policy:0 "By having workshops have their own little chapels our people can take care of their religious needs without having to travel to a church, icnreasing productivity."
+ production_3_policy:0 "Industrial Automation Act"
+ desc_production_3_policy:0 "By automating certain jobs we can make our workplaces more productive, the newly unemployed can find new job opportunities in the colonies."
+ production_4_policy:0 "Urbanization"
+ desc_production_4_policy:0 "By concentrating our population in urban centers we can more easily govern them and provide a workforce for our industries."
+ production_5_policy:0 "Non-Discriminatory Workplace Act"
+ desc_production_5_policy:0 "By protecting minorities and offering them a stable income to provide for their families they should be placated and provide more offspring"
+ production_6_policy:0 "TBD"
+ desc_production_6_policy:0 "TBD"
+ production_7_policy:0 "TBD"
+ desc_production_7_policy:0 "TBD"
+ production_8_policy:0 "TBD"
+ desc_production_8_policy:0 "TBD"
+ production_9_policy:0 "TBD"
+ desc_production_9_policy:0 "TBD"
+ production_10_policy:0 "TBD"
+ desc_production_10_policy:0 "TBD"
+ production_11_policy:0 "Cargo Hauler Designs"
+ desc_production_11_policy:0 "Our increased demand for goods requires an overhaul of our trading vessels. Our industrialists have come up with a design that is cheap to make and can hold more goods."
+ production_12_policy:0 "Chemical Industry"
+ desc_production_12_policy:0 "Our advances in chemistry have led to the creation of chemical industries. These can provide our troops with both rations as well as higher-yield explosives for the artillery."
+ production_13_policy:0 "Food Industry"
+ desc_production_13_policy:0 "Our food industries have innovated ways to preserve foodstuffs. This will greatly aid our fortified positions by providing cheap survival meals. Bringing down costs and keeping people fed for longer.
+ production_14_policy:0 "Integrated Child Labour"
+ desc_production_14_policy:0 "By optimizing our production facilities, many tasks are simple enough to be done by children. This will provide income for the household and leaves the men to serve in our armed forces."
+ production_15_policy:0 "Concentrated Industrial Sectors"
+ desc_production_15_policy:0 "By concentrating different production chains with interdependencies in the same area we can significantly scale up our manufactories due to the decrease in inefficiencies."
+ production_16_policy:0 "Artillerist Apparatus Liaisons"
+ desc_production_16_policy:0 "Our companies that construct our munitions and artillery pieces have in-house experts on their use. By having liaisons of those companies assist our general staff they should be able to sue them more effectively."
  
+ noble_academia_1_policy:0 "The Royal Academy of the Sciences"
+ desc_noble_academia_1_policy:0 "By having a central intellectual institute of academic excellence sponsored and attained by our nobility we will cut down on the educational costs of our advisors, while provinding interdisciplinary insights to our would-be commanders." 
+ noble_academia_2_policy:0 "Champions of the Faith"
+ desc_noble_academia_2_policy:0 "Our nobility is supported by the church and declared as champions of the faith. Having the gods on our side means the religious will flock to our banner with unwavering support to our officers."
+ noble_academia_3_policy:0 "Royal Stables"
+ desc_noble_academia_3_policy:0 "By establishing a breeding program for the best war horses our cavalry will hit harder and our troops move faster"
+ noble_academia_4_policy:0 "Ennoblement Act"
+ desc_noble_academia_4_policy:0 "We will lift up indigenous leaders of newly settled land to the nobility, making the locals more amenable to their new overlords."
+ noble_academia_5_policy:0 "Administrative Duty"
+ desc_noble_academia_5_policy:0 "Our Nobility enjoys many traditional rights and duties. Providing local administrative support has been added to that list."
+ noble_academia_6_policy:0 "Foreign Legion"
+ desc_noble_academia_6_policy:0 "Even though we govern a large multicultural society, most of our troops were of the primary culture. With the creation of the foreign legion we can support a larger army that now includes a slew of minorities."
+ noble_academia_7_policy:0 "Royal Spymaster Secretariat"
+ desc_noble_academia_7_policy:0 "Every lower court has a spymaster, we should unite these by creating an agency that exchanges information between all of them. The top official will serve as another Spymaster to the royal court, making us well prepared for all espionage affairs."
+ noble_academia_8_policy:0 "Royal Academy of Commerce"
+ desc_noble_academia_8_policy:0 " Many nobles, while capable of doing so, will not fulfill the role of military commander or diplomat. Henceforth these can attend the Royal Academy of Commerce. Nobles taught in ways of diplomacy and warfare ought to be excellent merchants." 
+ noble_academia_9_policy:0 "Livestock Breeding Program"
+ desc_noble_academia_9_policy:0 "Our reliance on cavalry for our armed forces has spurred our industrialists to massively expand the amount of stables throughout our lands. The sudden spike in availability of horses means a decrease in cost for the government and every man a horse."
+ noble_academia_10_policy:0 "Viceroyalty"
+ desc_noble_academia_10_policy:0 "Our nobility can attain a higher rank by overseeing our newly acquired lands. Their ties to the homeland means more effective control and flow of income."
+ noble_academia_11_policy:0 "The Noble Chroniclers Office"
+ desc_noble_academia_11_policy:0 "By having the nobility write, sometimes romanticized, reports of their military exploits from their perspective, we will be perceived in a much fairer light by others. It also cements the tradition of our armed forces."
+ noble_academia_12_policy:0 "Integrated Vassal Nobility"
+ desc_noble_academia_12_policy:0 "By already establishing ties with the local nobility of our vassals we should have a more stable relationship as we absorb them into our greater state."
+ noble_academia_13_policy:0 "Royal Admiralty"
+ desc_noble_academia_13_policy:0 "As the nobles historically didn't partake in naval warfare due to the nature of their contract, it has often been looked down upon. The Royal Admiralty, however, should make being an admiral one of the prestigious offices around, attracting better leaders."
+ 
+ magic_spy_policy:0 "Eye of Noruas"
+ desc_magic_spy_policy:0 "The Eye of Noruas is a mystical eye in the sky that can keep a close look on everyone in the country. People don't know when it's watching, but the knowledge it can do so at any time keeps both the powerful and the weak in line.
+ magic_trade_policy:0 "Air Bender Act"
+ desc_magic_trade_policy:0 "We will require all of our ships to employ an Airbender, granting our fleets unrivalled mobility"
+ magic_trade_caravan_policy:0 "Caravans of Holding"
+ desc_magic_trade_caravan_policy:0 "By ensuring our caravans have access to Extraplanar storage, we can transport more goods more quickly." 
+ magic_production_policy:0 "Enchanted Hammer Industry"
+ desc_magic_production_policy:0 "By having an industry dedicated to fabricating enchanted hammers, we should greatly expedite both construction and smithing efforts."  
+ magic_exploration_policy:0 "Blue Wizards"
+ desc_magic_exploration_policy:0 " Blue Wizards are incredibly self sufficient and can travel to faraway lands without support. Sometimes they aren't seen for decades, but word of their exploits does spread to lands far and wide."
+ magic_diplomatic_policy:0 "Charming Diplomats"
+ desc_magic_diplomatic_policy:0 "There's something absolutely charming about our diplomats, I can't really put my finger on it, but it makes me want to agree with them."
+ magic_influence_policy:0 "Album Stumblebore"
+ desc_magic_influence_policy:0 "Some of our mages have developed a list of twelve spells that take a couple minutes each to pronounce. Some would mistake them for songs, but that would undersell the charming effects laced within"
+ magic_maritime_policy:0 "Grey Haven"
+ desc_magic_maritime_policy:0 "We have created a main port where foreign dignitaries arrive. The truly enchanting aesthetic of the port has been dubbed The Grey Haven and is known throughout the world." 
+ magic_naval_policy:0 "Weirdwood Shipbuilding"
+ desc_magic_naval_policy:0 "With the help of druids we have acquired a stable supply of weirdwood, magical wood with minor regenerative properties, making our ships far more durable."
+ magic_offensive_policy:0 "Regimental Mage Act"
+ desc_magic_offensive_policy:0 "By including mage officers in our infantry regiments they should be able to hit much harder in the initial melee" 
+ magic_defensive_policy:0 "Geomagick Warding Web"
+ desc_magic_defensive_policy:0 "Our forts will be allocated a channeler and a large Damestear crystal. This will create a network of warding magic across our country that can be focused and then channeled there where it is needed.
+ magic_quality_policy:0 "Hagwords School of Witchcraft and Wizardry"
+ desc_magic_quality_policy:0 "By creating a private school of witchcraft and wizardry focused on excellence our elites should be happy to be able to access the best education and this institute would be very prestigious too."
+ magic_quantity_policy:0 "Magic Multiplier"
+ desc_magic_quantity_policy:0 "Have you ever asked yourself the question 'more?'. Well so have we. And so we magically increase our collected tax. We're sure this won't have any inflationary repercussions whatsoever." 
+ magic_noble_academia_policy:0 "Royal Academy of Magicka"
+ desc_magic_noble_academia_policy:0 "It is well known that nobles often have more affinity with magic. We should ensure that our general staff is well versed in evocation magic and charms to support the troops on the battlefield."
+ magic_strategic_policy:0 "Battle Meditation"
+ desc_magic_strategic_policy:0 "The Force is with you young soldier, let it guide your movements. - an often heard command of battle meditators."
+ 
+ artificery_spy_policy:0
+ desc_artificery_spy_policy:0
+ artificery_trade_policy:0
+ desc_artificery_trade_policy:0
+ artificery_trade_caravans_policy:0
+ desc_artificery_trade_caravans_policy:0
+ artificery_production_policy:0
+ desc_artificery_production_policy:0
+ artificery_exploration_policy:0
+ desc_artificery_exploration_policy:0
+ artificery_diplomatic_policy:0
+ desc_artificery_diplomatic_policy:0
+ artificery_influence_policy:0
+ desc_artificery_influence_policy:0
+ artificery_maritime_policy:0
+ desc_artificery_maritime_policy:0
+ artificery_naval_policy:0
+ desc_artificery_naval_policy:0
+ artificery_offensive_policy:0
+ desc_artificery_offensive_policy:0
+ artificery_defensive_policy:0
+ desc_artificery_defensive_policy:0
+ artificery_quality_policy:0
+ desc_artificery_quality_policy:0
+ artificery_quantity_policy:0
+ desc_artificery_quantity_policy:0
+ artificery_noble_academia_policy:0
+ desc_artificery_noble_academia_policy:0
+ artificery_strategic_policy:0
+ desc_artificery_strategic_policy:0
  
 # Global text colorings
 # textcolors = {
