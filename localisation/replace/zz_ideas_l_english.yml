@@ -467,36 +467,36 @@ bourgeoisie_7_desc:0 "With our established infrastructure to support adventurers
  magic_strategic_policy:0 "Battle Meditation"
  desc_magic_strategic_policy:0 "The Force is with you young soldier, let it guide your movements. - an often heard command of battle meditators."
  
- artificery_spy_policy:0
- desc_artificery_spy_policy:0
- artificery_trade_policy:0
- desc_artificery_trade_policy:0
- artificery_trade_caravans_policy:0
- desc_artificery_trade_caravans_policy:0
- artificery_production_policy:0
- desc_artificery_production_policy:0
- artificery_exploration_policy:0
- desc_artificery_exploration_policy:0
- artificery_diplomatic_policy:0
- desc_artificery_diplomatic_policy:0
- artificery_influence_policy:0
- desc_artificery_influence_policy:0
- artificery_maritime_policy:0
- desc_artificery_maritime_policy:0
- artificery_naval_policy:0
- desc_artificery_naval_policy:0
- artificery_offensive_policy:0
- desc_artificery_offensive_policy:0
- artificery_defensive_policy:0
- desc_artificery_defensive_policy:0
- artificery_quality_policy:0
- desc_artificery_quality_policy:0
- artificery_quantity_policy:0
- desc_artificery_quantity_policy:0
- artificery_noble_academia_policy:0
- desc_artificery_noble_academia_policy:0
- artificery_strategic_policy:0
- desc_artificery_strategic_policy:0
+ artificery_spy_policy:0 "Ad-Visors"
+ desc_artificery_spy_policy:0 "By giving our advisors visors that display ads we can significantly cut down on their cost"
+ artificery_trade_policy:0 "Automated Cranes" 
+ desc_artificery_trade_policy:0 "Our artificers have developed cranes that don't require manual labour, significantly improving efficiency of warehouses."
+ artificery_trade_caravans_policy:0 "Sales Assistant Droids"
+ desc_artificery_trade_caravans_policy:0 "SADs will help our merchants operate more independently and effectively"
+ artificery_production_policy:0 "Lifter Bots"
+ desc_artificery_production_policy:0 "With the creation of Lifter Bots our construction industry can clear land and build infrastructure much more effectively"
+ artificery_exploration_policy:0 "Survey Sticks"
+ desc_artificery_exploration_policy:0 "Our artificers have developed rods that can help survey surrounding territory, helping our colonization efforts"
+ artificery_diplomatic_policy:0 "Dipolologium Matrix"
+ desc_artificery_diplomatic_policy:0 "The Dipolologium Matrix is a helpful aid for some of our researchers in developing new technologies"
+ artificery_influence_policy:0 "Artificers in Government"
+ desc_artificery_influence_policy:0 "Leaders of the Artifice guilds have been enshrined into our government, following their advise we have increased the budget for special forces." 
+ artificery_maritime_policy:0 "Ironclad Act"
+ desc_artificery_maritime_policy:0 "We have found ways of replacing some wooden structures of ships with iron and keep them afloat. Luckily for us iron has become a readily available resource thanks to our artificers earlier exploits."
+ artificery_naval_policy:0 "Naval Experimental Arms Testing"
+ desc_artificery_naval_policy:0 "NEAT has been developed for the creation of more accurate weapons"
+ artificery_offensive_policy:0 "Experimental Explosive Munitions"
+ desc_artificery_offensive_policy:0 "With better angles on our artillery we can simply rain death down from above as it'll no longer be the impact that deals the damage, but the explosion."
+ artificery_defensive_policy:0 "Composite Armour" 
+ desc_artificery_defensive_policy:0 "Our advances in metallurgy spearheaded by the artificers has led to the creation of composite armour. This light armour provides protection against slashing, piercing and blunt damage alike and does not conduct heat well."
+ artificery_quality_policy:0 "Charge Guns"
+ desc_artificery_quality_policy:0 "By charging guns with energy much higher velocity can be attained for the projectiles contained within, leading to far more deadly handguns and artillery alike."
+ artificery_quantity_policy:0 "GOATs"
+ desc_artificery_quantity_policy:0 "Nobody in government knows what the abbreviation stands for, but the artifice estate was adamant in adopting this policy for our state, basically stipulating that we need a full army aided with artifice inventions."
+ artificery_noble_academia_policy:0 "Scouter Eyewear Computer"
+ desc_artificery_noble_academia_policy:0 "Our artificers have developed state-of-the-art computers that are worn over the ear, equipped with a coloured lens that covers one eye. This lens records battle statistics as well as projecting useful data on the users retina." 
+ artificery_strategic_policy:0 "Artillery Emplacement Strategy"
+ desc_artificery_strategic_policy:0 "The artificers have run their calculations and the word is out... '42'. We don't know the significance of this number, but attached came a handbook of where to place artillery in different situations, how convenient!" 
  
 # Global text colorings
 # textcolors = {
