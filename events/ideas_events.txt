@@ -355,3 +355,59 @@ country_event = {
 	}
 }
 
+#######################################
+# Bourgeoisie
+#######################################
+
+
+country_event = {
+	id = ideas_events.500
+	title = ideas_events_title.500
+	desc = ideas_events_desc.500
+	picture = ANGRY_MOB_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = strategic_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = ideas_events.500.a
+		
+	}
+}
+
+#######################################
+# Artificer
+#######################################
+
+
+country_event = {
+	id = ideas_events.500
+	title = ideas_events_title.500
+	desc = ideas_events_desc.500
+	picture = ANGRY_MOB_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = strategic_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = ideas_events.500.a
+		
+	}
+}
+
+
+
