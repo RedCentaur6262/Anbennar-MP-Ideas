@@ -374,7 +374,7 @@ offensive_ideas = {
 		leader_naval_manuever = 1
 	}
 	napoleonic_warfare = {
-		siege_ability = 0.20
+		siege_ability = 0.10
 	}
 	
 	ai_will_do = {
