@@ -100,6 +100,9 @@
 #  cb_influence_subjugation_desc:0 ""
 
  ## New Idea Groups
+naval_cadets:0 "Naval Cadets"
+naval_cadets_desc:0 "With Marines becoming more important it is high time we treat them like a separate military branch. This idea fires an event giving bonusses to your marines"
+ 
 magic_ideas_bonus:0 "Magic Colleges represented in Council"
 magic_1:0 "Magical Courtlife"
 magic_1_desc:0 "Magic is ever present in our court in all its shapes and sizes and bedazzles most dignitaries that come to visit."
