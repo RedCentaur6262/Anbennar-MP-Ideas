@@ -3,7 +3,7 @@ innovativeness_ideas = {
 	category = ADM
 	
 	bonus = {
-		monthly_reform_progress = 0.5
+		monthly_reform_progress = 0.2
 	}
 	
 	patron_of_art  = {
