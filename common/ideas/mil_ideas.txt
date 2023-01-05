@@ -585,7 +585,6 @@ strategic_ideas = {
 	
 	strategic_1 = {
 		infantry_power = 0.10
-		cavalry_power = 0.10
 		galley_power = 0.20
 	}
 	strategic_2 = {
