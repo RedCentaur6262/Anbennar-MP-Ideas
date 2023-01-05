@@ -225,7 +225,7 @@ noble_academia_11_policy = {
 	}
 	
 	army_tradition_from_battle = 1
-	diplomatic_reputation = 1
+	cavalry_power = 0.10
 	
 	ai_will_do = {
 		factor = 1
