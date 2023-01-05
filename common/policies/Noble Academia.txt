@@ -212,7 +212,7 @@ noble_academia_10_policy = {
 }
 
 noble_academia_11_policy = {
-	monarch_power = DIP
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = noble_academia_ideas
