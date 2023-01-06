@@ -571,7 +571,7 @@ professional_diplomatic_corps = {
 		full_idea_group = quality_ideas
 	}
 	
-	cavalry_power = 0.10
+	diplomatic_reputation = 1
 	war_exhaustion = -0.05
 
 	ai_will_do = {
