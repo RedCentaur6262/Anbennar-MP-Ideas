@@ -129,7 +129,7 @@ economic_ideas = {
 	}
 	organised_construction = {
 		build_cost = -0.20
-		build_time = -0.20
+		build_time = -0.10
 	}
 	national_bank = {
 		inflation_reduction = 0.15
