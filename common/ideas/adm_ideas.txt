@@ -434,6 +434,7 @@ magic_ideas = {
 	
 	magic_1 = {
 		prestige_decay = -0.01
+		monarch_lifespan = 0.25
 	}
 	magic_2 = {
 		global_tax_modifier = 0.10
@@ -452,7 +453,7 @@ magic_ideas = {
 		possible_policy = 1
 	}
 	magic_7 = {
-		monarch_lifespan = 0.25
+		max_absolutism = 20
 	}
 	
 	ai_will_do = {
