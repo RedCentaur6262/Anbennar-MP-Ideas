@@ -120,8 +120,7 @@ economic_ideas = {
 	}
 	
 	bonus = {
-		max_absolutism = 20
-		max_revolutionary_zeal = 20
+		state_maintenance_modifier = -0.10
 	}
 
 	bureaucracy = {
