@@ -158,7 +158,7 @@ production_ideas = {
 		stability_cost_modifier = -0.20
 	}
 	production_4 = {
-		global_autonomy = -0.05
+		monthly_reform_progress_modifier = 0.10
 	}
 	production_5 = {
 		build_cost = -0.20
