@@ -628,7 +628,6 @@ bourgeoisie_ideas = {
 		burghers_loyalty_modifier = 0.1
   	}
   	bourgeoisie_1 = {
-		global_manpower_modifier = -0.5
 		mercenary_manpower = 0.5
   	}
   	bourgeoisie_2 = {
