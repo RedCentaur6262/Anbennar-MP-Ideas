@@ -53,9 +53,9 @@ country_event = {
 
 #mercenary modifier
 country_event = {
-    id = mordcommunity_events.2
-    title = mordcommunity_events_title.2
-    desc = mordcommunity_events_desc.2
+    id = mordcommunity_events.3
+    title = mordcommunity_events_title.3
+    desc = mordcommunity_events_desc.3
     picture = GOOD_WITH_MONARCH_eventPicture 
     
    # is_triggered_only = yes
@@ -64,7 +64,7 @@ country_event = {
         has_idea_group = bourgeoisie_ideas
 	bourgeoisie_ideas = 5
 	not = {
-		has_country_modifier = mordcommunity_modifier.1
+		has_country_flag = mordcommunity_flag.1
 	}
    }
    mean_time_to_happen = {
@@ -72,7 +72,7 @@ country_event = {
    }
   
     option = {
-        name = mordcommunity_events.2.a
+        name = mordcommunity_events.3.a
         set_country_flag = {
                 name = mordcommunity_flag.1
                 duration = -1
