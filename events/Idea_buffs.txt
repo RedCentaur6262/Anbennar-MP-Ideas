@@ -73,9 +73,6 @@ country_event = {
   
     option = {
         name = mordcommunity_events.3.a
-        set_country_flag = {
-                name = mordcommunity_flag.1
-                duration = -1
-            }
+        set_country_flag = mordcommunity_flag.1
         }
     }
