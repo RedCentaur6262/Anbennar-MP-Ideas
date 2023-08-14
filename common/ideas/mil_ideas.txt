@@ -646,7 +646,6 @@ bourgeoisie_ideas = {
   	}
   	bourgeoisie_6 = {
 		light_ship_power = 0.1
-		add_flag = mordredcommunityflag
   	}
   	bourgeoisie_7 = {
 		mercenary_cost = -0.33
