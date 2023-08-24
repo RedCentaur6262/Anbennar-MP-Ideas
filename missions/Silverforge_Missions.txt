@@ -1496,7 +1496,6 @@ A73_complete_hold = {
 		}
 		
 		effect = {
-			hidden_effect = { set_country_flag = country_carver_garrisons }
 			hidden_effect = { 4161 = { add_province_triggered_modifier = province_carver_garrisons } }
 			add_treasury = -200
 			add_adm_power = -100
@@ -1505,9 +1504,10 @@ A73_complete_hold = {
 				name = carver_cartel
 				duration = -1
 			}
-			custom_tooltip = carver_guns_reward_tt
-			custom_tooltip = merc_elite_no_army_prof_tt
-	    }
+			unlock_merc_company = {
+				merc_company = merc_carver_cartel_guns
+			}
+		}
 	}
 	
 	A73_carver_garrisons = {
