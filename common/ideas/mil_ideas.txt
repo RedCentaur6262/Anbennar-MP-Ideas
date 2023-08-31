@@ -281,7 +281,7 @@ naval_ideas = {
 	}
 	improved_rams = {
 		naval_attrition = -0.10
-		infantry_shock = 0.10
+		infantry_shock = 0.15
 	}
 	naval_cadets = {
 		
