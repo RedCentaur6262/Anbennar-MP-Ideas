@@ -46,7 +46,7 @@ surakes_slot_2 = {
 		position = 15
 	
 		provinces_to_highlight = {
-			ROOT = { NOT = { has_active_policy = the_education_act } }
+			ROOT = { NOT = { has_active_policy = strategic_1_policy } }
 			OR = {
 				AND = {
 					region = bahar_region
@@ -128,7 +128,7 @@ surakes_slot_2 = {
 		
 		trigger = { 
 			OR = {
-				has_active_policy = the_education_act
+				has_active_policy = strategic_1_policy
 				AND = { 
 					num_of_owned_provinces_with = {
 						value = 5
@@ -610,7 +610,7 @@ surakes_slot_3 = {
 				AND = {
 					OR = {
 						has_active_policy = cultural_unity
-						has_active_policy = cultural_recognition_act
+						has_active_policy = strategic_6_policy
 					}
 					religious_unity = 1
 				}
