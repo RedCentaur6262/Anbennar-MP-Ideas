@@ -176,7 +176,7 @@ artificery_naval_policy = {
 		full_idea_group = naval_ideas
 	}
 	
-	infantry_fire = 0.10
+	infantry_fire = 0.15
 	
 	ai_will_do = {
 		factor = 1
